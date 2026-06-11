@@ -8,7 +8,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "México",
     "time_fora": "África do Sul",
     "local": "Cidade do México (Estádio Azteca)",
-    "eliminatoria": false
+    "eliminatoria": false,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "id": 2,

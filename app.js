@@ -177,13 +177,23 @@ function renderFeaturedMatch() {
     countdownText = `Em Andamento: ${elapsedMinutes}'`;
   }
 
+  const ninetyMinutes = 90 * 60 * 1000;
+  const matchTimeMs = matchTime.getTime();
+  const currentTimeMs = currentDate.getTime();
+  const showScore = currentTimeMs >= matchTimeMs;
+  
+  const scoreHome = showScore ? (featured.gols_casa !== undefined ? featured.gols_casa : getDeterministicScore(featured.id, true)) : '';
+  const scoreAway = showScore ? (featured.gols_fora !== undefined ? featured.gols_fora : getDeterministicScore(featured.id, false)) : '';
+  
+  const vsDisplay = showScore ? `<div class="widget-vs" style="font-size: 1.8rem; background: var(--accent); color: white; padding: 6px 20px;">${scoreHome} - ${scoreAway}</div>` : `<div class="widget-vs">VS</div>`;
+
   nextMatchContent.innerHTML = `
     <div class="widget-teams-row ${classPlaceholder}">
       <div class="widget-team home-team">
         <span class="widget-team-name">${featured.time_casa}</span>
         ${getFlagHtml(featured.time_casa, 'large')}
       </div>
-      <div class="widget-vs">VS</div>
+      ${vsDisplay}
       <div class="widget-team away-team">
         ${getFlagHtml(featured.time_fora, 'large')}
         <span class="widget-team-name">${featured.time_fora}</span>
@@ -309,14 +319,14 @@ function renderMatches() {
             ${getFlagHtml(match.time_casa, 'mini')}
             <span class="team-name">${match.time_casa}</span>
           </div>
-          <span class="team-score">${(statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, true) : '-'}</span>
+          <span class="team-score">${match.gols_casa !== undefined ? match.gols_casa : ((statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, true) : '-')}</span>
         </div>
         <div class="team-row">
           <div class="team-info">
             ${getFlagHtml(match.time_fora, 'mini')}
             <span class="team-name">${match.time_fora}</span>
           </div>
-          <span class="team-score">${(statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, false) : '-'}</span>
+          <span class="team-score">${match.gols_fora !== undefined ? match.gols_fora : ((statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, false) : '-')}</span>
         </div>
       </div>
       <div class="match-footer">
