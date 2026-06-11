@@ -257,7 +257,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 24,
     "data": "17/06/2026",
-    "hora": "23:00",
+    "hora": "21:00",
     "fase": "Grupo K",
     "partida": "Uzbequistão x Colômbia",
     "time_casa": "Uzbequistão",
@@ -268,7 +268,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 25,
     "data": "18/06/2026",
-    "hora": "A definir",
+    "hora": "13:00",
     "fase": "Grupo A",
     "partida": "República Tcheca x África do Sul",
     "time_casa": "República Tcheca",
@@ -279,7 +279,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 26,
     "data": "18/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo B",
     "partida": "Suíça x Bósnia e Herzegovina",
     "time_casa": "Suíça",
@@ -290,7 +290,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 27,
     "data": "18/06/2026",
-    "hora": "A definir",
+    "hora": "19:00",
     "fase": "Grupo B",
     "partida": "Canadá x Catar",
     "time_casa": "Canadá",
@@ -301,7 +301,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 28,
     "data": "18/06/2026",
-    "hora": "A definir",
+    "hora": "22:00",
     "fase": "Grupo A",
     "partida": "México x Coreia do Sul",
     "time_casa": "México",
@@ -312,7 +312,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 29,
     "data": "19/06/2026",
-    "hora": "A definir",
+    "hora": "21:30",
     "fase": "Grupo C",
     "partida": "Brasil x Haiti",
     "time_casa": "Brasil",
@@ -323,7 +323,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 30,
     "data": "19/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo D",
     "partida": "Estados Unidos x Austrália",
     "time_casa": "Estados Unidos",
@@ -334,7 +334,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 31,
     "data": "19/06/2026",
-    "hora": "A definir",
+    "hora": "19:00",
     "fase": "Grupo C",
     "partida": "Escócia x Marrocos",
     "time_casa": "Escócia",
@@ -345,7 +345,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 32,
     "data": "20/06/2026",
-    "hora": "A definir",
+    "hora": "00:00",
     "fase": "Grupo D",
     "partida": "Turquia x Paraguai",
     "time_casa": "Turquia",
@@ -356,7 +356,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 33,
     "data": "20/06/2026",
-    "hora": "A definir",
+    "hora": "14:00",
     "fase": "Grupo F",
     "partida": "Holanda x Suécia",
     "time_casa": "Holanda",
@@ -367,7 +367,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 34,
     "data": "20/06/2026",
-    "hora": "A definir",
+    "hora": "17:00",
     "fase": "Grupo E",
     "partida": "Alemanha x Costa do Marfim",
     "time_casa": "Alemanha",
@@ -378,7 +378,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 35,
     "data": "20/06/2026",
-    "hora": "A definir",
+    "hora": "21:00",
     "fase": "Grupo E",
     "partida": "Equador x Curaçao",
     "time_casa": "Equador",
@@ -389,7 +389,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 36,
     "data": "21/06/2026",
-    "hora": "A definir",
+    "hora": "23:00",
     "fase": "Grupo F",
     "partida": "Tunísia x Japão",
     "time_casa": "Tunísia",
@@ -400,7 +400,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 37,
     "data": "21/06/2026",
-    "hora": "A definir",
+    "hora": "13:00",
     "fase": "Grupo H",
     "partida": "Espanha x Arábia Saudita",
     "time_casa": "Espanha",
@@ -411,7 +411,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 38,
     "data": "21/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo G",
     "partida": "Bélgica x Irã",
     "time_casa": "Bélgica",
@@ -422,7 +422,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 39,
     "data": "21/06/2026",
-    "hora": "A definir",
+    "hora": "19:00",
     "fase": "Grupo H",
     "partida": "Uruguai x Cabo Verde",
     "time_casa": "Uruguai",
@@ -433,7 +433,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 40,
     "data": "21/06/2026",
-    "hora": "A definir",
+    "hora": "22:00",
     "fase": "Grupo G",
     "partida": "Nova Zelândia x Egito",
     "time_casa": "Nova Zelândia",
@@ -444,7 +444,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 41,
     "data": "22/06/2026",
-    "hora": "A definir",
+    "hora": "14:00",
     "fase": "Grupo J",
     "partida": "Argentina x Áustria",
     "time_casa": "Argentina",
@@ -455,7 +455,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 42,
     "data": "22/06/2026",
-    "hora": "A definir",
+    "hora": "18:00",
     "fase": "Grupo I",
     "partida": "França x Iraque",
     "time_casa": "França",
@@ -466,7 +466,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 43,
     "data": "22/06/2026",
-    "hora": "A definir",
+    "hora": "21:00",
     "fase": "Grupo I",
     "partida": "Noruega x Senegal",
     "time_casa": "Noruega",
@@ -477,7 +477,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 44,
     "data": "23/06/2026",
-    "hora": "A definir",
+    "hora": "00:00",
     "fase": "Grupo J",
     "partida": "Jordânia x Argélia",
     "time_casa": "Jordânia",
@@ -488,7 +488,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 45,
     "data": "23/06/2026",
-    "hora": "A definir",
+    "hora": "14:00",
     "fase": "Grupo K",
     "partida": "Portugal x Uzbequistão",
     "time_casa": "Portugal",
@@ -499,7 +499,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 46,
     "data": "23/06/2026",
-    "hora": "A definir",
+    "hora": "17:00",
     "fase": "Grupo L",
     "partida": "Inglaterra x Gana",
     "time_casa": "Inglaterra",
@@ -510,7 +510,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 47,
     "data": "23/06/2026",
-    "hora": "A definir",
+    "hora": "20:00",
     "fase": "Grupo L",
     "partida": "Panamá x Croácia",
     "time_casa": "Panamá",
@@ -521,7 +521,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 48,
     "data": "23/06/2026",
-    "hora": "A definir",
+    "hora": "23:00",
     "fase": "Grupo K",
     "partida": "Colômbia x RD Congo",
     "time_casa": "Colômbia",
@@ -532,7 +532,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 49,
     "data": "24/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo B",
     "partida": "Suíça x Canadá",
     "time_casa": "Suíça",
@@ -543,7 +543,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 50,
     "data": "24/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo B",
     "partida": "Bósnia e Herzegovina x Catar",
     "time_casa": "Bósnia e Herzegovina",
@@ -554,7 +554,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 51,
     "data": "24/06/2026",
-    "hora": "A definir",
+    "hora": "19:00",
     "fase": "Grupo C",
     "partida": "Escócia x Brasil",
     "time_casa": "Escócia",
@@ -565,7 +565,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 52,
     "data": "24/06/2026",
-    "hora": "A definir",
+    "hora": "19:00",
     "fase": "Grupo C",
     "partida": "Marrocos x Haiti",
     "time_casa": "Marrocos",
@@ -576,7 +576,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 53,
     "data": "24/06/2026",
-    "hora": "A definir",
+    "hora": "22:00",
     "fase": "Grupo A",
     "partida": "República Tcheca x México",
     "time_casa": "República Tcheca",
@@ -587,7 +587,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 54,
     "data": "24/06/2026",
-    "hora": "A definir",
+    "hora": "22:00",
     "fase": "Grupo A",
     "partida": "África do Sul x Coreia do Sul",
     "time_casa": "África do Sul",
@@ -598,7 +598,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 55,
     "data": "25/06/2026",
-    "hora": "A definir",
+    "hora": "17:00",
     "fase": "Grupo E",
     "partida": "Curaçao x Costa do Marfim",
     "time_casa": "Curaçao",
@@ -609,7 +609,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 56,
     "data": "25/06/2026",
-    "hora": "A definir",
+    "hora": "17:00",
     "fase": "Grupo E",
     "partida": "Equador x Alemanha",
     "time_casa": "Equador",
@@ -620,7 +620,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 57,
     "data": "25/06/2026",
-    "hora": "A definir",
+    "hora": "20:00",
     "fase": "Grupo F",
     "partida": "Japão x Suécia",
     "time_casa": "Japão",
@@ -631,7 +631,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 58,
     "data": "25/06/2026",
-    "hora": "A definir",
+    "hora": "20:00",
     "fase": "Grupo F",
     "partida": "Tunísia x Holanda",
     "time_casa": "Tunísia",
@@ -642,7 +642,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 59,
     "data": "25/06/2026",
-    "hora": "A definir",
+    "hora": "23:00",
     "fase": "Grupo D",
     "partida": "Turquia x Estados Unidos",
     "time_casa": "Turquia",
@@ -653,7 +653,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 60,
     "data": "25/06/2026",
-    "hora": "A definir",
+    "hora": "23:00",
     "fase": "Grupo D",
     "partida": "Paraguai x Austrália",
     "time_casa": "Paraguai",
@@ -664,7 +664,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 61,
     "data": "26/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo I",
     "partida": "Noruega x França",
     "time_casa": "Noruega",
@@ -675,7 +675,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 62,
     "data": "26/06/2026",
-    "hora": "A definir",
+    "hora": "16:00",
     "fase": "Grupo I",
     "partida": "Senegal x Iraque",
     "time_casa": "Senegal",
@@ -686,7 +686,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 63,
     "data": "26/06/2026",
-    "hora": "A definir",
+    "hora": "21:00",
     "fase": "Grupo H",
     "partida": "Cabo Verde x Arábia Saudita",
     "time_casa": "Cabo Verde",
@@ -697,7 +697,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 64,
     "data": "26/06/2026",
-    "hora": "A definir",
+    "hora": "21:00",
     "fase": "Grupo H",
     "partida": "Uruguai x Espanha",
     "time_casa": "Uruguai",
@@ -708,7 +708,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 65,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "00:00",
     "fase": "Grupo G",
     "partida": "Egito x Irã",
     "time_casa": "Egito",
@@ -719,7 +719,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 66,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "00:00",
     "fase": "Grupo G",
     "partida": "Nova Zelândia x Bélgica",
     "time_casa": "Nova Zelândia",
@@ -730,7 +730,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 67,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "18:00",
     "fase": "Grupo L",
     "partida": "Panamá x Inglaterra",
     "time_casa": "Panamá",
@@ -741,7 +741,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 68,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "18:00",
     "fase": "Grupo L",
     "partida": "Croácia x Gana",
     "time_casa": "Croácia",
@@ -752,7 +752,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 69,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "20:30",
     "fase": "Grupo K",
     "partida": "Colômbia x Portugal",
     "time_casa": "Colômbia",
@@ -763,7 +763,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 70,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "20:30",
     "fase": "Grupo K",
     "partida": "RD Congo x Uzbequistão",
     "time_casa": "RD Congo",
@@ -774,7 +774,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 71,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "23:00",
     "fase": "Grupo J",
     "partida": "Argélia x Áustria",
     "time_casa": "Argélia",
@@ -785,7 +785,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 72,
     "data": "27/06/2026",
-    "hora": "A definir",
+    "hora": "23:00",
     "fase": "Grupo J",
     "partida": "Jordânia x Argentina",
     "time_casa": "Jordânia",
