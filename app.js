@@ -222,11 +222,11 @@ function renderFeaturedMatch() {
     <div class="widget-teams-row ${classPlaceholder}">
       <div class="widget-team home-team">
         <span class="widget-team-name">${featured.time_casa}</span>
-        <div class="flag-placeholder">${isPlaceholder ? '🏳️' : getFlagEmoji(featured.time_casa)}</div>
+        ${getFlagHtml(featured.time_casa, 'large')}
       </div>
       <div class="widget-vs">VS</div>
       <div class="widget-team away-team">
-        <div class="flag-placeholder">${isPlaceholder ? '🏳️' : getFlagEmoji(featured.time_fora)}</div>
+        ${getFlagHtml(featured.time_fora, 'large')}
         <span class="widget-team-name">${featured.time_fora}</span>
       </div>
     </div>
@@ -335,8 +335,6 @@ function renderMatches() {
     const isPlaceholder = match.partida.includes("Grupo") || match.partida.includes("Jogo");
     const cardClass = isPlaceholder ? 'placeholder-game' : '';
     const isFeaturedClass = match.id === nextMatchId ? 'featured' : '';
-    const flagHome = isPlaceholder ? '🏳️' : getFlagEmoji(match.time_casa);
-    const flagAway = isPlaceholder ? '🏳️' : getFlagEmoji(match.time_fora);
 
     const matchCard = document.createElement("div");
     matchCard.className = `match-card ${cardClass} ${isFeaturedClass}`;
@@ -349,14 +347,14 @@ function renderMatches() {
       <div class="match-body">
         <div class="team-row">
           <div class="team-info">
-            <span class="flag-mini">${flagHome}</span>
+            ${getFlagHtml(match.time_casa, 'mini')}
             <span class="team-name">${match.time_casa}</span>
           </div>
           <span class="team-score">${(statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, true) : '-'}</span>
         </div>
         <div class="team-row">
           <div class="team-info">
-            <span class="flag-mini">${flagAway}</span>
+            ${getFlagHtml(match.time_fora, 'mini')}
             <span class="team-name">${match.time_fora}</span>
           </div>
           <span class="team-score">${(statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, false) : '-'}</span>
@@ -384,19 +382,85 @@ function getDeterministicScore(gameId, isHome) {
   return (gameId * factor + (isHome ? 3 : 1)) % 4;
 }
 
-// Retorna o emoji da bandeira baseado no nome do país (mapeamento amigável)
-function getFlagEmoji(countryName) {
-  const flags = {
-    "México": "🇲🇽", "África do Sul": "🇿🇦", "Coreia do Sul": "🇰🇷", "República Tcheca": "🇨🇿",
-    "Canadá": "🇨🇦", "Bósnia e Herzegovina": "🇧🇦", "Estados Unidos": "🇺🇸", "Paraguai": "🇵🇾",
-    "Haiti": "🇭🇹", "Escócia": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "Austrália": "🇦🇺", "Turquia": "🇹🇷", "Brasil": "🇧🇷",
-    "Marrocos": "🇲🇦", "Catar": "🇶🇦", "Suíça": "🇨🇭", "Costa do Marfim": "🇨🇮", "Equador": "🇪🇨",
-    "Alemanha": "🇩🇪", "Curaçao": "🇨🇼", "Holanda": "🇳🇱", "Japão": "🇯🇵", "Suécia": "🇸🇪",
-    "Tunísia": "🇹🇳", "Arábia Saudita": "🇸🇦", "Uruguai": "🇺🇾", "Espanha": "🇪🇸", "Cabo Verde": "🇨🇻",
-    "Irã": "🇮🇷", "Nova Zelândia": "🇳🇿", "Bélgica": "🇧🇪", "Egito": "🇪🇬", "França": "🇫🇷",
-    "Senegal": "🇸🇳", "Iraque": "🇮🇶", "Noruega": "🇳🇴", "Argentina": "🇦🇷", "Argélia": "🇩🇿",
-    "Áustria": "🇦🇹", "Jordânia": "🇯🇴", "Gana": "🇬🇭", "Panamá": "🇵🇦", "Inglaterra": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "Croácia": "🇭🇷", "Portugal": "🇵🇹", "RD Congo": "🇨🇩", "Uzbequistão": "🇺🇿", "Colômbia": "🇨🇴"
-  };
-  return flags[countryName] || "🏳️";
+// Mapeamento de bandeiras do sprite sheet bandeiras-paises-copa.jpg (grade de 7x7)
+const FLAG_MAP = {
+  "África do Sul": { col: 0, row: 0 },
+  "Alemanha": { col: 1, row: 0 },
+  "Argélia": { col: 2, row: 0 },
+  "Argentina": { col: 3, row: 0 },
+  "Arábia Saudita": { col: 4, row: 0 },
+  "Austrália": { col: 5, row: 0 },
+  "Áustria": { col: 6, row: 0 },
+  
+  "Bélgica": { col: 0, row: 1 },
+  "Bósnia e Herzegovina": { col: 1, row: 1 },
+  "Brasil": { col: 2, row: 1 },
+  "Cabo Verde": { col: 3, row: 1 },
+  "Canadá": { col: 4, row: 1 },
+  "Colômbia": { col: 5, row: 1 },
+  "Coreia do Sul": { col: 6, row: 1 },
+  
+  "Costa do Marfim": { col: 0, row: 2 },
+  "Croácia": { col: 1, row: 2 },
+  "Curaçao": { col: 2, row: 2 },
+  "Egito": { col: 3, row: 2 },
+  "Equador": { col: 4, row: 2 },
+  "Escócia": { col: 5, row: 2 },
+  "Espanha": { col: 6, row: 2 },
+  
+  "Estados Unidos": { col: 0, row: 3 },
+  "França": { col: 1, row: 3 },
+  "Gana": { col: 2, row: 3 },
+  "Haiti": { col: 3, row: 3 },
+  "Holanda": { col: 4, row: 3 },
+  "Inglaterra": { col: 5, row: 3 },
+  "Irã": { col: 6, row: 3 },
+  
+  "Iraque": { col: 0, row: 4 },
+  "Japão": { col: 1, row: 4 },
+  "Jordânia": { col: 2, row: 4 },
+  "Marrocos": { col: 3, row: 4 },
+  "México": { col: 4, row: 4 },
+  "Noruega": { col: 5, row: 4 },
+  "Nova Zelândia": { col: 6, row: 4 },
+  
+  "Panamá": { col: 0, row: 5 },
+  "Paraguai": { col: 1, row: 5 },
+  "Portugal": { col: 2, row: 5 },
+  "Catar": { col: 3, row: 5 },
+  "RD Congo": { col: 4, row: 5 },
+  "República Tcheca": { col: 5, row: 5 },
+  "Senegal": { col: 6, row: 5 },
+  
+  "Suécia": { col: 0, row: 6 },
+  "Suíça": { col: 1, row: 6 },
+  "Tunísia": { col: 2, row: 6 },
+  "Turquia": { col: 3, row: 6 },
+  "Uruguai": { col: 4, row: 6 },
+  "Uzbequistão": { col: 5, row: 6 }
+};
+
+// Calcula a coordenada background-position para a bandeira do país
+function getFlagPosition(countryName) {
+  const coords = FLAG_MAP[countryName];
+  if (!coords) return null;
+  // coluna * 16.6667% e linha * 16.6667% (tendo 7 colunas, o intervalo vai de 0/6 a 6/6)
+  const x = (coords.col * 16.6667).toFixed(4) + "%";
+  const y = (coords.row * 16.6667).toFixed(4) + "%";
+  return { x, y };
+}
+
+// Retorna a tag HTML com a bandeira renderizada em sprite sheet
+function getFlagHtml(countryName, size = 'mini') {
+  const isPlaceholder = !countryName || countryName.includes("Grupo") || countryName.includes("Jogo");
+  if (isPlaceholder) {
+    return `<div class="flag-sprite ${size} placeholder"></div>`;
+  }
+  
+  const position = getFlagPosition(countryName);
+  if (!position) {
+    return `<div class="flag-sprite ${size} placeholder"></div>`;
+  }
+  
+  return `<div class="flag-sprite ${size}" style="background-position: ${position.x} ${position.y};"></div>`;
 }
