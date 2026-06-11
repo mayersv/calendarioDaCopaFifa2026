@@ -9,7 +9,7 @@ Um site informativo de alto padrão estético dedicado a centralizar, filtrar e 
 * **Centralização Oficial**: Exibe todas as 104 partidas (do jogo de abertura à grande final) organizadas cronologicamente.
 * **Destaque Dinâmico (Próximo Jogo)**: Um widget no topo da página que calcula e destaca a próxima partida a acontecer com relógio regressivo em tempo real.
 * **Conversor de Fuso Horário**: Mapeia automaticamente as cidades-sede de todo o continente norte-americano e exibe as horas no horário local da sede, UTC e horário de Brasília (BRT).
-* **Simulador de Linha do Tempo**: Um painel interativo que permite "viajar no tempo" simulando qualquer data do torneio. Útil para testar o comportamento do destaque e visualizar placares fictícios consistentes de jogos encerrados.
+
 * **Filtros e Busca Avançados**:
   - Busca textual em tempo real por equipe, estádio, cidade-sede ou grupo.
   - Filtro por Fase (Fase de Grupos, 16-avos, Oitavas, Quartas, Semifinal, Final).

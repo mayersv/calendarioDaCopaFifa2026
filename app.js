@@ -27,8 +27,8 @@ const VENUE_TIMEZONES = {
   "Toronto": { name: "EDT", offset: -4, label: "Leste (Toronto)" }
 };
 
-// Estados do Simulador de Tempo
-let currentDate = new Date("2026-06-11T00:00:00"); // Inicializa em 11 de Junho de 2026
+// Estado de data do sistema (Usa a data e hora atual do computador)
+let currentDate = new Date();
 
 // Seletores DOM
 const matchesGrid = document.getElementById("matchesGrid");
@@ -36,15 +36,11 @@ const nextMatchContent = document.getElementById("nextMatchContent");
 const searchInput = document.getElementById("searchInput");
 const phaseFilter = document.getElementById("phaseFilter");
 const groupTabs = document.getElementById("groupTabs");
-const simDateInput = document.getElementById("simDateInput");
-const simDateDisplay = document.getElementById("simDateDisplay");
-const btnResetDate = document.getElementById("btnResetDate");
 const themeToggle = document.getElementById("themeToggle");
 
 // Inicialização da Aplicação
 document.addEventListener("DOMContentLoaded", () => {
   setupEventListeners();
-  updateSimulationUI();
   renderFeaturedMatch();
   renderMatches();
 });
@@ -64,49 +60,12 @@ function setupEventListeners() {
     }
   });
 
-  // Simulador de Data
-  simDateInput.addEventListener("change", (e) => {
-    if (e.target.value) {
-      currentDate = new Date(`${e.target.value}T00:00:00`);
-      updateSimulationUI();
-      renderFeaturedMatch();
-      renderMatches();
-    }
-  });
-
-  btnResetDate.addEventListener("click", () => {
-    // Redefine para a data real de hoje (se for 2026) ou data padrão do início da Copa
-    const today = new Date();
-    if (today.getFullYear() === 2026 && today.getMonth() >= 5 && today.getMonth() <= 6) {
-      currentDate = today;
-    } else {
-      currentDate = new Date("2026-06-11T00:00:00");
-    }
-    
-    // Atualiza input de data
-    const yyyy = currentDate.getFullYear();
-    const mm = String(currentDate.getMonth() + 1).padStart(2, '0');
-    const dd = String(currentDate.getDate()).padStart(2, '0');
-    simDateInput.value = `${yyyy}-${mm}-${dd}`;
-    
-    updateSimulationUI();
-    renderFeaturedMatch();
-    renderMatches();
-  });
-
   // Alternador de Tema
   themeToggle.addEventListener("click", () => {
     const currentTheme = document.documentElement.getAttribute("data-theme");
     const newTheme = currentTheme === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", newTheme);
   });
-}
-
-// Atualizar Interface do Simulador
-function updateSimulationUI() {
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const dateStr = currentDate.toLocaleDateString('pt-BR', options);
-  simDateDisplay.textContent = `Data Atual do Sistema: ${dateStr}`;
 }
 
 // Converte string de data "DD/MM/AAAA" e hora "HH:MM" para um Objeto Date do JavaScript
