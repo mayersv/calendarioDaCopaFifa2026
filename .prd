@@ -41,6 +41,7 @@ Este documento descreve os requisitos para a criação de um site informativo de
     *   O usuário deve poder navegar pelas partidas de forma clara, possivelmente agrupadas por fase ou data.
     *   As partidas deverão ser ordenadas por ordem de data e hora.
     *   A próxima partida em andamento ou a ser realizada deve ser sempre destacada na lista.
+    *   O jogo em destaque deve permanecer em destaque até 90 minutos após o início da partida.
 *   **RF4: Design Responsivo**: A interface do usuário deve se adaptar a diferentes tamanhos de tela, garantindo uma experiência de visualização consistente em desktops, tablets e smartphones.
 
 **5. Requisitos Não Funcionais**

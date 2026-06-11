@@ -168,15 +168,17 @@ function calculateTimes(match) {
 
 // Renderiza a partida em destaque (Próximo Jogo)
 function renderFeaturedMatch() {
-  // Encontra o próximo jogo que irá acontecer
+  // Encontra o próximo jogo que irá acontecer (ou que está em andamento a menos de 90 min)
   let featured = null;
+  const ninetyMinutesInMs = 90 * 60 * 1000;
   
   // Ordena os jogos por ID/cronologia
   const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => a.id - b.id);
   
   for (const m of sortedMatches) {
     const matchTime = parseMatchDateTime(m.data, m.hora);
-    if (matchTime >= currentDate) {
+    // O jogo permanece em destaque se a hora de início + 90 min for maior ou igual à data atual
+    if (matchTime.getTime() + ninetyMinutesInMs >= currentDate.getTime()) {
       featured = m;
       break;
     }
@@ -212,7 +214,8 @@ function renderFeaturedMatch() {
   } else if (diffTime > 0) {
     countdownText = `Começa em instantes!`;
   } else {
-    countdownText = `Partida em Andamento`;
+    const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
+    countdownText = `Em Andamento: ${elapsedMinutes}'`;
   }
 
   nextMatchContent.innerHTML = `
@@ -311,17 +314,22 @@ function renderMatches() {
     const times = calculateTimes(match);
     const matchTime = parseMatchDateTime(match.data, match.hora);
     
+    const ninetyMinutes = 90 * 60 * 1000;
+    const matchTimeMs = matchTime.getTime();
+    const currentTimeMs = currentDate.getTime();
+    
     // Status da partida
     let statusText = "Agendado";
     let statusClass = "future";
     
-    if (matchTime < currentDate) {
-      // Simula que a partida já foi jogada se for anterior à data simulada
+    if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + ninetyMinutes) {
+      // A partida começou e faz menos de 90 minutos (está ocorrendo)
+      statusText = "Ao Vivo";
+      statusClass = "live";
+    } else if (currentTimeMs >= matchTimeMs + ninetyMinutes) {
+      // A partida já terminou
       statusText = "Encerrado";
       statusClass = "finished";
-    } else if (matchTime.toDateString() === currentDate.toDateString()) {
-      statusText = "Hoje";
-      statusClass = "live";
     }
 
     const isPlaceholder = match.partida.includes("Grupo") || match.partida.includes("Jogo");
@@ -344,14 +352,14 @@ function renderMatches() {
             <span class="flag-mini">${flagHome}</span>
             <span class="team-name">${match.time_casa}</span>
           </div>
-          <span class="team-score">${statusClass === 'finished' ? getDeterministicScore(match.id, true) : '-'}</span>
+          <span class="team-score">${(statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, true) : '-'}</span>
         </div>
         <div class="team-row">
           <div class="team-info">
             <span class="flag-mini">${flagAway}</span>
             <span class="team-name">${match.time_fora}</span>
           </div>
-          <span class="team-score">${statusClass === 'finished' ? getDeterministicScore(match.id, false) : '-'}</span>
+          <span class="team-score">${(statusClass === 'finished' || statusClass === 'live') ? getDeterministicScore(match.id, false) : '-'}</span>
         </div>
       </div>
       <div class="match-footer">
