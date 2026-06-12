@@ -576,7 +576,7 @@ h1 {
 /* Grid de Partidas */
 .matches-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
   gap: 24px;
   margin-bottom: 60px;
   min-height: 200px;
@@ -858,5 +858,37 @@ footer a:hover {
     align-items: center;
     gap: 12px;
   }
+  .search-wrapper {
+    min-width: 100%;
+  }
+  .phase-filter-select {
+    min-width: 100%;
+  }
 }
+
+@media (max-width: 364px) {
+  .container {
+    padding: 0 8px;
+  }
+  .controls-panel {
+    padding: 12px;
+  }
+  .tab-btn {
+    padding: 6px 10px;
+    font-size: 0.75rem;
+  }
+  .next-match-widget {
+    padding: 12px;
+  }
+  .widget-team-name {
+    font-size: 1rem;
+  }
+  .match-card {
+    padding: 12px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
 
