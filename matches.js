@@ -21,7 +21,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Coreia do Sul",
     "time_fora": "República Tcheca",
     "local": "Guadalajara (Estádio Akron)",
-    "eliminatoria": false
+    "eliminatoria": false,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "id": 3,
