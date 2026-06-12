@@ -34,7 +34,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Canadá",
     "time_fora": "Bósnia e Herzegovina",
     "local": "Toronto (BMO Field)",
-    "eliminatoria": false
+    "eliminatoria": false,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "id": 4,

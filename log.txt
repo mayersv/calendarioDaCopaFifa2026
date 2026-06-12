@@ -36,3 +36,10 @@
 [12/06/2026 20:12:05] Encontrados 104 elementos de partidas na página da FIFA.
 [12/06/2026 20:12:08] Extraídos com sucesso 2 placares finalizados da página da FIFA.
 [12/06/2026 20:12:08] Nenhuma atualização de placar foi realizada nesta rodada.
+[12/06/2026 22:07:09] Iniciando rotina de atualização de placares...
+[12/06/2026 22:07:09] Encontradas 102 partidas pendentes no banco local.
+[12/06/2026 22:07:17] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[12/06/2026 22:07:29] Encontrados 104 elementos de partidas na página da FIFA.
+[12/06/2026 22:07:31] Extraídos com sucesso 3 placares finalizados da página da FIFA.
+[12/06/2026 22:07:31] Sucesso! 1 placares foram atualizados em matches.js.
+[12/06/2026 22:07:31] ATUALIZADO: Jogo 3 - Canadá 1 x 1 Bósnia e Herzegovina (Original: 12/06/2026 às 16:00)
