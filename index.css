@@ -830,3 +830,33 @@ footer a:hover {
   .sim-widget { flex-direction: column; align-items: stretch; }
   .theme-toggle-btn { top: 20px; right: 20px; }
 }
+
+@media (max-width: 529px) {
+  .next-match-widget {
+    padding: 16px;
+  }
+  .widget-teams-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .widget-team {
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100%;
+    gap: 12px;
+  }
+  .widget-team.home-team {
+    flex-direction: row-reverse; /* Coloca a bandeira antes do nome */
+  }
+  .widget-vs {
+    margin: 4px 0;
+    display: inline-block;
+  }
+  .widget-details {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
