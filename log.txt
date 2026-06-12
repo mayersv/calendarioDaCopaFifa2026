@@ -18,3 +18,9 @@
 [12/06/2026 11:38:54] Extraídos com sucesso 2 placares finalizados da página da FIFA.
 [12/06/2026 11:38:56] Sucesso! 1 placares foram atualizados em matches.js.
 [12/06/2026 11:38:56] ATUALIZADO: Jogo 2 - Coreia do Sul 2 x 1 República Tcheca (Original: 11/06/2026 às 23:00)
+[12/06/2026 14:58:42] Iniciando rotina de atualização de placares...
+[12/06/2026 14:58:42] Encontradas 102 partidas pendentes no banco local.
+[12/06/2026 14:58:55] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[12/06/2026 14:59:06] Encontrados 104 elementos de partidas na página da FIFA.
+[12/06/2026 14:59:08] Extraídos com sucesso 2 placares finalizados da página da FIFA.
+[12/06/2026 14:59:08] Nenhuma atualização de placar foi realizada nesta rodada.
