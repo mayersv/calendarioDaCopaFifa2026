@@ -47,7 +47,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Estados Unidos",
     "time_fora": "Paraguai",
     "local": "Los Angeles (SoFi Stadium)",
-    "eliminatoria": false
+    "eliminatoria": false,
+    "gols_casa": 4,
+    "gols_fora": 1
   },
   {
     "id": 5,
