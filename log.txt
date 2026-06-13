@@ -74,3 +74,9 @@
 [13/06/2026 12:53:12] Encontrados 104 elementos de partidas na página da FIFA.
 [13/06/2026 12:53:13] Extraídos com sucesso 4 placares finalizados da página da FIFA.
 [13/06/2026 12:53:13] Nenhuma atualização de placar foi realizada nesta rodada.
+[13/06/2026 15:00:40] Iniciando rotina de atualização de placares...
+[13/06/2026 15:00:40] Encontradas 100 partidas pendentes no banco local.
+[13/06/2026 15:00:51] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[13/06/2026 15:01:02] Encontrados 104 elementos de partidas na página da FIFA.
+[13/06/2026 15:01:04] Extraídos com sucesso 4 placares finalizados da página da FIFA.
+[13/06/2026 15:01:04] Nenhuma atualização de placar foi realizada nesta rodada.
