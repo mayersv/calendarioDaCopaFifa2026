@@ -298,7 +298,7 @@ function renderMatches() {
     const times = calculateTimes(match);
     const matchTime = parseMatchDateTime(match.data, match.hora);
     
-    const ninetyMinutes = 90 * 60 * 1000;
+    const hundredTenMinutes = 110 * 60 * 1000;
     const matchTimeMs = matchTime.getTime();
     const currentTimeMs = currentDate.getTime();
     
@@ -306,15 +306,23 @@ function renderMatches() {
     let statusText = "Agendado";
     let statusClass = "future";
     
-    if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + ninetyMinutes) {
-      // A partida começou e faz menos de 90 minutos (está ocorrendo)
+    if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + hundredTenMinutes) {
+      // A partida começou e faz menos de 110 minutos (está ocorrendo)
       statusText = "Ao Vivo";
       statusClass = "live";
-    } else if (currentTimeMs >= matchTimeMs + ninetyMinutes) {
+    } else if (currentTimeMs >= matchTimeMs + hundredTenMinutes) {
       // A partida já terminou
       statusText = "Encerrado";
       statusClass = "finished";
     }
+
+    // Identificar se o jogo é hoje (no dia simulado/atual)
+    const day = String(currentDate.getDate()).padStart(2, '0');
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const year = currentDate.getFullYear();
+    const currentDateStr = `${day}/${month}/${year}`;
+    const isToday = match.data === currentDateStr;
+    const todayClass = isToday ? 'today-match' : '';
 
     const isPlaceholder = match.partida.includes("Grupo") || match.partida.includes("Jogo");
     const cardClass = isPlaceholder ? 'placeholder-game' : '';
@@ -323,7 +331,7 @@ function renderMatches() {
     const brasilClass = isBrasil ? 'brasil-match' : '';
 
     const matchCard = document.createElement("div");
-    matchCard.className = `match-card ${cardClass} ${isFeaturedClass} ${brasilClass}`;
+    matchCard.className = `match-card ${cardClass} ${isFeaturedClass} ${brasilClass} ${statusClass} ${todayClass}`;
     matchCard.innerHTML = `
       <div class="match-header">
         <span class="match-id-badge">Jogo ${match.id}</span>
