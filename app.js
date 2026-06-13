@@ -127,17 +127,17 @@ function calculateTimes(match) {
 
 // Renderiza a partida em destaque (Próximo Jogo)
 function renderFeaturedMatch() {
-  // Encontra o próximo jogo que irá acontecer (ou que está em andamento a menos de 90 min)
+  // Encontra o próximo jogo que irá acontecer (ou que está em andamento a menos de 110 min)
   let featured = null;
-  const ninetyMinutesInMs = 90 * 60 * 1000;
+  const hundredTenMinutesInMs = 110 * 60 * 1000;
   
   // Ordena os jogos por ID/cronologia
   const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => a.id - b.id);
   
   for (const m of sortedMatches) {
     const matchTime = parseMatchDateTime(m.data, m.hora);
-    // O jogo permanece em destaque se a hora de início + 90 min for maior ou igual à data atual
-    if (matchTime.getTime() + ninetyMinutesInMs >= currentDate.getTime()) {
+    // O jogo permanece em destaque se a hora de início + 110 min for maior ou igual à data atual
+    if (matchTime.getTime() + hundredTenMinutesInMs >= currentDate.getTime()) {
       featured = m;
       break;
     }
@@ -177,7 +177,7 @@ function renderFeaturedMatch() {
     countdownText = `Em Andamento: ${elapsedMinutes}'`;
   }
 
-  const ninetyMinutes = 90 * 60 * 1000;
+  const hundredTenMinutes = 110 * 60 * 1000;
   const matchTimeMs = matchTime.getTime();
   const currentTimeMs = currentDate.getTime();
   const showScore = currentTimeMs >= matchTimeMs;
