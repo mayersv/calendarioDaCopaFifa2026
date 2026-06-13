@@ -61,10 +61,8 @@ const COPA_2026_MATCHES = [
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
     "id": 5,
-    "gols_casa": 0,
-    "gols_fora": 1,
-    "tempo_jogo": "59'",
-    "tempo_atualizado": 1781382384888
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "13/06/2026",

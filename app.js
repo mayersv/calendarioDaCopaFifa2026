@@ -169,17 +169,17 @@ function calculateTimes(match) {
 
 // Renderiza a partida em destaque (Próximo Jogo)
 function renderFeaturedMatch() {
-  // Encontra o próximo jogo que irá acontecer (ou que está em andamento a menos de 110 min)
+  // Encontra o próximo jogo que irá acontecer (ou que está em andamento a menos de 130 min)
   let featured = null;
-  const hundredTenMinutesInMs = 110 * 60 * 1000;
+  const oneHundredThirtyMinutesInMs = 130 * 60 * 1000;
   
   // Ordena os jogos por ID/cronologia
   const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => a.id - b.id);
   
   for (const m of sortedMatches) {
     const matchTime = parseMatchDateTime(m.data, m.hora);
-    // O jogo permanece em destaque se a hora de início + 110 min for maior ou igual à data atual
-    if (matchTime.getTime() + hundredTenMinutesInMs >= currentDate.getTime()) {
+    // O jogo permanece em destaque se a hora de início + 130 min for maior ou igual à data atual
+    if (matchTime.getTime() + oneHundredThirtyMinutesInMs >= currentDate.getTime()) {
       featured = m;
       break;
     }
@@ -235,10 +235,10 @@ function renderFeaturedMatch() {
     }
   }
 
-  const hundredTenMinutes = 110 * 60 * 1000;
+  const oneHundredThirtyMinutes = 130 * 60 * 1000;
   const matchTimeMs = matchTime.getTime();
   const currentTimeMs = currentDate.getTime();
-  const isFinished = currentTimeMs >= matchTimeMs + hundredTenMinutes;
+  const isFinished = currentTimeMs >= matchTimeMs + oneHundredThirtyMinutes;
   const showScore = currentTimeMs >= matchTimeMs;
   const scoreHome = showScore ? (featured.gols_casa !== undefined ? featured.gols_casa : (isFinished ? getDeterministicScore(featured.id, true) : 0)) : '';
   const scoreAway = showScore ? (featured.gols_fora !== undefined ? featured.gols_fora : (isFinished ? getDeterministicScore(featured.id, false) : 0)) : '';
@@ -347,7 +347,7 @@ function renderMatches() {
     const times = calculateTimes(match);
     const matchTime = parseMatchDateTime(match.data, match.hora);
     
-    const hundredTenMinutes = 110 * 60 * 1000;
+    const oneHundredThirtyMinutes = 130 * 60 * 1000;
     const matchTimeMs = matchTime.getTime();
     const currentTimeMs = currentDate.getTime();
     
@@ -355,8 +355,8 @@ function renderMatches() {
     let statusText = "Agendado";
     let statusClass = "future";
     
-    if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + hundredTenMinutes) {
-      // A partida começou e faz menos de 110 minutos (está ocorrendo)
+    if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + oneHundredThirtyMinutes) {
+      // A partida começou e faz menos de 130 minutos (está ocorrendo)
       statusClass = "live";
       if (match.tempo_jogo && match.tempo_atualizado) {
         if (match.tempo_jogo.includes("'")) {
@@ -371,7 +371,7 @@ function renderMatches() {
         const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
         statusText = `Em Andamento: ${elapsedMinutes}'`;
       }
-    } else if (currentTimeMs >= matchTimeMs + hundredTenMinutes) {
+    } else if (currentTimeMs >= matchTimeMs + oneHundredThirtyMinutes) {
       // A partida já terminou
       statusText = "Encerrado";
       statusClass = "finished";

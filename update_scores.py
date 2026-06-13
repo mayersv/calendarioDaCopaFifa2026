@@ -143,19 +143,20 @@ def main():
         
         for m in matches:
             has_score = "gols_casa" in m and "gols_fora" in m
+            has_live_indicators = "tempo_jogo" in m
             match_time = parse_match_datetime(m["data"], m["hora"])
             
             is_live = False
             if match_time:
                 # Diferença em minutos
                 diff_minutes = (now - match_time).total_seconds() / 60.0
-                # O jogo está "ao vivo" se estiver ocorrendo no intervalo de início até início + 110 minutos
-                if -15 <= diff_minutes < 110:
+                # O jogo está "ao vivo" se estiver ocorrendo no intervalo de início até início + 130 minutos
+                if -15 <= diff_minutes < 130:
                     is_live = True
                     has_any_live_match = True
             
-            # Se não tem placar ou se está rolando ao vivo, precisamos atualizar
-            if not has_score or is_live:
+            # Se não tem placar, se está rolando ao vivo ou se ainda possui chaves de tempo ativo a serem limpas
+            if not has_score or is_live or has_live_indicators:
                 pending_or_live_matches.append(m)
 
         if not pending_or_live_matches:
@@ -215,25 +216,27 @@ def main():
             is_live = False
             if match_time:
                 diff_minutes = (now - match_time).total_seconds() / 60.0
-                if -15 <= diff_minutes < 110:
+                if -15 <= diff_minutes < 130:
                     is_live = True
             
-            # Só atualizamos se não tinha score OU se é um jogo ao vivo (onde o score pode mudar)
+            # Só atualizamos se não tinha score, se está ao vivo ou se possui chaves a limpar
             has_score = "gols_casa" in local_match and "gols_fora" in local_match
+            has_live_indicators = "tempo_jogo" in local_match
             
             for scraped in scraped_matches:
                 scraped_home_norm = normalize_team_name(scraped["home_team"])
                 scraped_away_norm = normalize_team_name(scraped["away_team"])
                 
                 if local_home_norm == scraped_home_norm and local_away_norm == scraped_away_norm:
-                    # Se não tinha placar ou se o placar atual de um jogo ao vivo mudou
+                    # Se não tinha placar ou se o placar atual/tempo mudou ou se o jogo finalizou na FIFA
                     old_home = local_match.get("gols_casa")
                     old_away = local_match.get("gols_fora")
                     old_tempo = local_match.get("tempo_jogo")
                     
-                    if not has_score or (is_live and (old_home != scraped["home_score"] or old_away != scraped["away_score"] or old_tempo != scraped["tempo_jogo"])):
-                        local_match["gols_casa"] = scraped["home_score"]
-                        local_match["gols_fora"] = scraped["away_score"]
+                    if not has_score or is_live or has_live_indicators:
+                        if not has_score or (old_home != scraped["home_score"] or old_away != scraped["away_score"] or old_tempo != scraped["tempo_jogo"] or scraped["finished"]):
+                            local_match["gols_casa"] = scraped["home_score"]
+                            local_match["gols_fora"] = scraped["away_score"]
                         
                         if not scraped["finished"]:
                             local_match["tempo_jogo"] = scraped["tempo_jogo"]
