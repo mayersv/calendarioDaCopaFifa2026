@@ -230,6 +230,12 @@ function renderFeaturedMatch() {
       <div class="widget-detail-item" style="color: var(--primary);">
         <strong style="color: var(--primary);">${countdownText}</strong>
       </div>
+      <div class="widget-detail-item" style="grid-column: 1 / -1; margin-top: 10px;">
+        <button class="sim-btn" onclick="scrollToMatch(${featured.id})" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 12 16 16 12"/><line x1="12" y1="8" x2="12" y2="16"/></svg>
+          Ver detalhes da partida no grid
+        </button>
+      </div>
     </div>
   `;
 }
@@ -331,6 +337,7 @@ function renderMatches() {
     const brasilClass = isBrasil ? 'brasil-match' : '';
 
     const matchCard = document.createElement("div");
+    matchCard.id = `match-card-${match.id}`;
     matchCard.className = `match-card ${cardClass} ${isFeaturedClass} ${brasilClass} ${statusClass} ${todayClass}`;
     matchCard.innerHTML = `
       <div class="match-header">
@@ -457,4 +464,40 @@ function getFlagHtml(countryName, size = 'mini') {
   }
   
   return `<div class="flag-sprite ${size}" style="background-position: ${position.x} ${position.y};"></div>`;
+}
+
+// Rola até o card do jogo com efeito ease-out personalizado (rápido no começo, mais lento no final)
+function scrollToMatch(id) {
+  const target = document.getElementById(`match-card-${id}`);
+  if (!target) return;
+
+  const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - 120; // offset para cabeçalho
+  const startPosition = window.pageYOffset;
+  const distance = targetPosition - startPosition;
+  const duration = 1200; // Duração em milissegundos
+  let startTime = null;
+
+  // Função de Easing: Ease Out Cubic (rápido no início, lento no final)
+  function easeOutCubic(t) {
+    return 1 - Math.pow(1 - t, 3);
+  }
+
+  function animation(currentTime) {
+    if (startTime === null) startTime = currentTime;
+    const timeElapsed = currentTime - startTime;
+    const progress = Math.min(timeElapsed / duration, 1);
+    const ease = easeOutCubic(progress);
+
+    window.scrollTo(0, startPosition + distance * ease);
+
+    if (timeElapsed < duration) {
+      requestAnimationFrame(animation);
+    } else {
+      // Efeito de pulso rápido de destaque ao chegar no card
+      target.classList.add("pulse-highlight");
+      setTimeout(() => target.classList.remove("pulse-highlight"), 1500);
+    }
+  }
+
+  requestAnimationFrame(animation);
 }
