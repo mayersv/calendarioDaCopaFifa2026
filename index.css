@@ -7,26 +7,29 @@
   --bg-secondary: #121829;
   --bg-card: rgba(18, 24, 41, 0.7);
   --border-card: rgba(255, 255, 255, 0.08);
-  
-  --primary: #00e676; /* Verde vibrante de gramado */
+
+  --primary: #00e676;
+  /* Verde vibrante de gramado */
   --primary-glow: rgba(0, 230, 118, 0.15);
-  --secondary: #ffb300; /* Ouro clássico da taça */
+  --secondary: #ffb300;
+  /* Ouro clássico da taça */
   --secondary-glow: rgba(255, 179, 0, 0.25);
-  --accent: #8e24aa; /* Roxo/Magenta oficial */
+  --accent: #8e24aa;
+  /* Roxo/Magenta oficial */
   --accent-light: #ab47bc;
-  
+
   --text-main: #ffffff;
   --text-muted: #94a3b8;
   --text-highlight: #ffb300;
-  
+
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.3);
   --shadow-glow: 0 0 20px rgba(255, 179, 0, 0.2);
   --shadow-green-glow: 0 0 25px rgba(0, 230, 118, 0.25);
-  
+
   --font-title: 'Outfit', sans-serif;
   --font-body: 'Inter', sans-serif;
-  
+
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --border-radius: 16px;
 }
@@ -272,9 +275,20 @@ h1 {
 }
 
 @keyframes pulse-accent {
-  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(171, 71, 188, 0.7); }
-  70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(171, 71, 188, 0); }
-  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(171, 71, 188, 0); }
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(171, 71, 188, 0.7);
+  }
+
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 8px rgba(171, 71, 188, 0);
+  }
+
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(171, 71, 188, 0);
+  }
 }
 
 .widget-content {
@@ -298,8 +312,15 @@ h1 {
   flex: 1;
 }
 
-.widget-team.home-team { justify-content: flex-end; text-align: right; }
-.widget-team.away-team { justify-content: flex-start; text-align: left; }
+.widget-team.home-team {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.widget-team.away-team {
+  justify-content: flex-start;
+  text-align: left;
+}
 
 /* Sprite de Bandeiras dos Países */
 .flag-sprite {
@@ -474,7 +495,8 @@ h1 {
   border-radius: 20px;
   padding: 24px;
   margin-bottom: 30px;
-  display: none; /* Oculto por padrão para todas as telas */
+  display: none;
+  /* Oculto por padrão para todas as telas */
   flex-direction: column;
   gap: 20px;
   box-shadow: var(--shadow-md);
@@ -482,7 +504,8 @@ h1 {
 }
 
 .controls-panel.show {
-  display: flex; /* Exibido quando ativo */
+  display: flex;
+  /* Exibido quando ativo */
   animation: slideDown 0.3s ease forwards;
 }
 
@@ -582,7 +605,7 @@ h1 {
 .matches-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
-  gap: 24px;
+  gap: 6px;
   margin-bottom: 60px;
   min-height: 200px;
 }
@@ -722,8 +745,15 @@ h1 {
 }
 
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Partes do Card */
@@ -871,8 +901,13 @@ h1 {
 }
 
 @keyframes blink-live {
-  from { opacity: 0.6; }
-  to { opacity: 1; }
+  from {
+    opacity: 0.6;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Estado de busca sem resultados */
@@ -915,7 +950,8 @@ footer a:hover {
 
 /* Botão de Alternância de Filtros */
 .filters-toggle-btn {
-  display: flex; /* Exibido por padrão em todas as telas */
+  display: flex;
+  /* Exibido por padrão em todas as telas */
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -949,12 +985,32 @@ footer a:hover {
 /* Responsividade Avançada */
 @media (max-width: 768px) {
 
-  h1 { font-size: 1.8rem; }
-  .subtitle { font-size: 0.95rem; }
-  .widget-team-name { font-size: 1.1rem; }
-  .widget-vs { font-size: 0.9rem; padding: 4px 12px; }
-  .sim-widget { flex-direction: column; align-items: stretch; }
-  .theme-toggle-btn { top: 20px; right: 20px; }
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .widget-team-name {
+    font-size: 1.1rem;
+  }
+
+  .widget-vs {
+    font-size: 0.9rem;
+    padding: 4px 12px;
+  }
+
+  .sim-widget {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .theme-toggle-btn {
+    top: 20px;
+    right: 20px;
+  }
 }
 
 @keyframes slideDown {
@@ -962,9 +1018,46 @@ footer a:hover {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Layout minimalista para jogos encerrados em telas de coluna única (< 752px) */
+@media (max-width: 752px) {
+  .match-card.finished {
+    padding: 10px 14px;
+    gap: 6px;
+  }
+
+  .match-card.finished .match-header {
+    padding-bottom: 6px;
+  }
+
+  .match-card.finished .match-footer {
+    display: none;
+    /* Oculta estádio, data e hora local para economizar espaço vertical */
+  }
+
+  .match-card.finished .match-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .match-card.finished .team-row {
+    padding: 2px 0;
+  }
+
+  .match-card.finished .team-name {
+    font-size: 0.85rem;
+  }
+
+  .match-card.finished .team-score {
+    font-size: 0.95rem;
+    font-weight: 700;
   }
 }
 
@@ -972,32 +1065,40 @@ footer a:hover {
   .next-match-widget {
     padding: 16px;
   }
+
   .widget-teams-row {
     flex-direction: column;
     align-items: center;
     gap: 12px;
   }
+
   .widget-team {
     justify-content: center !important;
     text-align: center !important;
     width: 100%;
     gap: 12px;
   }
+
   .widget-team.home-team {
-    flex-direction: row-reverse; /* Coloca a bandeira antes do nome */
+    flex-direction: row-reverse;
+    /* Coloca a bandeira antes do nome */
   }
+
   .widget-vs {
     margin: 4px 0;
     display: inline-block;
   }
+
   .widget-details {
     flex-direction: column;
     align-items: center;
     gap: 12px;
   }
+
   .search-wrapper {
     min-width: 100%;
   }
+
   .phase-filter-select {
     min-width: 100%;
   }
@@ -1007,30 +1108,49 @@ footer a:hover {
   .container {
     padding: 0 8px;
   }
+
   .controls-panel {
     padding: 12px;
   }
+
   .tab-btn {
     padding: 6px 10px;
     font-size: 0.75rem;
   }
+
   .next-match-widget {
     padding: 12px;
   }
+
   .widget-team-name {
     font-size: 1rem;
   }
+
   .match-card {
     padding: 12px;
   }
+
   h1 {
     font-size: 1.4rem;
   }
 }
+
 @keyframes pulseGlow {
-  0% { transform: scale(1); box-shadow: 0 0 0 rgba(0, 230, 118, 0.4); }
-  50% { transform: scale(1.03); box-shadow: 0 0 25px rgba(0, 230, 118, 0.7); border-color: var(--primary); }
-  100% { transform: scale(1); box-shadow: var(--shadow-sm); }
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 230, 118, 0.4);
+  }
+
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(0, 230, 118, 0.7);
+    border-color: var(--primary);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: var(--shadow-sm);
+  }
 }
 
 .match-card.pulse-highlight {
