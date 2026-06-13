@@ -309,9 +309,11 @@ function renderMatches() {
     const isPlaceholder = match.partida.includes("Grupo") || match.partida.includes("Jogo");
     const cardClass = isPlaceholder ? 'placeholder-game' : '';
     const isFeaturedClass = match.id === nextMatchId ? 'featured' : '';
+    const isBrasil = match.time_casa === "Brasil" || match.time_fora === "Brasil";
+    const brasilClass = isBrasil ? 'brasil-match' : '';
 
     const matchCard = document.createElement("div");
-    matchCard.className = `match-card ${cardClass} ${isFeaturedClass}`;
+    matchCard.className = `match-card ${cardClass} ${isFeaturedClass} ${brasilClass}`;
     matchCard.innerHTML = `
       <div class="match-header">
         <span class="match-id-badge">Jogo ${match.id}</span>
