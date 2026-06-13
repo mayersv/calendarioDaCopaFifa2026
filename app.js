@@ -314,7 +314,7 @@ function renderMatches() {
     
     if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + hundredTenMinutes) {
       // A partida começou e faz menos de 110 minutos (está ocorrendo)
-      statusText = "Ao Vivo";
+      statusText = "Em Andamento";
       statusClass = "live";
     } else if (currentTimeMs >= matchTimeMs + hundredTenMinutes) {
       // A partida já terminou
