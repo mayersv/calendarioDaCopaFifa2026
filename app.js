@@ -66,6 +66,16 @@ function setupEventListeners() {
     const newTheme = currentTheme === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", newTheme);
   });
+
+  // Alternador de Filtros no Mobile
+  const filtersToggleBtn = document.getElementById("filtersToggleBtn");
+  const controlsPanel = document.querySelector(".controls-panel");
+  if (filtersToggleBtn && controlsPanel) {
+    filtersToggleBtn.addEventListener("click", () => {
+      controlsPanel.classList.toggle("show");
+      filtersToggleBtn.classList.toggle("active");
+    });
+  }
 }
 
 // Converte string de data "DD/MM/AAAA" e hora "HH:MM" para um Objeto Date do JavaScript
