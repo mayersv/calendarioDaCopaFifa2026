@@ -73,7 +73,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Marrocos",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 6
+    "id": 6,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "2'",
+    "tempo_atualizado": 1781388427551
   },
   {
     "data": "13/06/2026",
