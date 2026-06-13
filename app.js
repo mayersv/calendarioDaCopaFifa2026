@@ -171,7 +171,12 @@ function renderFeaturedMatch() {
   } else if (diffHours > 0) {
     countdownText = `Falta(m) ${diffHours} hora(s)`;
   } else if (diffTime > 0) {
-    countdownText = `Começa em instantes!`;
+    const diffMinutes = Math.floor(diffTime / (1000 * 60));
+    if (diffMinutes <= 15) {
+      countdownText = `Começa em instantes!`;
+    } else {
+      countdownText = `Faltam ${diffMinutes} minuto(s)`;
+    }
   } else {
     const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
     countdownText = `Em Andamento: ${elapsedMinutes}'`;
