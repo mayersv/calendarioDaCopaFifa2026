@@ -60,7 +60,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Suíça",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 5
+    "id": 5,
+    "gols_casa": 0,
+    "gols_fora": 1,
+    "tempo_jogo": "53'",
+    "tempo_atualizado": 1781382069665
   },
   {
     "data": "13/06/2026",

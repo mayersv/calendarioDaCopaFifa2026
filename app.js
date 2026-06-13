@@ -43,6 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
   setupEventListeners();
   renderFeaturedMatch();
   renderMatches();
+  
+  // Ticking em tempo real a cada 10 segundos para atualizar tempos dos jogos ao vivo
+  setInterval(() => {
+    currentDate = new Date();
+    renderFeaturedMatch();
+    renderMatches();
+  }, 10000);
 });
 
 // Configuração dos Event Listeners
@@ -188,8 +195,19 @@ function renderFeaturedMatch() {
       countdownText = `Faltam ${diffMinutes} minuto(s)`;
     }
   } else {
-    const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
-    countdownText = `Em Andamento: ${elapsedMinutes}'`;
+    if (featured.tempo_jogo && featured.tempo_atualizado) {
+      if (featured.tempo_jogo.includes("'")) {
+        const baseMin = parseInt(featured.tempo_jogo);
+        const elapsedMs = currentDate.getTime() - featured.tempo_atualizado;
+        const currentMin = baseMin + Math.floor(elapsedMs / (1000 * 60));
+        countdownText = `Em Andamento: ${currentMin}'`;
+      } else {
+        countdownText = `Em Andamento: ${featured.tempo_jogo}`;
+      }
+    } else {
+      const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
+      countdownText = `Em Andamento: ${elapsedMinutes}'`;
+    }
   }
 
   const hundredTenMinutes = 110 * 60 * 1000;
@@ -314,8 +332,20 @@ function renderMatches() {
     
     if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + hundredTenMinutes) {
       // A partida começou e faz menos de 110 minutos (está ocorrendo)
-      statusText = "Em Andamento";
       statusClass = "live";
+      if (match.tempo_jogo && match.tempo_atualizado) {
+        if (match.tempo_jogo.includes("'")) {
+          const baseMin = parseInt(match.tempo_jogo);
+          const elapsedMs = currentDate.getTime() - match.tempo_atualizado;
+          const currentMin = baseMin + Math.floor(elapsedMs / (1000 * 60));
+          statusText = `Em Andamento: ${currentMin}'`;
+        } else {
+          statusText = match.tempo_jogo;
+        }
+      } else {
+        const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
+        statusText = `Em Andamento: ${elapsedMinutes}'`;
+      }
     } else if (currentTimeMs >= matchTimeMs + hundredTenMinutes) {
       // A partida já terminou
       statusText = "Encerrado";
