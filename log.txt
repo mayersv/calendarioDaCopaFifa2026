@@ -271,3 +271,12 @@
 [13/06/2026 22:28:02] Extraídos com sucesso 6 placares (ao vivo ou encerrados) da página da FIFA.
 [13/06/2026 22:28:02] Sucesso! 1 placares foram atualizados em matches.js.
 [13/06/2026 22:28:02] ATUALIZADO: Jogo 6 - Brasil 0 x 1 Marrocos (Status: Ao Vivo - 23')
+[13/06/2026 22:28:04] Commit e Push realizados com sucesso no GitHub.
+[13/06/2026 22:28:04] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[13/06/2026 22:33:04] Executando iteração 10 do ciclo de atualização...
+[13/06/2026 22:33:04] Encontradas 99 partidas para verificar (Jogos Ao Vivo ativos: True).
+[13/06/2026 22:33:04] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[13/06/2026 22:33:14] Encontrados 104 elementos de partidas na página da FIFA.
+[13/06/2026 22:33:16] Extraídos com sucesso 6 placares (ao vivo ou encerrados) da página da FIFA.
+[13/06/2026 22:33:16] Sucesso! 1 placares foram atualizados em matches.js.
+[13/06/2026 22:33:16] ATUALIZADO: Jogo 6 - Brasil 0 x 1 Marrocos (Status: Ao Vivo - 28')
