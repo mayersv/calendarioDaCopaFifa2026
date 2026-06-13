@@ -44,11 +44,36 @@ document.addEventListener("DOMContentLoaded", () => {
   renderFeaturedMatch();
   renderMatches();
   
-  // Ticking em tempo real a cada 10 segundos para atualizar tempos dos jogos ao vivo
+  // Ticking em tempo real a cada 10 segundos para atualizar tempos dos jogos ao vivo sem piscar a tela
   setInterval(() => {
     currentDate = new Date();
     renderFeaturedMatch();
-    renderMatches();
+    
+    // Atualizar apenas o texto do badge de tempo dos cards ao vivo já renderizados
+    const liveCards = document.querySelectorAll(".match-card.live");
+    liveCards.forEach(card => {
+      const matchId = parseInt(card.id.replace("match-card-", ""));
+      const match = COPA_2026_MATCHES.find(m => m.id === matchId);
+      if (match) {
+        const matchTime = parseMatchDateTime(match.data, match.hora);
+        const badge = card.querySelector(".match-status-badge.live");
+        if (badge) {
+          if (match.tempo_jogo && match.tempo_atualizado) {
+            if (match.tempo_jogo.includes("'")) {
+              const baseMin = parseInt(match.tempo_jogo);
+              const elapsedMs = currentDate.getTime() - match.tempo_atualizado;
+              const currentMin = baseMin + Math.floor(elapsedMs / (1000 * 60));
+              badge.textContent = `Em Andamento: ${currentMin}'`;
+            } else {
+              badge.textContent = match.tempo_jogo;
+            }
+          } else {
+            const elapsedMinutes = Math.floor((currentDate - matchTime) / (1000 * 60));
+            badge.textContent = `Em Andamento: ${elapsedMinutes}'`;
+          }
+        }
+      }
+    });
   }, 10000);
 });
 
