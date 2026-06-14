@@ -86,7 +86,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Escócia",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 7
+    "id": 7,
+    "gols_casa": 0,
+    "gols_fora": 1,
+    "tempo_jogo": "41'",
+    "tempo_atualizado": 1781401439836
   },
   {
     "data": "14/06/2026",

@@ -445,3 +445,11 @@
 [14/06/2026 00:12:38] Extraídos com sucesso 6 placares (ao vivo ou encerrados) da página da FIFA.
 [14/06/2026 00:12:38] Nenhuma alteração de placar foi realizada nesta rodada.
 [14/06/2026 00:12:38] Não há jogos em andamento no momento. Finalizando rotina.
+[14/06/2026 01:43:39] Iniciando rotina de atualização de placares...
+[14/06/2026 01:43:39] Executando iteração 1 do ciclo de atualização...
+[14/06/2026 01:43:39] Encontradas 98 partidas para verificar (Jogos Ao Vivo ativos: True).
+[14/06/2026 01:43:46] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[14/06/2026 01:43:57] Encontrados 104 elementos de partidas na página da FIFA.
+[14/06/2026 01:43:59] Extraídos com sucesso 7 placares (ao vivo ou encerrados) da página da FIFA.
+[14/06/2026 01:43:59] Sucesso! 1 placares foram atualizados em matches.js.
+[14/06/2026 01:43:59] ATUALIZADO: Jogo 7 - Haiti 0 x 1 Escócia (Status: Ao Vivo - 41')
