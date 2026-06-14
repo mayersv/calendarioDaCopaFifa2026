@@ -608,3 +608,5 @@
 [14/06/2026 06:41:53] Extraídos com sucesso 8 placares (ao vivo ou encerrados) da página da FIFA.
 [14/06/2026 06:41:53] Sucesso! 1 placares foram atualizados em matches.js.
 [14/06/2026 06:41:53] ATUALIZADO: Jogo 8 - Austrália 2 x 0 Turquia (Status: Encerrado)
+[14/06/2026 06:41:54] Commit e Push realizados com sucesso no GitHub.
+[14/06/2026 06:41:54] Não há jogos em andamento no momento. Finalizando rotina.
