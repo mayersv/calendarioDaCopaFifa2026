@@ -857,3 +857,12 @@
 [14/06/2026 18:44:25] Extraídos com sucesso 9 placares (ao vivo ou encerrados) da página da FIFA.
 [14/06/2026 18:44:25] Sucesso! 1 placares foram atualizados em matches.js.
 [14/06/2026 18:44:25] ATUALIZADO: Jogo 9 - Alemanha 6 x 1 Curaçao (Status: Ao Vivo - 80')
+[14/06/2026 18:44:26] Commit e Push realizados com sucesso no GitHub.
+[14/06/2026 18:44:26] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[14/06/2026 18:49:26] Executando iteração 11 do ciclo de atualização...
+[14/06/2026 18:49:26] Encontradas 96 partidas para verificar (Jogos Ao Vivo ativos: True).
+[14/06/2026 18:49:26] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[14/06/2026 18:49:36] Encontrados 104 elementos de partidas na página da FIFA.
+[14/06/2026 18:49:37] Extraídos com sucesso 9 placares (ao vivo ou encerrados) da página da FIFA.
+[14/06/2026 18:49:37] Sucesso! 1 placares foram atualizados em matches.js.
+[14/06/2026 18:49:37] ATUALIZADO: Jogo 9 - Alemanha 6 x 1 Curaçao (Status: Ao Vivo - 86')
