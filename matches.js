@@ -99,7 +99,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Turquia",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 8
+    "id": 8,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "data": "14/06/2026",
