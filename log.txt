@@ -923,3 +923,12 @@
 [14/06/2026 21:18:45] Extraídos com sucesso 10 placares (ao vivo ou encerrados) da página da FIFA.
 [14/06/2026 21:18:45] Sucesso! 1 placares foram atualizados em matches.js.
 [14/06/2026 21:18:45] ATUALIZADO: Jogo 10 - Holanda 1 x 1 Japão (Status: Ao Vivo - 59')
+[14/06/2026 21:18:46] Commit e Push realizados com sucesso no GitHub.
+[14/06/2026 21:18:46] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[14/06/2026 21:23:46] Executando iteração 3 do ciclo de atualização...
+[14/06/2026 21:23:46] Encontradas 95 partidas para verificar (Jogos Ao Vivo ativos: True).
+[14/06/2026 21:23:46] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[14/06/2026 21:23:56] Encontrados 104 elementos de partidas na página da FIFA.
+[14/06/2026 21:23:58] Extraídos com sucesso 10 placares (ao vivo ou encerrados) da página da FIFA.
+[14/06/2026 21:23:58] Sucesso! 1 placares foram atualizados em matches.js.
+[14/06/2026 21:23:58] ATUALIZADO: Jogo 10 - Holanda 2 x 1 Japão (Status: Ao Vivo - 64')
