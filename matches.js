@@ -125,7 +125,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Japão",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 10
+    "id": 10,
+    "gols_casa": 1,
+    "gols_fora": 0,
+    "tempo_jogo": "54'",
+    "tempo_atualizado": 1781471609041
   },
   {
     "data": "14/06/2026",

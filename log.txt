@@ -906,3 +906,11 @@
 [14/06/2026 19:45:09] Extraídos com sucesso 9 placares (ao vivo ou encerrados) da página da FIFA.
 [14/06/2026 19:45:09] Nenhuma alteração de placar foi realizada nesta rodada.
 [14/06/2026 19:45:09] Não há jogos em andamento no momento. Finalizando rotina.
+[14/06/2026 21:13:13] Iniciando rotina de atualização de placares...
+[14/06/2026 21:13:13] Executando iteração 1 do ciclo de atualização...
+[14/06/2026 21:13:13] Encontradas 95 partidas para verificar (Jogos Ao Vivo ativos: True).
+[14/06/2026 21:13:15] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[14/06/2026 21:13:26] Encontrados 104 elementos de partidas na página da FIFA.
+[14/06/2026 21:13:28] Extraídos com sucesso 10 placares (ao vivo ou encerrados) da página da FIFA.
+[14/06/2026 21:13:29] Sucesso! 1 placares foram atualizados em matches.js.
+[14/06/2026 21:13:29] ATUALIZADO: Jogo 10 - Holanda 1 x 0 Japão (Status: Ao Vivo - 54')
