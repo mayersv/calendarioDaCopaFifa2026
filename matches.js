@@ -112,7 +112,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Curaçao",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 9
+    "id": 9,
+    "gols_casa": 3,
+    "gols_fora": 1,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781459846510
   },
   {
     "data": "14/06/2026",
