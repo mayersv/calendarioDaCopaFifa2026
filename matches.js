@@ -177,7 +177,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Egito",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 14
+    "id": 14,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "15/06/2026",
