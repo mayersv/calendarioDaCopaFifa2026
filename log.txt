@@ -1137,3 +1137,11 @@
 [15/06/2026 05:37:15] ATUALIZADO: Jogo 12 - Suécia 5 x 1 Tunísia (Status: Encerrado)
 [15/06/2026 05:37:16] Commit e Push realizados com sucesso no GitHub.
 [15/06/2026 05:37:16] Não há jogos em andamento no momento. Finalizando rotina.
+[15/06/2026 12:14:22] Iniciando rotina de atualização de placares...
+[15/06/2026 12:14:22] Executando iteração 1 do ciclo de atualização...
+[15/06/2026 12:14:22] Encontradas 92 partidas para verificar (Jogos Ao Vivo ativos: False).
+[15/06/2026 12:14:32] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[15/06/2026 12:14:43] Encontrados 104 elementos de partidas na página da FIFA.
+[15/06/2026 12:14:46] Extraídos com sucesso 12 placares (ao vivo ou encerrados) da página da FIFA.
+[15/06/2026 12:14:46] Nenhuma alteração de placar foi realizada nesta rodada.
+[15/06/2026 12:14:46] Não há jogos em andamento no momento. Finalizando rotina.
