@@ -1135,3 +1135,5 @@
 [15/06/2026 05:37:15] Extraídos com sucesso 12 placares (ao vivo ou encerrados) da página da FIFA.
 [15/06/2026 05:37:15] Sucesso! 1 placares foram atualizados em matches.js.
 [15/06/2026 05:37:15] ATUALIZADO: Jogo 12 - Suécia 5 x 1 Tunísia (Status: Encerrado)
+[15/06/2026 05:37:16] Commit e Push realizados com sucesso no GitHub.
+[15/06/2026 05:37:16] Não há jogos em andamento no momento. Finalizando rotina.
