@@ -151,7 +151,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Tunísia",
     "local": "Monterrey (Estádio BBVA)",
     "eliminatoria": false,
-    "id": 12
+    "id": 12,
+    "gols_casa": 5,
+    "gols_fora": 1
   },
   {
     "data": "15/06/2026",
