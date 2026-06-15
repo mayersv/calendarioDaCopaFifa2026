@@ -1086,3 +1086,12 @@
 [15/06/2026 00:46:32] Extraídos com sucesso 11 placares (ao vivo ou encerrados) da página da FIFA.
 [15/06/2026 00:46:32] Sucesso! 1 placares foram atualizados em matches.js.
 [15/06/2026 00:46:32] ATUALIZADO: Jogo 11 - Costa do Marfim 0 x 0 Equador (Status: Ao Vivo - 81')
+[15/06/2026 00:46:33] Commit e Push realizados com sucesso no GitHub.
+[15/06/2026 00:46:33] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[15/06/2026 00:51:33] Executando iteração 9 do ciclo de atualização...
+[15/06/2026 00:51:33] Encontradas 94 partidas para verificar (Jogos Ao Vivo ativos: True).
+[15/06/2026 00:51:33] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[15/06/2026 00:51:43] Encontrados 104 elementos de partidas na página da FIFA.
+[15/06/2026 00:51:45] Extraídos com sucesso 11 placares (ao vivo ou encerrados) da página da FIFA.
+[15/06/2026 00:51:45] Sucesso! 1 placares foram atualizados em matches.js.
+[15/06/2026 00:51:45] ATUALIZADO: Jogo 11 - Costa do Marfim 0 x 0 Equador (Status: Ao Vivo - 86')
