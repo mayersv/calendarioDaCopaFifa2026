@@ -138,7 +138,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Equador",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 11
+    "id": 11,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781482192385
   },
   {
     "data": "14/06/2026",
