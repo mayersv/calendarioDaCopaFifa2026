@@ -1234,3 +1234,19 @@
 [15/06/2026 21:01:08] Extraídos com sucesso 14 placares (ao vivo ou encerrados) da página da FIFA.
 [15/06/2026 21:01:08] Sucesso! 1 placares foram atualizados em matches.js.
 [15/06/2026 21:01:08] ATUALIZADO: Jogo 14 - Bélgica 1 x 1 Egito (Status: Encerrado)
+[15/06/2026 21:01:10] Commit e Push realizados com sucesso no GitHub.
+[15/06/2026 21:01:10] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[15/06/2026 21:06:10] Executando iteração 3 do ciclo de atualização...
+[15/06/2026 21:06:10] Encontradas 90 partidas para verificar (Jogos Ao Vivo ativos: True).
+[15/06/2026 21:06:10] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[15/06/2026 21:06:21] Encontrados 104 elementos de partidas na página da FIFA.
+[15/06/2026 21:06:23] Extraídos com sucesso 14 placares (ao vivo ou encerrados) da página da FIFA.
+[15/06/2026 21:06:24] Nenhuma alteração de placar foi realizada nesta rodada.
+[15/06/2026 21:06:24] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[15/06/2026 21:11:24] Executando iteração 4 do ciclo de atualização...
+[15/06/2026 21:11:24] Encontradas 90 partidas para verificar (Jogos Ao Vivo ativos: False).
+[15/06/2026 21:11:24] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[15/06/2026 21:11:36] Encontrados 104 elementos de partidas na página da FIFA.
+[15/06/2026 21:11:38] Extraídos com sucesso 14 placares (ao vivo ou encerrados) da página da FIFA.
+[15/06/2026 21:11:38] Nenhuma alteração de placar foi realizada nesta rodada.
+[15/06/2026 21:11:38] Não há jogos em andamento no momento. Finalizando rotina.
