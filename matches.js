@@ -190,7 +190,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Uruguai",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 15
+    "id": 15,
+    "gols_casa": 1,
+    "gols_fora": 0,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781564618946
   },
   {
     "data": "15/06/2026",
