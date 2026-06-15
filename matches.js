@@ -139,10 +139,8 @@ const COPA_2026_MATCHES = [
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
     "id": 11,
-    "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "86'",
-    "tempo_atualizado": 1781484705450
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "14/06/2026",
