@@ -216,7 +216,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Senegal",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 17
+    "id": 17,
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "16/06/2026",
