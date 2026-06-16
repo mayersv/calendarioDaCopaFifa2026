@@ -1417,3 +1417,5 @@
 [16/06/2026 21:26:37] Extraídos com sucesso 17 placares (ao vivo ou encerrados) da página da FIFA.
 [16/06/2026 21:26:37] Sucesso! 1 placares foram atualizados em matches.js.
 [16/06/2026 21:26:37] ATUALIZADO: Jogo 17 - França 3 x 1 Senegal (Status: Encerrado)
+[16/06/2026 21:26:39] Commit e Push realizados com sucesso no GitHub.
+[16/06/2026 21:26:39] Não há jogos em andamento no momento. Finalizando rotina.
