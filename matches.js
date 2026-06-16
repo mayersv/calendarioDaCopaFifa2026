@@ -229,7 +229,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Noruega",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 18
+    "id": 18,
+    "gols_casa": 1,
+    "gols_fora": 2,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781651150846
   },
   {
     "data": "16/06/2026",
