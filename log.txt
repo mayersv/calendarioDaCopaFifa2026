@@ -1393,3 +1393,11 @@
 [16/06/2026 08:27:14] ATUALIZADO: Jogo 16 - Irã 2 x 2 Nova Zelândia (Status: Encerrado)
 [16/06/2026 08:27:16] Commit e Push realizados com sucesso no GitHub.
 [16/06/2026 08:27:16] Não há jogos em andamento no momento. Finalizando rotina.
+[16/06/2026 13:13:15] Iniciando rotina de atualização de placares...
+[16/06/2026 13:13:15] Executando iteração 1 do ciclo de atualização...
+[16/06/2026 13:13:15] Encontradas 88 partidas para verificar (Jogos Ao Vivo ativos: False).
+[16/06/2026 13:13:20] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[16/06/2026 13:13:32] Encontrados 104 elementos de partidas na página da FIFA.
+[16/06/2026 13:13:34] Extraídos com sucesso 16 placares (ao vivo ou encerrados) da página da FIFA.
+[16/06/2026 13:13:34] Nenhuma alteração de placar foi realizada nesta rodada.
+[16/06/2026 13:13:34] Não há jogos em andamento no momento. Finalizando rotina.
