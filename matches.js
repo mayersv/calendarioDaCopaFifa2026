@@ -203,7 +203,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Nova Zelândia",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 16
+    "id": 16,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781575657516
   },
   {
     "data": "16/06/2026",
