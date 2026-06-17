@@ -231,9 +231,7 @@ const COPA_2026_MATCHES = [
     "eliminatoria": false,
     "id": 18,
     "gols_casa": 1,
-    "gols_fora": 3,
-    "tempo_jogo": "90'",
-    "tempo_atualizado": 1781653982261
+    "gols_fora": 4
   },
   {
     "data": "16/06/2026",
@@ -244,7 +242,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argélia",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 19
+    "id": 19,
+    "gols_casa": 1,
+    "gols_fora": 0,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781661726556
   },
   {
     "data": "17/06/2026",
