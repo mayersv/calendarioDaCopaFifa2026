@@ -243,10 +243,10 @@ const COPA_2026_MATCHES = [
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
     "id": 19,
-    "gols_casa": 2,
+    "gols_casa": 3,
     "gols_fora": 0,
-    "tempo_jogo": "75'",
-    "tempo_atualizado": 1781663921001
+    "tempo_jogo": "80'",
+    "tempo_atualizado": 1781664234026
   },
   {
     "data": "17/06/2026",
