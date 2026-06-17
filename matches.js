@@ -282,10 +282,10 @@ const COPA_2026_MATCHES = [
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
     "id": 22,
-    "gols_casa": 2,
+    "gols_casa": 3,
     "gols_fora": 2,
-    "tempo_jogo": "INT",
-    "tempo_atualizado": 1781730423359
+    "tempo_jogo": "47'",
+    "tempo_atualizado": 1781730737281
   },
   {
     "data": "17/06/2026",
