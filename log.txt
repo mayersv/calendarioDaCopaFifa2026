@@ -1517,3 +1517,12 @@
 [17/06/2026 02:02:06] Sucesso! 2 placares foram atualizados em matches.js.
 [17/06/2026 02:02:06] ATUALIZADO: Jogo 18 - Iraque 1 x 4 Noruega (Status: Encerrado)
 [17/06/2026 02:02:06] ATUALIZADO: Jogo 19 - Argentina 1 x 0 Argélia (Status: Ao Vivo - INT)
+[17/06/2026 02:02:07] Commit e Push realizados com sucesso no GitHub.
+[17/06/2026 02:02:07] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[17/06/2026 02:07:07] Executando iteração 2 do ciclo de atualização...
+[17/06/2026 02:07:07] Encontradas 86 partidas para verificar (Jogos Ao Vivo ativos: True).
+[17/06/2026 02:07:08] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[17/06/2026 02:07:18] Encontrados 104 elementos de partidas na página da FIFA.
+[17/06/2026 02:07:19] Extraídos com sucesso 19 placares (ao vivo ou encerrados) da página da FIFA.
+[17/06/2026 02:07:20] Sucesso! 1 placares foram atualizados em matches.js.
+[17/06/2026 02:07:20] ATUALIZADO: Jogo 19 - Argentina 1 x 0 Argélia (Status: Ao Vivo - INT)
