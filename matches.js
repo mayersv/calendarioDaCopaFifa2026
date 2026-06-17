@@ -281,7 +281,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Croácia",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 22
+    "id": 22,
+    "gols_casa": 2,
+    "gols_fora": 2,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1781730423359
   },
   {
     "data": "17/06/2026",
