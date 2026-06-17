@@ -268,7 +268,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "RD Congo",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 21
+    "id": 21,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "78'",
+    "tempo_atualizado": 1781721730333
   },
   {
     "data": "17/06/2026",
