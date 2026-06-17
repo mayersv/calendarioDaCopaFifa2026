@@ -1826,3 +1826,19 @@
 [17/06/2026 22:04:34] Extraídos com sucesso 22 placares (ao vivo ou encerrados) da página da FIFA.
 [17/06/2026 22:04:34] Sucesso! 1 placares foram atualizados em matches.js.
 [17/06/2026 22:04:34] ATUALIZADO: Jogo 22 - Inglaterra 4 x 2 Croácia (Status: Encerrado)
+[17/06/2026 22:04:35] Commit e Push realizados com sucesso no GitHub.
+[17/06/2026 22:04:35] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[17/06/2026 22:09:35] Executando iteração 13 do ciclo de atualização...
+[17/06/2026 22:09:35] Encontradas 82 partidas para verificar (Jogos Ao Vivo ativos: True).
+[17/06/2026 22:09:36] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[17/06/2026 22:09:46] Encontrados 104 elementos de partidas na página da FIFA.
+[17/06/2026 22:09:48] Extraídos com sucesso 22 placares (ao vivo ou encerrados) da página da FIFA.
+[17/06/2026 22:09:48] Nenhuma alteração de placar foi realizada nesta rodada.
+[17/06/2026 22:09:48] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[17/06/2026 22:14:48] Executando iteração 14 do ciclo de atualização...
+[17/06/2026 22:14:48] Encontradas 82 partidas para verificar (Jogos Ao Vivo ativos: False).
+[17/06/2026 22:14:48] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[17/06/2026 22:14:58] Encontrados 104 elementos de partidas na página da FIFA.
+[17/06/2026 22:15:00] Extraídos com sucesso 22 placares (ao vivo ou encerrados) da página da FIFA.
+[17/06/2026 22:15:00] Nenhuma alteração de placar foi realizada nesta rodada.
+[17/06/2026 22:15:00] Não há jogos em andamento no momento. Finalizando rotina.
