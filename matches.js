@@ -255,7 +255,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Jordânia",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 20
+    "id": 20,
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "17/06/2026",
