@@ -1647,3 +1647,11 @@
 [17/06/2026 07:33:54] ATUALIZADO: Jogo 20 - Áustria 3 x 1 Jordânia (Status: Encerrado)
 [17/06/2026 07:33:56] Commit e Push realizados com sucesso no GitHub.
 [17/06/2026 07:33:56] Não há jogos em andamento no momento. Finalizando rotina.
+[17/06/2026 12:16:49] Iniciando rotina de atualização de placares...
+[17/06/2026 12:16:49] Executando iteração 1 do ciclo de atualização...
+[17/06/2026 12:16:49] Encontradas 84 partidas para verificar (Jogos Ao Vivo ativos: False).
+[17/06/2026 12:16:59] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[17/06/2026 12:17:10] Encontrados 104 elementos de partidas na página da FIFA.
+[17/06/2026 12:17:13] Extraídos com sucesso 20 placares (ao vivo ou encerrados) da página da FIFA.
+[17/06/2026 12:17:13] Nenhuma alteração de placar foi realizada nesta rodada.
+[17/06/2026 12:17:13] Não há jogos em andamento no momento. Finalizando rotina.
