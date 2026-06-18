@@ -333,7 +333,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Bósnia e Herzegovina",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 26
+    "id": 26,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "28'",
+    "tempo_atualizado": 1781810936689
   },
   {
     "data": "18/06/2026",
