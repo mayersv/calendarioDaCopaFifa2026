@@ -2288,3 +2288,11 @@
 [18/06/2026 15:13:39] Extraídos com sucesso 24 placares (ao vivo ou encerrados) da página da FIFA.
 [18/06/2026 15:13:39] Nenhuma alteração de placar foi realizada nesta rodada.
 [18/06/2026 15:13:39] Não há jogos em andamento no momento. Finalizando rotina.
+[18/06/2026 16:32:27] Iniciando rotina de atualização de placares...
+[18/06/2026 16:32:27] Executando iteração 1 do ciclo de atualização...
+[18/06/2026 16:32:27] Encontradas 80 partidas para verificar (Jogos Ao Vivo ativos: True).
+[18/06/2026 16:32:31] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[18/06/2026 16:32:42] Encontrados 104 elementos de partidas na página da FIFA.
+[18/06/2026 16:32:45] Extraídos com sucesso 25 placares (ao vivo ou encerrados) da página da FIFA.
+[18/06/2026 16:32:45] Sucesso! 1 placares foram atualizados em matches.js.
+[18/06/2026 16:32:45] ATUALIZADO: Jogo 25 - República Tcheca 1 x 0 África do Sul (Status: Ao Vivo - 32')
