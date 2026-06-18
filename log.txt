@@ -2064,3 +2064,12 @@
 [18/06/2026 01:08:56] Extraídos com sucesso 23 placares (ao vivo ou encerrados) da página da FIFA.
 [18/06/2026 01:08:56] Sucesso! 1 placares foram atualizados em matches.js.
 [18/06/2026 01:08:56] ATUALIZADO: Jogo 23 - Gana 1 x 0 Panamá (Status: Encerrado)
+[18/06/2026 01:08:57] Commit e Push realizados com sucesso no GitHub.
+[18/06/2026 01:08:57] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[18/06/2026 01:13:57] Executando iteração 11 do ciclo de atualização...
+[18/06/2026 01:13:57] Encontradas 81 partidas para verificar (Jogos Ao Vivo ativos: False).
+[18/06/2026 01:13:57] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[18/06/2026 01:14:09] Encontrados 104 elementos de partidas na página da FIFA.
+[18/06/2026 01:14:11] Extraídos com sucesso 23 placares (ao vivo ou encerrados) da página da FIFA.
+[18/06/2026 01:14:11] Nenhuma alteração de placar foi realizada nesta rodada.
+[18/06/2026 01:14:11] Não há jogos em andamento no momento. Finalizando rotina.
