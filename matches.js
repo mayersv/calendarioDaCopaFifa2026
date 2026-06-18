@@ -307,7 +307,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Colômbia",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": false,
-    "id": 24
+    "id": 24,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "data": "18/06/2026",
