@@ -346,7 +346,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Catar",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 27
+    "id": 27,
+    "gols_casa": 5,
+    "gols_fora": 0,
+    "tempo_jogo": "84'",
+    "tempo_atualizado": 1781826384189
   },
   {
     "data": "18/06/2026",
