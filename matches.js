@@ -334,10 +334,10 @@ const COPA_2026_MATCHES = [
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
     "id": 26,
-    "gols_casa": 0,
+    "gols_casa": 1,
     "gols_fora": 0,
-    "tempo_jogo": "72'",
-    "tempo_atualizado": 1781814703774
+    "tempo_jogo": "77'",
+    "tempo_atualizado": 1781815017221
   },
   {
     "data": "18/06/2026",

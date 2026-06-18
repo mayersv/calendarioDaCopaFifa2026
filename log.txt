@@ -2577,3 +2577,12 @@
 [18/06/2026 20:31:43] Extraídos com sucesso 26 placares (ao vivo ou encerrados) da página da FIFA.
 [18/06/2026 20:31:43] Sucesso! 1 placares foram atualizados em matches.js.
 [18/06/2026 20:31:43] ATUALIZADO: Jogo 26 - Suíça 0 x 0 Bósnia e Herzegovina (Status: Ao Vivo - 72')
+[18/06/2026 20:31:45] Commit e Push realizados com sucesso no GitHub.
+[18/06/2026 20:31:45] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[18/06/2026 20:36:45] Executando iteração 14 do ciclo de atualização...
+[18/06/2026 20:36:45] Encontradas 79 partidas para verificar (Jogos Ao Vivo ativos: True).
+[18/06/2026 20:36:45] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[18/06/2026 20:36:55] Encontrados 104 elementos de partidas na página da FIFA.
+[18/06/2026 20:36:57] Extraídos com sucesso 26 placares (ao vivo ou encerrados) da página da FIFA.
+[18/06/2026 20:36:57] Sucesso! 1 placares foram atualizados em matches.js.
+[18/06/2026 20:36:57] ATUALIZADO: Jogo 26 - Suíça 1 x 0 Bósnia e Herzegovina (Status: Ao Vivo - 77')
