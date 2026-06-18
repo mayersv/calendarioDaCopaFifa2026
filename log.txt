@@ -2081,3 +2081,5 @@
 [18/06/2026 05:17:23] Extraídos com sucesso 24 placares (ao vivo ou encerrados) da página da FIFA.
 [18/06/2026 05:17:23] Sucesso! 1 placares foram atualizados em matches.js.
 [18/06/2026 05:17:23] ATUALIZADO: Jogo 24 - Uzbequistão 1 x 3 Colômbia (Status: Encerrado)
+[18/06/2026 05:17:24] Commit e Push realizados com sucesso no GitHub.
+[18/06/2026 05:17:24] Não há jogos em andamento no momento. Finalizando rotina.
