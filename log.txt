@@ -2083,3 +2083,11 @@
 [18/06/2026 05:17:23] ATUALIZADO: Jogo 24 - Uzbequistão 1 x 3 Colômbia (Status: Encerrado)
 [18/06/2026 05:17:24] Commit e Push realizados com sucesso no GitHub.
 [18/06/2026 05:17:24] Não há jogos em andamento no momento. Finalizando rotina.
+[18/06/2026 09:54:06] Iniciando rotina de atualização de placares...
+[18/06/2026 09:54:06] Executando iteração 1 do ciclo de atualização...
+[18/06/2026 09:54:06] Encontradas 80 partidas para verificar (Jogos Ao Vivo ativos: False).
+[18/06/2026 09:54:17] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[18/06/2026 09:54:29] Encontrados 104 elementos de partidas na página da FIFA.
+[18/06/2026 09:54:31] Extraídos com sucesso 24 placares (ao vivo ou encerrados) da página da FIFA.
+[18/06/2026 09:54:31] Nenhuma alteração de placar foi realizada nesta rodada.
+[18/06/2026 09:54:31] Não há jogos em andamento no momento. Finalizando rotina.
