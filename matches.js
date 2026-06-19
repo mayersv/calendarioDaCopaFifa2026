@@ -372,7 +372,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Austrália",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 29
+    "id": 29,
+    "gols_casa": 2,
+    "gols_fora": 0,
+    "tempo_jogo": "49'",
+    "tempo_atualizado": 1781900111648
   },
   {
     "data": "19/06/2026",
