@@ -3076,3 +3076,12 @@
 [19/06/2026 23:29:40] Extraídos com sucesso 30 placares (ao vivo ou encerrados) da página da FIFA.
 [19/06/2026 23:29:40] Sucesso! 1 placares foram atualizados em matches.js.
 [19/06/2026 23:29:40] ATUALIZADO: Jogo 30 - Escócia 0 x 1 Marrocos (Status: Ao Vivo - 67')
+[19/06/2026 23:29:41] Commit e Push realizados com sucesso no GitHub.
+[19/06/2026 23:29:41] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[19/06/2026 23:34:42] Executando iteração 8 do ciclo de atualização...
+[19/06/2026 23:34:42] Encontradas 75 partidas para verificar (Jogos Ao Vivo ativos: True).
+[19/06/2026 23:34:42] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[19/06/2026 23:34:52] Encontrados 104 elementos de partidas na página da FIFA.
+[19/06/2026 23:34:54] Extraídos com sucesso 30 placares (ao vivo ou encerrados) da página da FIFA.
+[19/06/2026 23:34:54] Sucesso! 1 placares foram atualizados em matches.js.
+[19/06/2026 23:34:54] ATUALIZADO: Jogo 30 - Escócia 0 x 1 Marrocos (Status: Ao Vivo - 72')
