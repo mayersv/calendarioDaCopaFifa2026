@@ -2684,3 +2684,19 @@
 [19/06/2026 00:02:03] Extraídos com sucesso 27 placares (ao vivo ou encerrados) da página da FIFA.
 [19/06/2026 00:02:03] Sucesso! 1 placares foram atualizados em matches.js.
 [19/06/2026 00:02:03] ATUALIZADO: Jogo 27 - Canadá 6 x 0 Catar (Status: Encerrado)
+[19/06/2026 00:02:05] Commit e Push realizados com sucesso no GitHub.
+[19/06/2026 00:02:05] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[19/06/2026 00:07:05] Executando iteração 5 do ciclo de atualização...
+[19/06/2026 00:07:05] Encontradas 77 partidas para verificar (Jogos Ao Vivo ativos: True).
+[19/06/2026 00:07:05] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[19/06/2026 00:07:15] Encontrados 104 elementos de partidas na página da FIFA.
+[19/06/2026 00:07:17] Extraídos com sucesso 27 placares (ao vivo ou encerrados) da página da FIFA.
+[19/06/2026 00:07:17] Nenhuma alteração de placar foi realizada nesta rodada.
+[19/06/2026 00:07:17] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[19/06/2026 00:12:17] Executando iteração 6 do ciclo de atualização...
+[19/06/2026 00:12:17] Encontradas 77 partidas para verificar (Jogos Ao Vivo ativos: False).
+[19/06/2026 00:12:18] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[19/06/2026 00:12:27] Encontrados 104 elementos de partidas na página da FIFA.
+[19/06/2026 00:12:29] Extraídos com sucesso 27 placares (ao vivo ou encerrados) da página da FIFA.
+[19/06/2026 00:12:29] Nenhuma alteração de placar foi realizada nesta rodada.
+[19/06/2026 00:12:29] Não há jogos em andamento no momento. Finalizando rotina.
