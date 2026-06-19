@@ -2929,3 +2929,12 @@
 [19/06/2026 20:25:39] Extraídos com sucesso 29 placares (ao vivo ou encerrados) da página da FIFA.
 [19/06/2026 20:25:39] Sucesso! 1 placares foram atualizados em matches.js.
 [19/06/2026 20:25:39] ATUALIZADO: Jogo 29 - Estados Unidos 2 x 0 Austrália (Status: Ao Vivo - 59')
+[19/06/2026 20:25:40] Commit e Push realizados com sucesso no GitHub.
+[19/06/2026 20:25:40] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[19/06/2026 20:30:40] Executando iteração 4 do ciclo de atualização...
+[19/06/2026 20:30:40] Encontradas 76 partidas para verificar (Jogos Ao Vivo ativos: True).
+[19/06/2026 20:30:40] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[19/06/2026 20:30:50] Encontrados 104 elementos de partidas na página da FIFA.
+[19/06/2026 20:30:52] Extraídos com sucesso 29 placares (ao vivo ou encerrados) da página da FIFA.
+[19/06/2026 20:30:52] Sucesso! 1 placares foram atualizados em matches.js.
+[19/06/2026 20:30:52] ATUALIZADO: Jogo 29 - Estados Unidos 2 x 0 Austrália (Status: Ao Vivo - 65')
