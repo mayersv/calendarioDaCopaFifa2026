@@ -2710,3 +2710,11 @@
 [19/06/2026 04:19:30] ATUALIZADO: Jogo 28 - México 1 x 0 Coreia do Sul (Status: Encerrado)
 [19/06/2026 04:19:31] Commit e Push realizados com sucesso no GitHub.
 [19/06/2026 04:19:31] Não há jogos em andamento no momento. Finalizando rotina.
+[19/06/2026 09:19:29] Iniciando rotina de atualização de placares...
+[19/06/2026 09:19:29] Executando iteração 1 do ciclo de atualização...
+[19/06/2026 09:19:29] Encontradas 76 partidas para verificar (Jogos Ao Vivo ativos: False).
+[19/06/2026 09:19:32] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[19/06/2026 09:19:42] Encontrados 104 elementos de partidas na página da FIFA.
+[19/06/2026 09:19:44] Extraídos com sucesso 28 placares (ao vivo ou encerrados) da página da FIFA.
+[19/06/2026 09:19:44] Nenhuma alteração de placar foi realizada nesta rodada.
+[19/06/2026 09:19:44] Não há jogos em andamento no momento. Finalizando rotina.
