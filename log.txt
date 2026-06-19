@@ -2708,3 +2708,5 @@
 [19/06/2026 04:19:29] Extraídos com sucesso 28 placares (ao vivo ou encerrados) da página da FIFA.
 [19/06/2026 04:19:30] Sucesso! 1 placares foram atualizados em matches.js.
 [19/06/2026 04:19:30] ATUALIZADO: Jogo 28 - México 1 x 0 Coreia do Sul (Status: Encerrado)
+[19/06/2026 04:19:31] Commit e Push realizados com sucesso no GitHub.
+[19/06/2026 04:19:31] Não há jogos em andamento no momento. Finalizando rotina.
