@@ -425,10 +425,10 @@ const COPA_2026_MATCHES = [
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
     "id": 33,
-    "gols_casa": 2,
+    "gols_casa": 3,
     "gols_fora": 0,
-    "tempo_jogo": "INT",
-    "tempo_atualizado": 1781978645521
+    "tempo_jogo": "47'",
+    "tempo_atualizado": 1781978958910
   },
   {
     "data": "20/06/2026",
