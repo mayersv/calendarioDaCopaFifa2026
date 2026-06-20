@@ -3171,3 +3171,5 @@
 [20/06/2026 08:22:34] Extraídos com sucesso 32 placares (ao vivo ou encerrados) da página da FIFA.
 [20/06/2026 08:22:34] Sucesso! 1 placares foram atualizados em matches.js.
 [20/06/2026 08:22:34] ATUALIZADO: Jogo 32 - Turquia 0 x 1 Paraguai (Status: Encerrado)
+[20/06/2026 08:22:35] Commit e Push realizados com sucesso no GitHub.
+[20/06/2026 08:22:35] Não há jogos em andamento no momento. Finalizando rotina.
