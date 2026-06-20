@@ -437,7 +437,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Costa do Marfim",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 34
+    "id": 34,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "15'",
+    "tempo_atualizado": 1781986512241
   },
   {
     "data": "20/06/2026",
