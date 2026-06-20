@@ -427,8 +427,8 @@ const COPA_2026_MATCHES = [
     "id": 33,
     "gols_casa": 2,
     "gols_fora": 0,
-    "tempo_jogo": "17'",
-    "tempo_atualizado": 1781975827691
+    "tempo_jogo": "22'",
+    "tempo_atualizado": 1781976140570
   },
   {
     "data": "20/06/2026",
