@@ -3532,3 +3532,12 @@
 [20/06/2026 21:47:37] Extraídos com sucesso 34 placares (ao vivo ou encerrados) da página da FIFA.
 [20/06/2026 21:47:37] Sucesso! 1 placares foram atualizados em matches.js.
 [20/06/2026 21:47:37] ATUALIZADO: Jogo 34 - Alemanha 1 x 1 Costa do Marfim (Status: Ao Vivo - 85')
+[20/06/2026 21:47:38] Commit e Push realizados com sucesso no GitHub.
+[20/06/2026 21:47:38] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[20/06/2026 21:52:38] Executando iteração 2 do ciclo de atualização...
+[20/06/2026 21:52:38] Encontradas 71 partidas para verificar (Jogos Ao Vivo ativos: True).
+[20/06/2026 21:52:39] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[20/06/2026 21:52:49] Encontrados 104 elementos de partidas na página da FIFA.
+[20/06/2026 21:52:51] Extraídos com sucesso 34 placares (ao vivo ou encerrados) da página da FIFA.
+[20/06/2026 21:52:51] Sucesso! 1 placares foram atualizados em matches.js.
+[20/06/2026 21:52:51] ATUALIZADO: Jogo 34 - Alemanha 1 x 1 Costa do Marfim (Status: Ao Vivo - 89')
