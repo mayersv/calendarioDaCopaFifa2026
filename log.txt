@@ -3498,3 +3498,19 @@
 [20/06/2026 19:00:03] Extraídos com sucesso 33 placares (ao vivo ou encerrados) da página da FIFA.
 [20/06/2026 19:00:03] Sucesso! 1 placares foram atualizados em matches.js.
 [20/06/2026 19:00:03] ATUALIZADO: Jogo 33 - Holanda 5 x 1 Suécia (Status: Encerrado)
+[20/06/2026 19:00:04] Commit e Push realizados com sucesso no GitHub.
+[20/06/2026 19:00:04] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[20/06/2026 19:05:04] Executando iteração 3 do ciclo de atualização...
+[20/06/2026 19:05:04] Encontradas 71 partidas para verificar (Jogos Ao Vivo ativos: True).
+[20/06/2026 19:05:04] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[20/06/2026 19:05:14] Encontrados 104 elementos de partidas na página da FIFA.
+[20/06/2026 19:05:16] Extraídos com sucesso 33 placares (ao vivo ou encerrados) da página da FIFA.
+[20/06/2026 19:05:16] Nenhuma alteração de placar foi realizada nesta rodada.
+[20/06/2026 19:05:16] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[20/06/2026 19:10:16] Executando iteração 4 do ciclo de atualização...
+[20/06/2026 19:10:16] Encontradas 71 partidas para verificar (Jogos Ao Vivo ativos: False).
+[20/06/2026 19:10:16] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[20/06/2026 19:10:26] Encontrados 104 elementos de partidas na página da FIFA.
+[20/06/2026 19:10:27] Extraídos com sucesso 33 placares (ao vivo ou encerrados) da página da FIFA.
+[20/06/2026 19:10:27] Nenhuma alteração de placar foi realizada nesta rodada.
+[20/06/2026 19:10:27] Não há jogos em andamento no momento. Finalizando rotina.
