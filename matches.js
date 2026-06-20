@@ -398,7 +398,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Haiti",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 31
+    "id": 31,
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "data": "20/06/2026",
@@ -409,7 +411,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Paraguai",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 32
+    "id": 32,
+    "gols_casa": 0,
+    "gols_fora": 1,
+    "tempo_jogo": "85'",
+    "tempo_atualizado": 1781931122812
   },
   {
     "data": "20/06/2026",
