@@ -438,10 +438,8 @@ const COPA_2026_MATCHES = [
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
     "id": 34,
-    "gols_casa": 1,
-    "gols_fora": 1,
-    "tempo_jogo": "89'",
-    "tempo_atualizado": 1781992371449
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "data": "20/06/2026",
