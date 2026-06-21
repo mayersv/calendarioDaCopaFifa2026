@@ -4446,3 +4446,12 @@
 [21/06/2026 23:28:35] Extraídos com sucesso 39 placares (ao vivo ou encerrados) da página da FIFA.
 [21/06/2026 23:28:35] Sucesso! 1 placares foram atualizados em matches.js.
 [21/06/2026 23:28:35] ATUALIZADO: Jogo 39 - Uruguai 2 x 2 Cabo Verde (Status: Ao Vivo - 61')
+[21/06/2026 23:28:36] Commit e Push realizados com sucesso no GitHub.
+[21/06/2026 23:28:36] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[21/06/2026 23:33:36] Executando iteração 16 do ciclo de atualização...
+[21/06/2026 23:33:36] Encontradas 66 partidas para verificar (Jogos Ao Vivo ativos: True).
+[21/06/2026 23:33:37] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[21/06/2026 23:33:47] Encontrados 104 elementos de partidas na página da FIFA.
+[21/06/2026 23:33:49] Extraídos com sucesso 39 placares (ao vivo ou encerrados) da página da FIFA.
+[21/06/2026 23:33:49] Sucesso! 1 placares foram atualizados em matches.js.
+[21/06/2026 23:33:49] ATUALIZADO: Jogo 39 - Uruguai 2 x 2 Cabo Verde (Status: Ao Vivo - 68')
