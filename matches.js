@@ -476,7 +476,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Arábia Saudita",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 37
+    "id": 37,
+    "gols_casa": 3,
+    "gols_fora": 0,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782061543007
   },
   {
     "data": "21/06/2026",
