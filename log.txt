@@ -3766,3 +3766,5 @@
 [21/06/2026 06:59:39] Extraídos com sucesso 36 placares (ao vivo ou encerrados) da página da FIFA.
 [21/06/2026 06:59:39] Sucesso! 1 placares foram atualizados em matches.js.
 [21/06/2026 06:59:39] ATUALIZADO: Jogo 36 - Tunísia 0 x 4 Japão (Status: Encerrado)
+[21/06/2026 06:59:41] Commit e Push realizados com sucesso no GitHub.
+[21/06/2026 06:59:41] Não há jogos em andamento no momento. Finalizando rotina.
