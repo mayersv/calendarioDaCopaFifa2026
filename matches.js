@@ -489,7 +489,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Irã",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 38
+    "id": 38,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "0'",
+    "tempo_atualizado": 1782068478313
   },
   {
     "data": "21/06/2026",
