@@ -4049,3 +4049,19 @@
 [21/06/2026 17:52:41] Extraídos com sucesso 37 placares (ao vivo ou encerrados) da página da FIFA.
 [21/06/2026 17:52:41] Sucesso! 1 placares foram atualizados em matches.js.
 [21/06/2026 17:52:41] ATUALIZADO: Jogo 37 - Espanha 4 x 0 Arábia Saudita (Status: Ao Vivo - 87')
+[21/06/2026 17:52:42] Commit e Push realizados com sucesso no GitHub.
+[21/06/2026 17:52:42] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[21/06/2026 17:57:42] Executando iteração 11 do ciclo de atualização...
+[21/06/2026 17:57:42] Encontradas 68 partidas para verificar (Jogos Ao Vivo ativos: True).
+[21/06/2026 17:57:42] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[21/06/2026 17:57:53] Encontrados 104 elementos de partidas na página da FIFA.
+[21/06/2026 17:57:55] Extraídos com sucesso 36 placares (ao vivo ou encerrados) da página da FIFA.
+[21/06/2026 17:57:55] Nenhuma alteração de placar foi realizada nesta rodada.
+[21/06/2026 17:57:55] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[21/06/2026 18:02:55] Executando iteração 12 do ciclo de atualização...
+[21/06/2026 18:02:55] Encontradas 68 partidas para verificar (Jogos Ao Vivo ativos: True).
+[21/06/2026 18:02:55] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[21/06/2026 18:03:05] Encontrados 104 elementos de partidas na página da FIFA.
+[21/06/2026 18:03:07] Extraídos com sucesso 37 placares (ao vivo ou encerrados) da página da FIFA.
+[21/06/2026 18:03:07] Sucesso! 1 placares foram atualizados em matches.js.
+[21/06/2026 18:03:07] ATUALIZADO: Jogo 37 - Espanha 4 x 0 Arábia Saudita (Status: Encerrado)
