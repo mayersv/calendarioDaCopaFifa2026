@@ -463,7 +463,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Japão",
     "local": "Monterrey (Estádio BBVA)",
     "eliminatoria": false,
-    "id": 36
+    "id": 36,
+    "gols_casa": 0,
+    "gols_fora": 4
   },
   {
     "data": "21/06/2026",

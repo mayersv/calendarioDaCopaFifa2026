@@ -3758,3 +3758,11 @@
 [21/06/2026 03:11:50] Extraídos com sucesso 35 placares (ao vivo ou encerrados) da página da FIFA.
 [21/06/2026 03:11:50] Nenhuma alteração de placar foi realizada nesta rodada.
 [21/06/2026 03:11:50] Não há jogos em andamento no momento. Finalizando rotina.
+[21/06/2026 06:59:15] Iniciando rotina de atualização de placares...
+[21/06/2026 06:59:15] Executando iteração 1 do ciclo de atualização...
+[21/06/2026 06:59:15] Encontradas 69 partidas para verificar (Jogos Ao Vivo ativos: False).
+[21/06/2026 06:59:26] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[21/06/2026 06:59:36] Encontrados 104 elementos de partidas na página da FIFA.
+[21/06/2026 06:59:39] Extraídos com sucesso 36 placares (ao vivo ou encerrados) da página da FIFA.
+[21/06/2026 06:59:39] Sucesso! 1 placares foram atualizados em matches.js.
+[21/06/2026 06:59:39] ATUALIZADO: Jogo 36 - Tunísia 0 x 4 Japão (Status: Encerrado)
