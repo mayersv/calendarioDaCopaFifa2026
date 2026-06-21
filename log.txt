@@ -4152,3 +4152,12 @@
 [21/06/2026 19:37:54] Extraídos com sucesso 38 placares (ao vivo ou encerrados) da página da FIFA.
 [21/06/2026 19:37:55] Sucesso! 1 placares foram atualizados em matches.js.
 [21/06/2026 19:37:55] ATUALIZADO: Jogo 38 - Bélgica 0 x 0 Irã (Status: Ao Vivo - 37')
+[21/06/2026 19:37:55] Commit e Push realizados com sucesso no GitHub.
+[21/06/2026 19:37:55] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[21/06/2026 19:42:55] Executando iteração 9 do ciclo de atualização...
+[21/06/2026 19:42:55] Encontradas 67 partidas para verificar (Jogos Ao Vivo ativos: True).
+[21/06/2026 19:42:56] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[21/06/2026 19:43:06] Encontrados 104 elementos de partidas na página da FIFA.
+[21/06/2026 19:43:08] Extraídos com sucesso 38 placares (ao vivo ou encerrados) da página da FIFA.
+[21/06/2026 19:43:08] Sucesso! 1 placares foram atualizados em matches.js.
+[21/06/2026 19:43:08] ATUALIZADO: Jogo 38 - Bélgica 0 x 0 Irã (Status: Ao Vivo - 43')
