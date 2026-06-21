@@ -3650,3 +3650,11 @@
 [20/06/2026 23:11:00] Extraídos com sucesso 34 placares (ao vivo ou encerrados) da página da FIFA.
 [20/06/2026 23:11:00] Nenhuma alteração de placar foi realizada nesta rodada.
 [20/06/2026 23:11:00] Não há jogos em andamento no momento. Finalizando rotina.
+[21/06/2026 01:58:35] Iniciando rotina de atualização de placares...
+[21/06/2026 01:58:35] Executando iteração 1 do ciclo de atualização...
+[21/06/2026 01:58:35] Encontradas 70 partidas para verificar (Jogos Ao Vivo ativos: True).
+[21/06/2026 01:58:45] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[21/06/2026 01:58:56] Encontrados 104 elementos de partidas na página da FIFA.
+[21/06/2026 01:58:59] Extraídos com sucesso 35 placares (ao vivo ou encerrados) da página da FIFA.
+[21/06/2026 01:58:59] Sucesso! 1 placares foram atualizados em matches.js.
+[21/06/2026 01:58:59] ATUALIZADO: Jogo 35 - Equador 0 x 0 Curaçao (Status: Encerrado)

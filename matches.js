@@ -450,7 +450,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Curaçao",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 35
+    "id": 35,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "21/06/2026",
