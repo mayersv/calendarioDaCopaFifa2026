@@ -4532,3 +4532,11 @@
 [22/06/2026 04:15:35] ATUALIZADO: Jogo 40 - Nova Zelândia 1 x 3 Egito (Status: Encerrado)
 [22/06/2026 04:15:37] Commit e Push realizados com sucesso no GitHub.
 [22/06/2026 04:15:37] Não há jogos em andamento no momento. Finalizando rotina.
+[22/06/2026 10:21:38] Iniciando rotina de atualização de placares...
+[22/06/2026 10:21:38] Executando iteração 1 do ciclo de atualização...
+[22/06/2026 10:21:38] Encontradas 64 partidas para verificar (Jogos Ao Vivo ativos: False).
+[22/06/2026 10:21:40] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[22/06/2026 10:21:51] Encontrados 104 elementos de partidas na página da FIFA.
+[22/06/2026 10:21:53] Extraídos com sucesso 40 placares (ao vivo ou encerrados) da página da FIFA.
+[22/06/2026 10:21:53] Nenhuma alteração de placar foi realizada nesta rodada.
+[22/06/2026 10:21:53] Não há jogos em andamento no momento. Finalizando rotina.
