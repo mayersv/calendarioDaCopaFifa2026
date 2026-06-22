@@ -515,7 +515,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Egito",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 40
+    "id": 40,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "data": "22/06/2026",
