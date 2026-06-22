@@ -4705,3 +4705,12 @@
 [22/06/2026 21:55:11] Extraídos com sucesso 42 placares (ao vivo ou encerrados) da página da FIFA.
 [22/06/2026 21:55:11] Sucesso! 1 placares foram atualizados em matches.js.
 [22/06/2026 21:55:11] ATUALIZADO: Jogo 42 - França 1 x 0 Iraque (Status: Ao Vivo - INT)
+[22/06/2026 21:55:13] Commit e Push realizados com sucesso no GitHub.
+[22/06/2026 21:55:13] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[22/06/2026 22:00:13] Executando iteração 5 do ciclo de atualização...
+[22/06/2026 22:00:13] Encontradas 63 partidas para verificar (Jogos Ao Vivo ativos: True).
+[22/06/2026 22:00:13] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[22/06/2026 22:00:23] Encontrados 104 elementos de partidas na página da FIFA.
+[22/06/2026 22:00:27] Extraídos com sucesso 42 placares (ao vivo ou encerrados) da página da FIFA.
+[22/06/2026 22:00:27] Sucesso! 1 placares foram atualizados em matches.js.
+[22/06/2026 22:00:27] ATUALIZADO: Jogo 42 - França 1 x 0 Iraque (Status: Ao Vivo - INT)
