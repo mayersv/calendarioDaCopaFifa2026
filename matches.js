@@ -528,7 +528,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Áustria",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 41
+    "id": 41,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "data": "22/06/2026",
