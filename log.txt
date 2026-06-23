@@ -4897,3 +4897,11 @@
 [23/06/2026 02:12:38] Extraídos com sucesso 43 placares (ao vivo ou encerrados) da página da FIFA.
 [23/06/2026 02:12:38] Nenhuma alteração de placar foi realizada nesta rodada.
 [23/06/2026 02:12:38] Não há jogos em andamento no momento. Finalizando rotina.
+[23/06/2026 06:07:13] Iniciando rotina de atualização de placares...
+[23/06/2026 06:07:13] Executando iteração 1 do ciclo de atualização...
+[23/06/2026 06:07:13] Encontradas 61 partidas para verificar (Jogos Ao Vivo ativos: False).
+[23/06/2026 06:07:20] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[23/06/2026 06:07:30] Encontrados 104 elementos de partidas na página da FIFA.
+[23/06/2026 06:07:32] Extraídos com sucesso 44 placares (ao vivo ou encerrados) da página da FIFA.
+[23/06/2026 06:07:33] Sucesso! 1 placares foram atualizados em matches.js.
+[23/06/2026 06:07:33] ATUALIZADO: Jogo 44 - Jordânia 1 x 2 Argélia (Status: Encerrado)

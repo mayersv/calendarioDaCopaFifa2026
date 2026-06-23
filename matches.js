@@ -567,7 +567,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argélia",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 44
+    "id": 44,
+    "gols_casa": 1,
+    "gols_fora": 2
   },
   {
     "data": "23/06/2026",
