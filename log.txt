@@ -5032,3 +5032,11 @@
 [23/06/2026 19:12:35] Extraídos com sucesso 45 placares (ao vivo ou encerrados) da página da FIFA.
 [23/06/2026 19:12:35] Nenhuma alteração de placar foi realizada nesta rodada.
 [23/06/2026 19:12:35] Não há jogos em andamento no momento. Finalizando rotina.
+[23/06/2026 20:32:46] Iniciando rotina de atualização de placares...
+[23/06/2026 20:32:46] Executando iteração 1 do ciclo de atualização...
+[23/06/2026 20:32:46] Encontradas 59 partidas para verificar (Jogos Ao Vivo ativos: True).
+[23/06/2026 20:32:54] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[23/06/2026 20:33:05] Encontrados 104 elementos de partidas na página da FIFA.
+[23/06/2026 20:33:08] Extraídos com sucesso 46 placares (ao vivo ou encerrados) da página da FIFA.
+[23/06/2026 20:33:08] Sucesso! 1 placares foram atualizados em matches.js.
+[23/06/2026 20:33:08] ATUALIZADO: Jogo 46 - Inglaterra 0 x 0 Gana (Status: Ao Vivo - 33')
