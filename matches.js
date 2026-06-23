@@ -542,10 +542,8 @@ const COPA_2026_MATCHES = [
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
     "id": 42,
-    "gols_casa": 1,
-    "gols_fora": 0,
-    "tempo_jogo": "INT",
-    "tempo_atualizado": 1782165627327
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "data": "22/06/2026",
@@ -556,7 +554,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Senegal",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 43
+    "id": 43,
+    "gols_casa": 3,
+    "gols_fora": 1,
+    "tempo_jogo": "71'",
+    "tempo_atualizado": 1782178255470
   },
   {
     "data": "23/06/2026",
