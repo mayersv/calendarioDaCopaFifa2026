@@ -606,7 +606,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Croácia",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 47
+    "id": 47,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "35'",
+    "tempo_atualizado": 1782257721699
   },
   {
     "data": "23/06/2026",
