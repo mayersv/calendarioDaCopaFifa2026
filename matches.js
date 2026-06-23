@@ -580,7 +580,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Uzbequistão",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 45
+    "id": 45,
+    "gols_casa": 3,
+    "gols_fora": 0,
+    "tempo_jogo": "56'",
+    "tempo_atualizado": 1782238824083
   },
   {
     "data": "23/06/2026",
