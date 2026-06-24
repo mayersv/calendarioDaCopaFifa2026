@@ -5404,3 +5404,5 @@
 [24/06/2026 07:41:21] Extraídos com sucesso 48 placares (ao vivo ou encerrados) da página da FIFA.
 [24/06/2026 07:41:21] Sucesso! 1 placares foram atualizados em matches.js.
 [24/06/2026 07:41:21] ATUALIZADO: Jogo 48 - Colômbia 1 x 0 RD Congo (Status: Encerrado)
+[24/06/2026 07:41:22] Commit e Push realizados com sucesso no GitHub.
+[24/06/2026 07:41:22] Não há jogos em andamento no momento. Finalizando rotina.
