@@ -632,7 +632,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Catar",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 49
+    "id": 49,
+    "gols_casa": 2,
+    "gols_fora": 1,
+    "tempo_jogo": "45'",
+    "tempo_atualizado": 1782330369493
   },
   {
     "data": "24/06/2026",
