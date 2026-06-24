@@ -620,10 +620,8 @@ const COPA_2026_MATCHES = [
     "local": "Guadalajara (Estádio Akron)",
     "eliminatoria": false,
     "id": 48,
-    "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "75'",
-    "tempo_atualizado": 1782272147419
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "24/06/2026",
