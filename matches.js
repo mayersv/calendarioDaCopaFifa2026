@@ -659,10 +659,10 @@ const COPA_2026_MATCHES = [
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
     "id": 51,
-    "gols_casa": 2,
+    "gols_casa": 3,
     "gols_fora": 2,
-    "tempo_jogo": "77'",
-    "tempo_atualizado": 1782344398587
+    "tempo_jogo": "82'",
+    "tempo_atualizado": 1782344711742
   },
   {
     "data": "24/06/2026",
@@ -676,8 +676,8 @@ const COPA_2026_MATCHES = [
     "id": 52,
     "gols_casa": 0,
     "gols_fora": 3,
-    "tempo_jogo": "74'",
-    "tempo_atualizado": 1782344398587
+    "tempo_jogo": "80'",
+    "tempo_atualizado": 1782344711743
   },
   {
     "data": "24/06/2026",
