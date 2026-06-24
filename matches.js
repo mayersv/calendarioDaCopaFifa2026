@@ -658,7 +658,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Haiti",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 51
+    "id": 51,
+    "gols_casa": 2,
+    "gols_fora": 2,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782341578488
   },
   {
     "data": "24/06/2026",
