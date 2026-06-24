@@ -5386,3 +5386,11 @@
 [24/06/2026 01:14:34] Extraídos com sucesso 47 placares (ao vivo ou encerrados) da página da FIFA.
 [24/06/2026 01:14:34] Nenhuma alteração de placar foi realizada nesta rodada.
 [24/06/2026 01:14:34] Não há jogos em andamento no momento. Finalizando rotina.
+[24/06/2026 03:35:23] Iniciando rotina de atualização de placares...
+[24/06/2026 03:35:23] Executando iteração 1 do ciclo de atualização...
+[24/06/2026 03:35:23] Encontradas 57 partidas para verificar (Jogos Ao Vivo ativos: False).
+[24/06/2026 03:35:33] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[24/06/2026 03:35:45] Encontrados 104 elementos de partidas na página da FIFA.
+[24/06/2026 03:35:47] Extraídos com sucesso 48 placares (ao vivo ou encerrados) da página da FIFA.
+[24/06/2026 03:35:47] Sucesso! 1 placares foram atualizados em matches.js.
+[24/06/2026 03:35:47] ATUALIZADO: Jogo 48 - Colômbia 0 x 0 RD Congo (Status: Ao Vivo - 75')

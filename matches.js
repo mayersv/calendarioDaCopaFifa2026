@@ -619,7 +619,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "RD Congo",
     "local": "Guadalajara (Estádio Akron)",
     "eliminatoria": false,
-    "id": 48
+    "id": 48,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "75'",
+    "tempo_atualizado": 1782272147419
   },
   {
     "data": "24/06/2026",
