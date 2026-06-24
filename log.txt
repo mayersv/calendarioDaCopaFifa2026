@@ -5486,3 +5486,13 @@
 [24/06/2026 19:56:37] Sucesso! 2 placares foram atualizados em matches.js.
 [24/06/2026 19:56:37] ATUALIZADO: Jogo 49 - Bósnia e Herzegovina 2 x 1 Catar (Status: Ao Vivo - INT)
 [24/06/2026 19:56:37] ATUALIZADO: Jogo 50 - Suíça 0 x 0 Canadá (Status: Ao Vivo - INT)
+[24/06/2026 19:56:38] Commit e Push realizados com sucesso no GitHub.
+[24/06/2026 19:56:38] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[24/06/2026 20:01:38] Executando iteração 4 do ciclo de atualização...
+[24/06/2026 20:01:38] Encontradas 56 partidas para verificar (Jogos Ao Vivo ativos: True).
+[24/06/2026 20:01:39] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[24/06/2026 20:01:50] Encontrados 104 elementos de partidas na página da FIFA.
+[24/06/2026 20:01:52] Extraídos com sucesso 50 placares (ao vivo ou encerrados) da página da FIFA.
+[24/06/2026 20:01:52] Sucesso! 2 placares foram atualizados em matches.js.
+[24/06/2026 20:01:52] ATUALIZADO: Jogo 49 - Bósnia e Herzegovina 2 x 1 Catar (Status: Ao Vivo - INT)
+[24/06/2026 20:01:52] ATUALIZADO: Jogo 50 - Suíça 0 x 0 Canadá (Status: Ao Vivo - INT)
