@@ -662,7 +662,7 @@ const COPA_2026_MATCHES = [
     "gols_casa": 2,
     "gols_fora": 2,
     "tempo_jogo": "INT",
-    "tempo_atualizado": 1782341578488
+    "tempo_atualizado": 1782341891634
   },
   {
     "data": "24/06/2026",
@@ -673,7 +673,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Brasil",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 52
+    "id": 52,
+    "gols_casa": 0,
+    "gols_fora": 2,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782341891634
   },
   {
     "data": "24/06/2026",
