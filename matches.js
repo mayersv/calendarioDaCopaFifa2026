@@ -736,7 +736,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Suécia",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 57
+    "id": 57,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782431582825
   },
   {
     "data": "25/06/2026",
@@ -747,7 +751,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Holanda",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 58
+    "id": 58,
+    "gols_casa": 0,
+    "gols_fora": 2,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782431582825
   },
   {
     "data": "25/06/2026",
