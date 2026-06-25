@@ -710,7 +710,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Costa do Marfim",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 55
+    "id": 55,
+    "gols_casa": 0,
+    "gols_fora": 1,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782421077325
   },
   {
     "data": "25/06/2026",
@@ -721,7 +725,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Alemanha",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 56
+    "id": 56,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1782421077326
   },
   {
     "data": "25/06/2026",
