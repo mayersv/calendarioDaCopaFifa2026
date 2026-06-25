@@ -5768,3 +5768,20 @@
 [24/06/2026 23:55:38] Extraídos com sucesso 51 placares (ao vivo ou encerrados) da página da FIFA.
 [24/06/2026 23:55:38] Sucesso! 1 placares foram atualizados em matches.js.
 [24/06/2026 23:55:38] ATUALIZADO: Jogo 52 - Escócia 0 x 3 Brasil (Status: Ao Vivo - 90')
+[24/06/2026 23:55:39] Commit e Push realizados com sucesso no GitHub.
+[24/06/2026 23:55:39] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[25/06/2026 00:00:39] Executando iteração 15 do ciclo de atualização...
+[25/06/2026 00:00:39] Encontradas 54 partidas para verificar (Jogos Ao Vivo ativos: True).
+[25/06/2026 00:00:39] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[25/06/2026 00:00:50] Encontrados 104 elementos de partidas na página da FIFA.
+[25/06/2026 00:00:52] Extraídos com sucesso 50 placares (ao vivo ou encerrados) da página da FIFA.
+[25/06/2026 00:00:52] Nenhuma alteração de placar foi realizada nesta rodada.
+[25/06/2026 00:00:52] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[25/06/2026 00:05:52] Executando iteração 16 do ciclo de atualização...
+[25/06/2026 00:05:52] Encontradas 54 partidas para verificar (Jogos Ao Vivo ativos: True).
+[25/06/2026 00:05:52] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[25/06/2026 00:06:02] Encontrados 104 elementos de partidas na página da FIFA.
+[25/06/2026 00:06:04] Extraídos com sucesso 52 placares (ao vivo ou encerrados) da página da FIFA.
+[25/06/2026 00:06:04] Sucesso! 2 placares foram atualizados em matches.js.
+[25/06/2026 00:06:04] ATUALIZADO: Jogo 51 - Marrocos 4 x 2 Haiti (Status: Encerrado)
+[25/06/2026 00:06:04] ATUALIZADO: Jogo 52 - Escócia 0 x 3 Brasil (Status: Encerrado)
