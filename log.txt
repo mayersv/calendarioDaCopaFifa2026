@@ -5948,3 +5948,13 @@
 [25/06/2026 21:13:39] Sucesso! 2 placares foram atualizados em matches.js.
 [25/06/2026 21:13:39] ATUALIZADO: Jogo 55 - Curaçao 0 x 1 Costa do Marfim (Status: Ao Vivo - 52')
 [25/06/2026 21:13:39] ATUALIZADO: Jogo 56 - Equador 1 x 1 Alemanha (Status: Ao Vivo - 52')
+[25/06/2026 21:13:40] Commit e Push realizados com sucesso no GitHub.
+[25/06/2026 21:13:40] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[25/06/2026 21:18:40] Executando iteração 5 do ciclo de atualização...
+[25/06/2026 21:18:40] Encontradas 50 partidas para verificar (Jogos Ao Vivo ativos: True).
+[25/06/2026 21:18:40] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[25/06/2026 21:18:51] Encontrados 104 elementos de partidas na página da FIFA.
+[25/06/2026 21:18:53] Extraídos com sucesso 56 placares (ao vivo ou encerrados) da página da FIFA.
+[25/06/2026 21:18:53] Sucesso! 2 placares foram atualizados em matches.js.
+[25/06/2026 21:18:53] ATUALIZADO: Jogo 55 - Curaçao 0 x 1 Costa do Marfim (Status: Ao Vivo - 57')
+[25/06/2026 21:18:53] ATUALIZADO: Jogo 56 - Equador 1 x 1 Alemanha (Status: Ao Vivo - 58')
