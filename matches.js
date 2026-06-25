@@ -713,8 +713,8 @@ const COPA_2026_MATCHES = [
     "id": 55,
     "gols_casa": 0,
     "gols_fora": 2,
-    "tempo_jogo": "73'",
-    "tempo_atualizado": 1782423274709
+    "tempo_jogo": "78'",
+    "tempo_atualizado": 1782423588523
   },
   {
     "data": "25/06/2026",
@@ -726,10 +726,10 @@ const COPA_2026_MATCHES = [
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
     "id": 56,
-    "gols_casa": 1,
+    "gols_casa": 2,
     "gols_fora": 1,
-    "tempo_jogo": "73'",
-    "tempo_atualizado": 1782423274709
+    "tempo_jogo": "79'",
+    "tempo_atualizado": 1782423588524
   },
   {
     "data": "25/06/2026",
