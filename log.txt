@@ -5802,3 +5802,12 @@
 [25/06/2026 00:13:33] Extraídos com sucesso 52 placares (ao vivo ou encerrados) da página da FIFA.
 [25/06/2026 00:13:33] Nenhuma alteração de placar foi realizada nesta rodada.
 [25/06/2026 00:13:33] Não há jogos em andamento no momento. Finalizando rotina.
+[25/06/2026 04:45:18] Iniciando rotina de atualização de placares...
+[25/06/2026 04:45:18] Executando iteração 1 do ciclo de atualização...
+[25/06/2026 04:45:18] Encontradas 52 partidas para verificar (Jogos Ao Vivo ativos: False).
+[25/06/2026 04:45:49] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[25/06/2026 04:46:04] Encontrados 104 elementos de partidas na página da FIFA.
+[25/06/2026 04:46:05] Extraídos com sucesso 54 placares (ao vivo ou encerrados) da página da FIFA.
+[25/06/2026 04:46:06] Sucesso! 2 placares foram atualizados em matches.js.
+[25/06/2026 04:46:06] ATUALIZADO: Jogo 53 - República Tcheca 0 x 3 México (Status: Encerrado)
+[25/06/2026 04:46:06] ATUALIZADO: Jogo 54 - África do Sul 1 x 0 Coreia do Sul (Status: Encerrado)

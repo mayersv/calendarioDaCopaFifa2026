@@ -684,7 +684,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "México",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": false,
-    "id": 53
+    "id": 53,
+    "gols_casa": 0,
+    "gols_fora": 3
   },
   {
     "data": "24/06/2026",
@@ -695,7 +697,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Coreia do Sul",
     "local": "Monterrey (Estádio BBVA)",
     "eliminatoria": false,
-    "id": 54
+    "id": 54,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "25/06/2026",
