@@ -762,7 +762,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Austrália",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 59
+    "id": 59,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "78'",
+    "tempo_atualizado": 1782445293788
   },
   {
     "data": "25/06/2026",
@@ -773,7 +777,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Estados Unidos",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 60
+    "id": 60,
+    "gols_casa": 2,
+    "gols_fora": 2,
+    "tempo_jogo": "78'",
+    "tempo_atualizado": 1782445293788
   },
   {
     "data": "26/06/2026",
