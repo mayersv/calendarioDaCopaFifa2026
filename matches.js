@@ -788,7 +788,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "França",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 61
+    "id": 61,
+    "gols_casa": 1,
+    "gols_fora": 4
   },
   {
     "data": "26/06/2026",
@@ -799,7 +801,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Iraque",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 62
+    "id": 62,
+    "gols_casa": 5,
+    "gols_fora": 0
   },
   {
     "data": "26/06/2026",
