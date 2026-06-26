@@ -6186,3 +6186,12 @@
 [26/06/2026 00:55:47] Extraídos com sucesso 57 placares (ao vivo ou encerrados) da página da FIFA.
 [26/06/2026 00:55:47] Sucesso! 1 placares foram atualizados em matches.js.
 [26/06/2026 00:55:47] ATUALIZADO: Jogo 58 - Tunísia 1 x 3 Holanda (Status: Encerrado)
+[26/06/2026 00:55:48] Commit e Push realizados com sucesso no GitHub.
+[26/06/2026 00:55:48] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[26/06/2026 01:00:48] Executando iteração 14 do ciclo de atualização...
+[26/06/2026 01:00:48] Encontradas 47 partidas para verificar (Jogos Ao Vivo ativos: True).
+[26/06/2026 01:00:49] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[26/06/2026 01:00:59] Encontrados 104 elementos de partidas na página da FIFA.
+[26/06/2026 01:01:00] Extraídos com sucesso 58 placares (ao vivo ou encerrados) da página da FIFA.
+[26/06/2026 01:01:00] Sucesso! 1 placares foram atualizados em matches.js.
+[26/06/2026 01:01:00] ATUALIZADO: Jogo 57 - Japão 1 x 1 Suécia (Status: Encerrado)
