@@ -739,8 +739,8 @@ const COPA_2026_MATCHES = [
     "id": 57,
     "gols_casa": 0,
     "gols_fora": 0,
-    "tempo_jogo": "47'",
-    "tempo_atualizado": 1782432523954
+    "tempo_jogo": "53'",
+    "tempo_atualizado": 1782432837754
   },
   {
     "data": "25/06/2026",
@@ -752,10 +752,10 @@ const COPA_2026_MATCHES = [
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
     "id": 58,
-    "gols_casa": 0,
+    "gols_casa": 1,
     "gols_fora": 2,
-    "tempo_jogo": "49'",
-    "tempo_atualizado": 1782432523955
+    "tempo_jogo": "54'",
+    "tempo_atualizado": 1782432837755
   },
   {
     "data": "25/06/2026",
