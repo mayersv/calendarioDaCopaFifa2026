@@ -737,10 +737,10 @@ const COPA_2026_MATCHES = [
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
     "id": 57,
-    "gols_casa": 0,
+    "gols_casa": 1,
     "gols_fora": 0,
-    "tempo_jogo": "53'",
-    "tempo_atualizado": 1782432837754
+    "tempo_jogo": "58'",
+    "tempo_atualizado": 1782433151018
   },
   {
     "data": "25/06/2026",
@@ -754,8 +754,8 @@ const COPA_2026_MATCHES = [
     "id": 58,
     "gols_casa": 1,
     "gols_fora": 2,
-    "tempo_jogo": "54'",
-    "tempo_atualizado": 1782432837755
+    "tempo_jogo": "59'",
+    "tempo_atualizado": 1782433151018
   },
   {
     "data": "25/06/2026",
