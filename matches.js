@@ -814,7 +814,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Arábia Saudita",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 63
+    "id": 63,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "5'",
+    "tempo_atualizado": 1782518858496
   },
   {
     "data": "26/06/2026",
@@ -825,7 +829,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Espanha",
     "local": "Guadalajara (Estádio Akron)",
     "eliminatoria": false,
-    "id": 64
+    "id": 64,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "6'",
+    "tempo_atualizado": 1782518858496
   },
   {
     "data": "27/06/2026",
