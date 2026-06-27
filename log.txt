@@ -6620,3 +6620,11 @@
 [27/06/2026 07:49:37] ATUALIZADO: Jogo 66 - Nova Zelândia 1 x 5 Bélgica (Status: Encerrado)
 [27/06/2026 07:49:38] Commit e Push realizados com sucesso no GitHub.
 [27/06/2026 07:49:38] Não há jogos em andamento no momento. Finalizando rotina.
+[27/06/2026 10:08:21] Iniciando rotina de atualização de placares...
+[27/06/2026 10:08:21] Executando iteração 1 do ciclo de atualização...
+[27/06/2026 10:08:21] Encontradas 38 partidas para verificar (Jogos Ao Vivo ativos: False).
+[27/06/2026 10:08:23] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[27/06/2026 10:08:33] Encontrados 104 elementos de partidas na página da FIFA.
+[27/06/2026 10:08:35] Extraídos com sucesso 66 placares (ao vivo ou encerrados) da página da FIFA.
+[27/06/2026 10:08:35] Nenhuma alteração de placar foi realizada nesta rodada.
+[27/06/2026 10:08:35] Não há jogos em andamento no momento. Finalizando rotina.
