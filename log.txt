@@ -6972,3 +6972,13 @@
 [27/06/2026 22:06:42] Sucesso! 2 placares foram atualizados em matches.js.
 [27/06/2026 22:06:42] ATUALIZADO: Jogo 67 - Croácia 1 x 0 Gana (Status: Ao Vivo - INT)
 [27/06/2026 22:06:42] ATUALIZADO: Jogo 68 - Panamá 0 x 0 Inglaterra (Status: Ao Vivo - 47')
+[27/06/2026 22:06:43] Commit e Push realizados com sucesso no GitHub.
+[27/06/2026 22:06:43] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[27/06/2026 22:11:43] Executando iteração 14 do ciclo de atualização...
+[27/06/2026 22:11:43] Encontradas 38 partidas para verificar (Jogos Ao Vivo ativos: True).
+[27/06/2026 22:11:43] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[27/06/2026 22:11:54] Encontrados 104 elementos de partidas na página da FIFA.
+[27/06/2026 22:11:55] Extraídos com sucesso 68 placares (ao vivo ou encerrados) da página da FIFA.
+[27/06/2026 22:11:55] Sucesso! 2 placares foram atualizados em matches.js.
+[27/06/2026 22:11:55] ATUALIZADO: Jogo 67 - Croácia 1 x 0 Gana (Status: Ao Vivo - 50')
+[27/06/2026 22:11:55] ATUALIZADO: Jogo 68 - Panamá 0 x 0 Inglaterra (Status: Ao Vivo - 52')
