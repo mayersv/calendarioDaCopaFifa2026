@@ -6582,3 +6582,19 @@
 [27/06/2026 02:02:33] Sucesso! 2 placares foram atualizados em matches.js.
 [27/06/2026 02:02:33] ATUALIZADO: Jogo 63 - Cabo Verde 0 x 0 Arábia Saudita (Status: Encerrado)
 [27/06/2026 02:02:33] ATUALIZADO: Jogo 64 - Uruguai 0 x 1 Espanha (Status: Encerrado)
+[27/06/2026 02:02:35] Commit e Push realizados com sucesso no GitHub.
+[27/06/2026 02:02:35] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[27/06/2026 02:07:35] Executando iteração 24 do ciclo de atualização...
+[27/06/2026 02:07:35] Encontradas 40 partidas para verificar (Jogos Ao Vivo ativos: True).
+[27/06/2026 02:07:35] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[27/06/2026 02:07:45] Encontrados 104 elementos de partidas na página da FIFA.
+[27/06/2026 02:07:46] Extraídos com sucesso 64 placares (ao vivo ou encerrados) da página da FIFA.
+[27/06/2026 02:07:46] Nenhuma alteração de placar foi realizada nesta rodada.
+[27/06/2026 02:07:46] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[27/06/2026 02:12:46] Executando iteração 25 do ciclo de atualização...
+[27/06/2026 02:12:46] Encontradas 40 partidas para verificar (Jogos Ao Vivo ativos: False).
+[27/06/2026 02:12:47] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[27/06/2026 02:12:56] Encontrados 104 elementos de partidas na página da FIFA.
+[27/06/2026 02:12:58] Extraídos com sucesso 64 placares (ao vivo ou encerrados) da página da FIFA.
+[27/06/2026 02:12:58] Nenhuma alteração de placar foi realizada nesta rodada.
+[27/06/2026 02:12:58] Não há jogos em andamento no momento. Finalizando rotina.
