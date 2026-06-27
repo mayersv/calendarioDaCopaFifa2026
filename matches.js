@@ -840,7 +840,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Irã",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 65
+    "id": 65,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "68'",
+    "tempo_atualizado": 1782534897448
   },
   {
     "data": "27/06/2026",
@@ -851,7 +855,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Bélgica",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 66
+    "id": 66,
+    "gols_casa": 0,
+    "gols_fora": 3,
+    "tempo_jogo": "72'",
+    "tempo_atualizado": 1782534897448
   },
   {
     "data": "27/06/2026",

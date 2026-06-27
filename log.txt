@@ -6598,3 +6598,12 @@
 [27/06/2026 02:12:58] Extraídos com sucesso 64 placares (ao vivo ou encerrados) da página da FIFA.
 [27/06/2026 02:12:58] Nenhuma alteração de placar foi realizada nesta rodada.
 [27/06/2026 02:12:58] Não há jogos em andamento no momento. Finalizando rotina.
+[27/06/2026 04:34:37] Iniciando rotina de atualização de placares...
+[27/06/2026 04:34:37] Executando iteração 1 do ciclo de atualização...
+[27/06/2026 04:34:37] Encontradas 40 partidas para verificar (Jogos Ao Vivo ativos: False).
+[27/06/2026 04:34:44] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[27/06/2026 04:34:55] Encontrados 104 elementos de partidas na página da FIFA.
+[27/06/2026 04:34:57] Extraídos com sucesso 66 placares (ao vivo ou encerrados) da página da FIFA.
+[27/06/2026 04:34:57] Sucesso! 2 placares foram atualizados em matches.js.
+[27/06/2026 04:34:57] ATUALIZADO: Jogo 65 - Egito 1 x 1 Irã (Status: Ao Vivo - 68')
+[27/06/2026 04:34:57] ATUALIZADO: Jogo 66 - Nova Zelândia 0 x 3 Bélgica (Status: Ao Vivo - 72')
