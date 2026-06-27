@@ -842,9 +842,7 @@ const COPA_2026_MATCHES = [
     "eliminatoria": false,
     "id": 65,
     "gols_casa": 1,
-    "gols_fora": 1,
-    "tempo_jogo": "68'",
-    "tempo_atualizado": 1782534897448
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -856,10 +854,8 @@ const COPA_2026_MATCHES = [
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
     "id": 66,
-    "gols_casa": 0,
-    "gols_fora": 3,
-    "tempo_jogo": "72'",
-    "tempo_atualizado": 1782534897448
+    "gols_casa": 1,
+    "gols_fora": 5
   },
   {
     "data": "27/06/2026",
