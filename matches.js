@@ -866,7 +866,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Gana",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 67
+    "id": 67,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "2'",
+    "tempo_atualizado": 1782594239761
   },
   {
     "data": "27/06/2026",
@@ -877,7 +881,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Inglaterra",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 68
+    "id": 68,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "3'",
+    "tempo_atualizado": 1782594239761
   },
   {
     "data": "27/06/2026",
