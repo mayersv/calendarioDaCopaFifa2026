@@ -7195,3 +7195,11 @@
 [28/06/2026 05:01:59] ATUALIZADO: Jogo 72 - Jordânia 1 x 3 Argentina (Status: Encerrado)
 [28/06/2026 05:02:00] Commit e Push realizados com sucesso no GitHub.
 [28/06/2026 05:02:00] Não há jogos em andamento no momento. Finalizando rotina.
+[28/06/2026 08:31:57] Iniciando rotina de atualização de placares...
+[28/06/2026 08:31:57] Executando iteração 1 do ciclo de atualização...
+[28/06/2026 08:31:57] Encontradas 32 partidas para verificar (Jogos Ao Vivo ativos: False).
+[28/06/2026 08:32:13] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[28/06/2026 08:32:25] Encontrados 104 elementos de partidas na página da FIFA.
+[28/06/2026 08:32:26] Extraídos com sucesso 72 placares (ao vivo ou encerrados) da página da FIFA.
+[28/06/2026 08:32:26] Nenhuma alteração de placar foi realizada nesta rodada.
+[28/06/2026 08:32:26] Não há jogos em andamento no momento. Finalizando rotina.
