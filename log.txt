@@ -7269,3 +7269,11 @@
 [28/06/2026 18:37:22] Sucesso! 2 placares foram atualizados em matches.js.
 [28/06/2026 18:37:22] ATUALIZADO: Jogo 73 - África do Sul 0 x 1 Canadá (Status: Encerrado)
 [28/06/2026 18:37:22] Não há jogos em andamento no momento. Finalizando rotina.
+[28/06/2026 22:02:11] Iniciando rotina de atualização de placares...
+[28/06/2026 22:02:11] Executando iteração 1 do ciclo de atualização...
+[28/06/2026 22:02:11] Encontradas 31 partidas para verificar (Jogos Ao Vivo ativos: False).
+[28/06/2026 22:02:21] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[28/06/2026 22:02:33] Encontrados 104 elementos de partidas na página da FIFA.
+[28/06/2026 22:02:35] Extraídos com sucesso 73 placares (ao vivo ou encerrados) da página da FIFA.
+[28/06/2026 22:02:35] Nenhuma alteração de placar foi realizada nesta rodada.
+[28/06/2026 22:02:35] Não há jogos em andamento no momento. Finalizando rotina.
