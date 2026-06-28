@@ -894,9 +894,7 @@ const COPA_2026_MATCHES = [
     "eliminatoria": false,
     "id": 69,
     "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "78'",
-    "tempo_atualizado": 1782609023109
+    "gols_fora": 0
   },
   {
     "data": "27/06/2026",
@@ -908,10 +906,8 @@ const COPA_2026_MATCHES = [
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
     "id": 70,
-    "gols_casa": 1,
-    "gols_fora": 1,
-    "tempo_jogo": "76'",
-    "tempo_atualizado": 1782609023109
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -922,7 +918,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Áustria",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 71
+    "id": 71,
+    "gols_casa": 3,
+    "gols_fora": 3
   },
   {
     "data": "27/06/2026",
@@ -933,7 +931,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argentina",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 72
+    "id": 72,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "id": 73,
