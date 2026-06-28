@@ -960,7 +960,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 75,
     "data": "29/06/2026",
-    "hora": "16:00",
+    "hora": "14:00",
     "fase": "16-avos",
     "partida": "Brasil x Japão",
     "time_casa": "Brasil",
@@ -971,7 +971,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 76,
     "data": "29/06/2026",
-    "hora": "23:00",
+    "hora": "22:00",
     "fase": "16-avos",
     "partida": "Holanda x Marrocos",
     "time_casa": "Holanda",
@@ -982,7 +982,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 77,
     "data": "30/06/2026",
-    "hora": "19:00",
+    "hora": "18:00",
     "fase": "16-avos",
     "partida": "França x Suécia",
     "time_casa": "França",
@@ -993,7 +993,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 78,
     "data": "30/06/2026",
-    "hora": "23:00",
+    "hora": "22:00",
     "fase": "16-avos",
     "partida": "México x Equador",
     "time_casa": "México",
@@ -1004,7 +1004,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 79,
     "data": "30/06/2026",
-    "hora": "16:00",
+    "hora": "14:00",
     "fase": "16-avos",
     "partida": "Costa do Marfim x Noruega",
     "time_casa": "Costa do Marfim",
@@ -1015,7 +1015,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 80,
     "data": "01/07/2026",
-    "hora": "22:00",
+    "hora": "21:00",
     "fase": "16-avos",
     "partida": "Estados Unidos x Bósnia e Herzegovina",
     "time_casa": "Estados Unidos",
@@ -1026,7 +1026,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 81,
     "data": "01/07/2026",
-    "hora": "21:00",
+    "hora": "17:00",
     "fase": "16-avos",
     "partida": "Bélgica x Senegal",
     "time_casa": "Bélgica",
@@ -1037,7 +1037,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 82,
     "data": "01/07/2026",
-    "hora": "14:00",
+    "hora": "13:00",
     "fase": "16-avos",
     "partida": "Inglaterra x RD Congo",
     "time_casa": "Inglaterra",
@@ -1048,7 +1048,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 83,
     "data": "02/07/2026",
-    "hora": "20:00",
+    "hora": "16:00",
     "fase": "16-avos",
     "partida": "Espanha x Áustria",
     "time_casa": "Espanha",
@@ -1058,8 +1058,8 @@ const COPA_2026_MATCHES = [
   },
   {
     "id": 84,
-    "data": "02/07/2026",
-    "hora": "21:00",
+    "data": "03/07/2026",
+    "hora": "00:00",
     "fase": "16-avos",
     "partida": "Suíça x Argélia",
     "time_casa": "Suíça",
@@ -1070,7 +1070,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 85,
     "data": "03/07/2026",
-    "hora": "20:00",
+    "hora": "19:00",
     "fase": "16-avos",
     "partida": "Argentina x Cabo Verde",
     "time_casa": "Argentina",
@@ -1081,7 +1081,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 86,
     "data": "03/07/2026",
-    "hora": "23:30",
+    "hora": "22:30",
     "fase": "16-avos",
     "partida": "Colômbia x Gana",
     "time_casa": "Colômbia",
@@ -1092,7 +1092,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 87,
     "data": "03/07/2026",
-    "hora": "16:00",
+    "hora": "15:00",
     "fase": "16-avos",
     "partida": "Austrália x Egito",
     "time_casa": "Austrália",
@@ -1103,7 +1103,7 @@ const COPA_2026_MATCHES = [
   {
     "id": 88,
     "data": "02/07/2026",
-    "hora": "21:00",
+    "hora": "20:00",
     "fase": "16-avos",
     "partida": "Portugal x Croácia",
     "time_casa": "Portugal",

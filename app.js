@@ -364,7 +364,11 @@ function renderFeaturedMatch() {
   const oneHundredThirtyMinutesInMs = 130 * 60 * 1000;
   
   // Ordena os jogos por ID/cronologia
-  const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => a.id - b.id);
+  const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => {
+    const dateA = parseMatchDateTime(a.data, a.hora);
+    const dateB = parseMatchDateTime(b.data, b.hora);
+    return dateA - dateB || a.id - b.id;
+  });
   
   for (const m of sortedMatches) {
     const matchTime = parseMatchDateTime(m.data, m.hora);
@@ -487,7 +491,11 @@ function renderMatches() {
 
   // Identifica o id do próximo jogo em destaque
   let nextMatchId = -1;
-  const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => a.id - b.id);
+  const sortedMatches = [...COPA_2026_MATCHES].sort((a, b) => {
+    const dateA = parseMatchDateTime(a.data, a.hora);
+    const dateB = parseMatchDateTime(b.data, b.hora);
+    return dateA - dateB || a.id - b.id;
+  });
   for (const m of sortedMatches) {
     const matchTime = parseMatchDateTime(m.data, m.hora);
     if (matchTime >= currentDate) {
@@ -614,6 +622,16 @@ function renderMatches() {
       noResultsDiv.style.display = "none";
     }
   }
+
+  // Ordenar as partidas de forma cronológica antes da exibição
+  filtered.sort((a, b) => {
+    const dateA = parseMatchDateTime(a.data, a.hora);
+    const dateB = parseMatchDateTime(b.data, b.hora);
+    if (dateA.getTime() !== dateB.getTime()) {
+      return dateA - dateB;
+    }
+    return a.id - b.id;
+  });
 
   // Preencher os cards nos grids apropriados
   filtered.forEach(match => {
