@@ -112,7 +112,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Curaçao",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 9
+    "id": 9,
+    "gols_casa": 7,
+    "gols_fora": 1
   },
   {
     "data": "14/06/2026",
@@ -123,7 +125,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Japão",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 10
+    "id": 10,
+    "gols_casa": 2,
+    "gols_fora": 2
   },
   {
     "data": "14/06/2026",
@@ -134,7 +138,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Equador",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 11
+    "id": 11,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "14/06/2026",
@@ -145,7 +151,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Tunísia",
     "local": "Monterrey (Estádio BBVA)",
     "eliminatoria": false,
-    "id": 12
+    "id": 12,
+    "gols_casa": 5,
+    "gols_fora": 1
   },
   {
     "data": "15/06/2026",
@@ -156,7 +164,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Cabo Verde",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 13
+    "id": 13,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "15/06/2026",
@@ -167,7 +177,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Egito",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 14
+    "id": 14,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "15/06/2026",
@@ -178,7 +190,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Uruguai",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 15
+    "id": 15,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "15/06/2026",
@@ -189,7 +203,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Nova Zelândia",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 16
+    "id": 16,
+    "gols_casa": 2,
+    "gols_fora": 2
   },
   {
     "data": "16/06/2026",
@@ -200,7 +216,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Senegal",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 17
+    "id": 17,
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "16/06/2026",
@@ -211,7 +229,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Noruega",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 18
+    "id": 18,
+    "gols_casa": 1,
+    "gols_fora": 4
   },
   {
     "data": "16/06/2026",
@@ -222,7 +242,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argélia",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 19
+    "id": 19,
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "data": "17/06/2026",
@@ -233,7 +255,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Jordânia",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 20
+    "id": 20,
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "17/06/2026",
@@ -244,7 +268,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "RD Congo",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 21
+    "id": 21,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "17/06/2026",
@@ -255,7 +281,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Croácia",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 22
+    "id": 22,
+    "gols_casa": 4,
+    "gols_fora": 2
   },
   {
     "data": "17/06/2026",
@@ -266,7 +294,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Panamá",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 23
+    "id": 23,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "17/06/2026",
@@ -277,7 +307,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Colômbia",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": false,
-    "id": 24
+    "id": 24,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "data": "18/06/2026",
@@ -288,7 +320,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "África do Sul",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 25
+    "id": 25,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "18/06/2026",
@@ -299,7 +333,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Bósnia e Herzegovina",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 26
+    "id": 26,
+    "gols_casa": 4,
+    "gols_fora": 1
   },
   {
     "data": "18/06/2026",
@@ -310,7 +346,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Catar",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 27
+    "id": 27,
+    "gols_casa": 6,
+    "gols_fora": 0
   },
   {
     "data": "18/06/2026",
@@ -321,7 +359,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Coreia do Sul",
     "local": "Guadalajara (Estádio Akron)",
     "eliminatoria": false,
-    "id": 28
+    "id": 28,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "19/06/2026",
@@ -332,7 +372,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Austrália",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 29
+    "id": 29,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "data": "19/06/2026",
@@ -343,7 +385,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Marrocos",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 30
+    "id": 30,
+    "gols_casa": 0,
+    "gols_fora": 1
   },
   {
     "data": "19/06/2026",
@@ -354,7 +398,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Haiti",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 31
+    "id": 31,
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "data": "20/06/2026",
@@ -365,7 +411,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Paraguai",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 32
+    "id": 32,
+    "gols_casa": 0,
+    "gols_fora": 1
   },
   {
     "data": "20/06/2026",
@@ -376,7 +424,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Suécia",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 33
+    "id": 33,
+    "gols_casa": 5,
+    "gols_fora": 1
   },
   {
     "data": "20/06/2026",
@@ -387,7 +437,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Costa do Marfim",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 34
+    "id": 34,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "data": "20/06/2026",
@@ -398,7 +450,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Curaçao",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 35
+    "id": 35,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "21/06/2026",
@@ -409,7 +463,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Japão",
     "local": "Monterrey (Estádio BBVA)",
     "eliminatoria": false,
-    "id": 36
+    "id": 36,
+    "gols_casa": 0,
+    "gols_fora": 4
   },
   {
     "data": "21/06/2026",
@@ -420,7 +476,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Arábia Saudita",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 37
+    "id": 37,
+    "gols_casa": 4,
+    "gols_fora": 0
   },
   {
     "data": "21/06/2026",
@@ -431,7 +489,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Irã",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 38
+    "id": 38,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "21/06/2026",
@@ -442,7 +502,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Cabo Verde",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 39
+    "id": 39,
+    "gols_casa": 2,
+    "gols_fora": 2
   },
   {
     "data": "21/06/2026",
@@ -453,7 +515,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Egito",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 40
+    "id": 40,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "data": "22/06/2026",
@@ -464,7 +528,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Áustria",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 41
+    "id": 41,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "data": "22/06/2026",
@@ -475,7 +541,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Iraque",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 42
+    "id": 42,
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "data": "22/06/2026",
@@ -486,7 +554,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Senegal",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 43
+    "id": 43,
+    "gols_casa": 3,
+    "gols_fora": 2
   },
   {
     "data": "23/06/2026",
@@ -497,7 +567,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argélia",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 44
+    "id": 44,
+    "gols_casa": 1,
+    "gols_fora": 2
   },
   {
     "data": "23/06/2026",
@@ -508,7 +580,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Uzbequistão",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 45
+    "id": 45,
+    "gols_casa": 5,
+    "gols_fora": 0
   },
   {
     "data": "23/06/2026",
@@ -519,7 +593,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Gana",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 46
+    "id": 46,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "23/06/2026",
@@ -530,7 +606,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Croácia",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 47
+    "id": 47,
+    "gols_casa": 0,
+    "gols_fora": 1
   },
   {
     "data": "23/06/2026",
@@ -541,7 +619,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "RD Congo",
     "local": "Guadalajara (Estádio Akron)",
     "eliminatoria": false,
-    "id": 48
+    "id": 48,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "24/06/2026",
@@ -552,7 +632,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Catar",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 49
+    "id": 49,
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "24/06/2026",
@@ -563,7 +645,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Canadá",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 50
+    "id": 50,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "data": "24/06/2026",
@@ -574,7 +658,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Haiti",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 51
+    "id": 51,
+    "gols_casa": 4,
+    "gols_fora": 2
   },
   {
     "data": "24/06/2026",
@@ -585,7 +671,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Brasil",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 52
+    "id": 52,
+    "gols_casa": 0,
+    "gols_fora": 3
   },
   {
     "data": "24/06/2026",
@@ -596,7 +684,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "México",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": false,
-    "id": 53
+    "id": 53,
+    "gols_casa": 0,
+    "gols_fora": 3
   },
   {
     "data": "24/06/2026",
@@ -607,7 +697,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Coreia do Sul",
     "local": "Monterrey (Estádio BBVA)",
     "eliminatoria": false,
-    "id": 54
+    "id": 54,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "data": "25/06/2026",
@@ -618,7 +710,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Costa do Marfim",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 55
+    "id": 55,
+    "gols_casa": 0,
+    "gols_fora": 2
   },
   {
     "data": "25/06/2026",
@@ -629,7 +723,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Alemanha",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 56
+    "id": 56,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "data": "25/06/2026",
@@ -640,7 +736,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Suécia",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 57
+    "id": 57,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "25/06/2026",
@@ -651,7 +749,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Holanda",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 58
+    "id": 58,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "data": "25/06/2026",
@@ -662,7 +762,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Austrália",
     "local": "San Francisco (Levi's Stadium)",
     "eliminatoria": false,
-    "id": 59
+    "id": 59,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "25/06/2026",
@@ -673,7 +775,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Estados Unidos",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": false,
-    "id": 60
+    "id": 60,
+    "gols_casa": 3,
+    "gols_fora": 2
   },
   {
     "data": "26/06/2026",
@@ -684,7 +788,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "França",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": false,
-    "id": 61
+    "id": 61,
+    "gols_casa": 1,
+    "gols_fora": 4
   },
   {
     "data": "26/06/2026",
@@ -695,7 +801,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Iraque",
     "local": "Toronto (BMO Field)",
     "eliminatoria": false,
-    "id": 62
+    "id": 62,
+    "gols_casa": 5,
+    "gols_fora": 0
   },
   {
     "data": "26/06/2026",
@@ -706,7 +814,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Arábia Saudita",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": false,
-    "id": 63
+    "id": 63,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "26/06/2026",
@@ -717,7 +827,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Espanha",
     "local": "Guadalajara (Estádio Akron)",
     "eliminatoria": false,
-    "id": 64
+    "id": 64,
+    "gols_casa": 0,
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -728,7 +840,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Irã",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": false,
-    "id": 65
+    "id": 65,
+    "gols_casa": 1,
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -739,7 +853,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Bélgica",
     "local": "Vancouver (BC Place)",
     "eliminatoria": false,
-    "id": 66
+    "id": 66,
+    "gols_casa": 1,
+    "gols_fora": 5
   },
   {
     "data": "27/06/2026",
@@ -750,7 +866,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Gana",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
-    "id": 67
+    "id": 67,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -761,7 +879,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Inglaterra",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": false,
-    "id": 68
+    "id": 68,
+    "gols_casa": 0,
+    "gols_fora": 2
   },
   {
     "data": "27/06/2026",
@@ -772,7 +892,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Portugal",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 69
+    "id": 69,
+    "gols_casa": 0,
+    "gols_fora": 0
   },
   {
     "data": "27/06/2026",
@@ -783,7 +905,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Uzbequistão",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 70
+    "id": 70,
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -794,7 +918,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Áustria",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": false,
-    "id": 71
+    "id": 71,
+    "gols_casa": 3,
+    "gols_fora": 3
   },
   {
     "data": "27/06/2026",
@@ -805,7 +931,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argentina",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": false,
-    "id": 72
+    "id": 72,
+    "gols_casa": 1,
+    "gols_fora": 3
   },
   {
     "id": 73,
