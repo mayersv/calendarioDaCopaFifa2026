@@ -867,10 +867,8 @@ const COPA_2026_MATCHES = [
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": false,
     "id": 67,
-    "gols_casa": 1,
-    "gols_fora": 1,
-    "tempo_jogo": "80'",
-    "tempo_atualizado": 1782600081262
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "data": "27/06/2026",
@@ -883,9 +881,7 @@ const COPA_2026_MATCHES = [
     "eliminatoria": false,
     "id": 68,
     "gols_casa": 0,
-    "gols_fora": 2,
-    "tempo_jogo": "82'",
-    "tempo_atualizado": 1782600081262
+    "gols_fora": 2
   },
   {
     "data": "27/06/2026",
@@ -896,7 +892,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Portugal",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": false,
-    "id": 69
+    "id": 69,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "31'",
+    "tempo_atualizado": 1782604951321
   },
   {
     "data": "27/06/2026",
@@ -907,7 +907,11 @@ const COPA_2026_MATCHES = [
     "time_fora": "Uzbequistão",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": false,
-    "id": 70
+    "id": 70,
+    "gols_casa": 0,
+    "gols_fora": 1,
+    "tempo_jogo": "31'",
+    "tempo_atualizado": 1782604951321
   },
   {
     "data": "27/06/2026",
