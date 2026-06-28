@@ -59,6 +59,16 @@ def normalize_team_name(name):
     }
     return synonyms.get(n, n)
 
+def extract_score_and_penalty(score_str):
+    # Matches a number, optionally followed by (penalty_number)
+    # e.g., "1", "1 (5)", "1(5)", "1-1"
+    match = re.search(r"(\d+)(?:\s*\(\s*(\d+)\s*\))?", score_str)
+    if match:
+        main_score = int(match.group(1))
+        pen_score = int(match.group(2)) if match.group(2) else None
+        return main_score, pen_score
+    return None, None
+
 def parse_match_lines(lines):
     status_indicators = ["fim", "ft", "ended", "encerrado"]
     for i, line in enumerate(lines):
@@ -71,17 +81,88 @@ def parse_match_lines(lines):
                 away_score = lines[i + 1]
                 away_team = lines[i + 2]
                 try:
-                    return {
-                        "home_team": home_team.strip(),
-                        "home_score": int(home_score.strip()),
-                        "away_score": int(away_score.strip()),
-                        "away_team": away_team.strip(),
-                        "finished": clean_line in status_indicators,
-                        "tempo_jogo": line.strip()
-                    }
-                except ValueError:
+                    h_score, h_pen = extract_score_and_penalty(home_score)
+                    a_score, a_pen = extract_score_and_penalty(away_score)
+                    if h_score is not None and a_score is not None:
+                        result = {
+                            "home_team": home_team.strip(),
+                            "home_score": h_score,
+                            "away_score": a_score,
+                            "away_team": away_team.strip(),
+                            "finished": clean_line in status_indicators,
+                            "tempo_jogo": line.strip()
+                        }
+                        if h_pen is not None and a_pen is not None:
+                            result["penaltis_casa"] = h_pen
+                            result["penaltis_fora"] = a_pen
+                        return result
+                except Exception:
                     pass
     return None
+
+def propagate_knockout_results(matches):
+    """
+    Identifica partidas eliminatórias concluídas, determina o vencedor (e perdedor)
+    e propaga o nome real da equipe para as partidas futuras correspondentes.
+    """
+    updated_any = False
+    
+    # Mapeamento do ID do jogo para o vencedor e perdedor
+    results = {}
+    for m in matches:
+        if m.get("eliminatoria") and "gols_casa" in m and "gols_fora" in m and "tempo_jogo" not in m:
+            home_team = m["time_casa"]
+            away_team = m["time_fora"]
+            home_score = m["gols_casa"]
+            away_score = m["gols_fora"]
+            
+            winner = None
+            loser = None
+            
+            if home_score > away_score:
+                winner = home_team
+                loser = away_team
+            elif away_score > home_score:
+                winner = away_team
+                loser = home_team
+            else:
+                h_pen = m.get("penaltis_casa")
+                a_pen = m.get("penaltis_fora")
+                if h_pen is not None and a_pen is not None:
+                    if h_pen > a_pen:
+                        winner = home_team
+                        loser = away_team
+                    elif a_pen > h_pen:
+                        winner = away_team
+                        loser = home_team
+            
+            if winner and loser:
+                results[m["id"]] = {"winner": winner, "loser": loser}
+                
+    # Varre novamente e substitui nos placeholders das fases seguintes
+    for m in matches:
+        for key in ["time_casa", "time_fora"]:
+            val = m.get(key, "")
+            if "Vencedor Jogo" in val:
+                try:
+                    ref_id = int(re.search(r"Vencedor Jogo (\d+)", val).group(1))
+                    if ref_id in results:
+                        m[key] = results[ref_id]["winner"]
+                        m["partida"] = m["partida"].replace(val, results[ref_id]["winner"])
+                        updated_any = True
+                except Exception:
+                    pass
+            elif "Perdedor Jogo" in val:
+                try:
+                    ref_id = int(re.search(r"Perdedor Jogo (\d+)", val).group(1))
+                    if ref_id in results:
+                        m[key] = results[ref_id]["loser"]
+                        m["partida"] = m["partida"].replace(val, results[ref_id]["loser"])
+                        updated_any = True
+                except Exception:
+                    pass
+                    
+    return updated_any
 
 def parse_match_datetime(date_str, time_str):
     if not time_str or time_str == "A definir":
@@ -251,6 +332,11 @@ def main():
                         info = f"Jogo {local_match['id']} - {local_match['time_casa']} {scraped['home_score']} x {scraped['away_score']} {local_match['time_fora']} (Status: {status_str})"
                         updated_matches_info.append(info)
                     break
+
+        # Propagar resultados eliminatórios para as chaves futuras
+        if propagate_knockout_results(matches):
+            updates_made += 1
+            log_action("Confrontos das chaves eliminatórias futuras atualizados com novos classificados.")
 
         # 4. Salvar base de dados e registrar logs se houver atualizações
         if updates_made > 0:
