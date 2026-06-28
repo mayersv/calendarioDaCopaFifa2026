@@ -944,7 +944,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "África do Sul",
     "time_fora": "Canadá",
     "local": "Los Angeles (SoFi Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 1
   },
   {
     "id": 74,
@@ -1127,8 +1129,8 @@ const COPA_2026_MATCHES = [
     "data": "04/07/2026",
     "hora": "A definir",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 73 x Vencedor Jogo 75",
-    "time_casa": "Vencedor Jogo 73",
+    "partida": "Canadá x Vencedor Jogo 75",
+    "time_casa": "Canadá",
     "time_fora": "Vencedor Jogo 75",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": true
