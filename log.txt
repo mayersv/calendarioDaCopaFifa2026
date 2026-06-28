@@ -7064,3 +7064,13 @@
 [28/06/2026 00:07:45] Sucesso! 2 placares foram atualizados em matches.js.
 [28/06/2026 00:07:45] ATUALIZADO: Jogo 69 - Colômbia 0 x 0 Portugal (Status: Ao Vivo - 36')
 [28/06/2026 00:07:45] ATUALIZADO: Jogo 70 - RD Congo 0 x 1 Uzbequistão (Status: Ao Vivo - 35')
+[28/06/2026 00:07:46] Commit e Push realizados com sucesso no GitHub.
+[28/06/2026 00:07:46] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[28/06/2026 00:12:46] Executando iteração 3 do ciclo de atualização...
+[28/06/2026 00:12:46] Encontradas 36 partidas para verificar (Jogos Ao Vivo ativos: True).
+[28/06/2026 00:12:46] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL...
+[28/06/2026 00:12:57] Encontrados 104 elementos de partidas na página da FIFA.
+[28/06/2026 00:12:58] Extraídos com sucesso 70 placares (ao vivo ou encerrados) da página da FIFA.
+[28/06/2026 00:12:59] Sucesso! 2 placares foram atualizados em matches.js.
+[28/06/2026 00:12:59] ATUALIZADO: Jogo 69 - Colômbia 0 x 0 Portugal (Status: Ao Vivo - 42')
+[28/06/2026 00:12:59] ATUALIZADO: Jogo 70 - RD Congo 0 x 1 Uzbequistão (Status: Ao Vivo - 41')
