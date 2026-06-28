@@ -89,9 +89,73 @@
       </div>
     </section>
 
-    <!-- Grid de Exibição das Partidas -->
-    <main class="matches-grid" id="matchesGrid">
-      <!-- Cards serão preenchidos via Javascript -->
+    <!-- Seções de Partidas (Uma abaixo da outra) -->
+    <main class="matches-sections" id="matchesSections">
+      <!-- Seção: Fase de Grupos -->
+      <section class="phase-section" id="sectionGroups">
+        <div class="group-stage-toggle-container" id="groupStageToggleContainer">
+          <button class="toggle-group-stage-btn" id="toggleGroupStageBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <span id="toggleGroupStageText">Mostrar Fase de Grupos (72)</span>
+          </button>
+        </div>
+        <div class="matches-grid" id="matchesGridGroups"></div>
+      </section>
+
+      <!-- Seção: 16-avos de Final -->
+      <section class="phase-section" id="section16avos">
+        <div class="group-stage-toggle-container" id="toggle16avosContainer">
+          <button class="toggle-group-stage-btn" id="toggle16avosBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <span id="toggle16avosText">Mostrar 16-avos (16)</span>
+          </button>
+        </div>
+        <div class="matches-grid" id="matchesGrid16avos"></div>
+      </section>
+
+      <!-- Seção: Oitavas de Final -->
+      <section class="phase-section" id="sectionOitavas">
+        <div class="group-stage-toggle-container" id="toggleOitavasContainer">
+          <button class="toggle-group-stage-btn" id="toggleOitavasBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <span id="toggleOitavasText">Mostrar Oitavas (8)</span>
+          </button>
+        </div>
+        <div class="matches-grid" id="matchesGridOitavas"></div>
+      </section>
+
+      <!-- Seção: Quartas de Final -->
+      <section class="phase-section" id="sectionQuartas">
+        <div class="group-stage-toggle-container" id="toggleQuartasContainer">
+          <button class="toggle-group-stage-btn" id="toggleQuartasBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <span id="toggleQuartasText">Mostrar Quartas (4)</span>
+          </button>
+        </div>
+        <div class="matches-grid" id="matchesGridQuartas"></div>
+      </section>
+
+      <!-- Seção: Semifinais -->
+      <section class="phase-section" id="sectionSemifinais">
+        <div class="group-stage-toggle-container" id="toggleSemifinaisContainer">
+          <button class="toggle-group-stage-btn" id="toggleSemifinaisBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <span id="toggleSemifinaisText">Mostrar Semifinais (2)</span>
+          </button>
+        </div>
+        <div class="matches-grid" id="matchesGridSemifinais"></div>
+      </section>
+
+      <!-- Seção: Finais -->
+      <section class="phase-section" id="sectionFinais">
+        <div class="group-stage-toggle-container" id="toggleFinaisContainer">
+          <button class="toggle-group-stage-btn" id="toggleFinaisBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="toggle-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <span id="toggleFinaisText">Mostrar Finais (2)</span>
+          </button>
+        </div>
+        <div class="matches-grid" id="matchesGridFinais"></div>
+      </section>
     </main>
 
     <!-- Rodapé -->

@@ -29,18 +29,136 @@ const VENUE_TIMEZONES = {
 
 // Estado de data do sistema (Usa a data e hora atual do computador)
 let currentDate = new Date();
+let showGroupStage = false;
+let show16avos = false;
+let showOitavas = false;
+let showQuartas = false;
+let showSemifinal = false;
+let showFinais = false;
 
 // Seletores DOM
-const matchesGrid = document.getElementById("matchesGrid");
+const matchesSections = document.getElementById("matchesSections");
 const nextMatchContent = document.getElementById("nextMatchContent");
 const searchInput = document.getElementById("searchInput");
 const phaseFilter = document.getElementById("phaseFilter");
 const groupTabs = document.getElementById("groupTabs");
 const themeToggle = document.getElementById("themeToggle");
 
+const toggleGroupStageBtn = document.getElementById("toggleGroupStageBtn");
+const toggleGroupStageText = document.getElementById("toggleGroupStageText");
+const groupStageToggleContainer = document.getElementById("groupStageToggleContainer");
+
+const toggle16avosBtn = document.getElementById("toggle16avosBtn");
+const toggle16avosText = document.getElementById("toggle16avosText");
+const toggle16avosContainer = document.getElementById("toggle16avosContainer");
+
+const toggleOitavasBtn = document.getElementById("toggleOitavasBtn");
+const toggleOitavasText = document.getElementById("toggleOitavasText");
+const toggleOitavasContainer = document.getElementById("toggleOitavasContainer");
+
+const toggleQuartasBtn = document.getElementById("toggleQuartasBtn");
+const toggleQuartasText = document.getElementById("toggleQuartasText");
+const toggleQuartasContainer = document.getElementById("toggleQuartasContainer");
+
+const toggleSemifinaisBtn = document.getElementById("toggleSemifinaisBtn");
+const toggleSemifinaisText = document.getElementById("toggleSemifinaisText");
+const toggleSemifinaisContainer = document.getElementById("toggleSemifinaisContainer");
+
+const toggleFinaisBtn = document.getElementById("toggleFinaisBtn");
+const toggleFinaisText = document.getElementById("toggleFinaisText");
+const toggleFinaisContainer = document.getElementById("toggleFinaisContainer");
+
+// Grids e seções de fases
+const matchesGridGroups = document.getElementById("matchesGridGroups");
+const matchesGrid16avos = document.getElementById("matchesGrid16avos");
+const matchesGridOitavas = document.getElementById("matchesGridOitavas");
+const matchesGridQuartas = document.getElementById("matchesGridQuartas");
+const matchesGridSemifinais = document.getElementById("matchesGridSemifinais");
+const matchesGridFinais = document.getElementById("matchesGridFinais");
+
+const sectionGroups = document.getElementById("sectionGroups");
+const section16avos = document.getElementById("section16avos");
+const sectionOitavas = document.getElementById("sectionOitavas");
+const sectionQuartas = document.getElementById("sectionQuartas");
+const sectionSemifinais = document.getElementById("sectionSemifinais");
+const sectionFinais = document.getElementById("sectionFinais");
+
+// Função para calcular a expansão padrão (a fase atual e as seguintes abertas)
+function determineDefaultExpansionStates() {
+  const todayStart = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate());
+  
+  const phases = {
+    groups: false,
+    "16-avos": false,
+    "Oitavas": false,
+    "Quartas": false,
+    "Semifinal": false,
+    "Finais": false
+  };
+
+  COPA_2026_MATCHES.forEach(match => {
+    const matchTime = parseMatchDateTime(match.data, match.hora);
+    const matchDateOnly = new Date(matchTime.getFullYear(), matchTime.getMonth(), matchTime.getDate());
+    
+    if (matchDateOnly >= todayStart) {
+      if (!match.eliminatoria) {
+        phases.groups = true;
+      } else if (match.fase === "16-avos") {
+        phases["16-avos"] = true;
+      } else if (match.fase === "Oitavas") {
+        phases["Oitavas"] = true;
+      } else if (match.fase === "Quartas") {
+        phases["Quartas"] = true;
+      } else if (match.fase === "Semifinal") {
+        phases["Semifinal"] = true;
+      } else if (match.fase === "3º Lugar" || match.fase === "Final") {
+        phases["Finais"] = true;
+      }
+    }
+  });
+
+  // Atribuir aos estados globais
+  showGroupStage = phases.groups;
+  show16avos = phases["16-avos"];
+  showOitavas = phases["Oitavas"];
+  showQuartas = phases["Quartas"];
+  showSemifinal = phases["Semifinal"];
+  showFinais = phases["Finais"];
+}
+
+// Aplica as classes iniciais nos botões baseadas no estado padrão determinado
+function applyInitialButtonClasses() {
+  if (showGroupStage && toggleGroupStageBtn && toggleGroupStageText) {
+    toggleGroupStageBtn.classList.add("expanded");
+    toggleGroupStageText.textContent = "Esconder Fase de Grupos (72)";
+  }
+  if (show16avos && toggle16avosBtn && toggle16avosText) {
+    toggle16avosBtn.classList.add("expanded");
+    toggle16avosText.textContent = "Esconder 16-avos (16)";
+  }
+  if (showOitavas && toggleOitavasBtn && toggleOitavasText) {
+    toggleOitavasBtn.classList.add("expanded");
+    toggleOitavasText.textContent = "Esconder Oitavas (8)";
+  }
+  if (showQuartas && toggleQuartasBtn && toggleQuartasText) {
+    toggleQuartasBtn.classList.add("expanded");
+    toggleQuartasText.textContent = "Esconder Quartas (4)";
+  }
+  if (showSemifinal && toggleSemifinaisBtn && toggleSemifinaisText) {
+    toggleSemifinaisBtn.classList.add("expanded");
+    toggleSemifinaisText.textContent = "Esconder Semifinais (2)";
+  }
+  if (showFinais && toggleFinaisBtn && toggleFinaisText) {
+    toggleFinaisBtn.classList.add("expanded");
+    toggleFinaisText.textContent = "Esconder Finais (2)";
+  }
+}
+
 // Inicialização da Aplicação
 document.addEventListener("DOMContentLoaded", () => {
+  determineDefaultExpansionStates();
   setupEventListeners();
+  applyInitialButtonClasses();
   renderFeaturedMatch();
   renderMatches();
   
@@ -106,6 +224,78 @@ function setupEventListeners() {
     filtersToggleBtn.addEventListener("click", () => {
       controlsPanel.classList.toggle("show");
       filtersToggleBtn.classList.toggle("active");
+    });
+  }
+
+  // Alternador do botão de mostrar/esconder Fase de Grupos
+  if (toggleGroupStageBtn && toggleGroupStageText) {
+    toggleGroupStageBtn.addEventListener("click", () => {
+      showGroupStage = !showGroupStage;
+      toggleGroupStageBtn.classList.toggle("expanded", showGroupStage);
+      toggleGroupStageText.textContent = showGroupStage 
+        ? "Esconder Fase de Grupos (72)" 
+        : "Mostrar Fase de Grupos (72)";
+      filterAndRender();
+    });
+  }
+
+  // Alternador dos 16-avos de Final
+  if (toggle16avosBtn && toggle16avosText) {
+    toggle16avosBtn.addEventListener("click", () => {
+      show16avos = !show16avos;
+      toggle16avosBtn.classList.toggle("expanded", show16avos);
+      toggle16avosText.textContent = show16avos 
+        ? "Esconder 16-avos (16)" 
+        : "Mostrar 16-avos (16)";
+      filterAndRender();
+    });
+  }
+
+  // Alternador das Oitavas de Final
+  if (toggleOitavasBtn && toggleOitavasText) {
+    toggleOitavasBtn.addEventListener("click", () => {
+      showOitavas = !showOitavas;
+      toggleOitavasBtn.classList.toggle("expanded", showOitavas);
+      toggleOitavasText.textContent = showOitavas 
+        ? "Esconder Oitavas (8)" 
+        : "Mostrar Oitavas (8)";
+      filterAndRender();
+    });
+  }
+
+  // Alternador das Quartas de Final
+  if (toggleQuartasBtn && toggleQuartasText) {
+    toggleQuartasBtn.addEventListener("click", () => {
+      showQuartas = !showQuartas;
+      toggleQuartasBtn.classList.toggle("expanded", showQuartas);
+      toggleQuartasText.textContent = showQuartas 
+        ? "Esconder Quartas (4)" 
+        : "Mostrar Quartas (4)";
+      filterAndRender();
+    });
+  }
+
+  // Alternador das Semifinais
+  if (toggleSemifinaisBtn && toggleSemifinaisText) {
+    toggleSemifinaisBtn.addEventListener("click", () => {
+      showSemifinal = !showSemifinal;
+      toggleSemifinaisBtn.classList.toggle("expanded", showSemifinal);
+      toggleSemifinaisText.textContent = showSemifinal 
+        ? "Esconder Semifinais (2)" 
+        : "Mostrar Semifinais (2)";
+      filterAndRender();
+    });
+  }
+
+  // Alternador das Finais
+  if (toggleFinaisBtn && toggleFinaisText) {
+    toggleFinaisBtn.addEventListener("click", () => {
+      showFinais = !showFinais;
+      toggleFinaisBtn.classList.toggle("expanded", showFinais);
+      toggleFinaisText.textContent = showFinais 
+        ? "Esconder Finais (2)" 
+        : "Mostrar Finais (2)";
+      filterAndRender();
     });
   }
 }
@@ -306,6 +496,55 @@ function renderMatches() {
     }
   }
 
+  // Grids por fase
+  const grids = {
+    groups: matchesGridGroups,
+    "16-avos": matchesGrid16avos,
+    "Oitavas": matchesGridOitavas,
+    "Quartas": matchesGridQuartas,
+    "Semifinal": matchesGridSemifinais,
+    "Finais": matchesGridFinais
+  };
+
+  // Seções por fase
+  const sections = {
+    groups: sectionGroups,
+    "16-avos": section16avos,
+    "Oitavas": sectionOitavas,
+    "Quartas": sectionQuartas,
+    "Semifinal": sectionSemifinais,
+    "Finais": sectionFinais
+  };
+
+  // Contêineres de botões (toggles)
+  const toggles = {
+    groups: groupStageToggleContainer,
+    "16-avos": toggle16avosContainer,
+    "Oitavas": toggleOitavasContainer,
+    "Quartas": toggleQuartasContainer,
+    "Semifinal": toggleSemifinaisContainer,
+    "Finais": toggleFinaisContainer
+  };
+
+  // Limpar todos os grids
+  Object.values(grids).forEach(grid => {
+    if (grid) grid.innerHTML = "";
+  });
+
+  // Exibir ou ocultar os botões de controle de fase (toggles)
+  const isDefaultView = selectedPhase === "all" && selectedGroup === "all" && !query;
+
+  Object.entries(toggles).forEach(([key, toggleBtn]) => {
+    if (toggleBtn) {
+      toggleBtn.style.display = isDefaultView ? "flex" : "none";
+    }
+  });
+
+  // Resetar display das seções para block por padrão
+  Object.values(sections).forEach(sec => {
+    if (sec) sec.style.display = "block";
+  });
+
   // Filtragem
   const filtered = COPA_2026_MATCHES.filter(match => {
     // 1. Filtro por Busca Textual
@@ -326,23 +565,57 @@ function renderMatches() {
       matchesGroup = match.fase === `Grupo ${selectedGroup}`;
     }
 
-    return matchesQuery && matchesPhase && matchesGroup;
+    // 4. Alternadores de visibilidade das Fases (aplicado quando visualizando Todas as Fases, sem busca/grupo específico)
+    let matchesStageToggle = true;
+    if (isDefaultView) {
+      if (!match.eliminatoria) {
+        if (!showGroupStage) matchesStageToggle = false;
+      } else {
+        if (match.fase === "16-avos") {
+          if (!show16avos) matchesStageToggle = false;
+        } else if (match.fase === "Oitavas") {
+          if (!showOitavas) matchesStageToggle = false;
+        } else if (match.fase === "Quartas") {
+          if (!showQuartas) matchesStageToggle = false;
+        } else if (match.fase === "Semifinal") {
+          if (!showSemifinal) matchesStageToggle = false;
+        } else if (match.fase === "3º Lugar" || match.fase === "Final") {
+          if (!showFinais) matchesStageToggle = false;
+        }
+      }
+    }
+
+    return matchesQuery && matchesPhase && matchesGroup && matchesStageToggle;
   });
 
-  // Renderizar no grid
-  matchesGrid.innerHTML = "";
-
+  // Exibir placeholder de no-results se nenhum jogo for encontrado
   if (filtered.length === 0) {
-    matchesGrid.innerHTML = `
-      <div class="no-results">
-        <div class="no-results-icon">⚽</div>
-        <h3>Nenhuma partida encontrada</h3>
-        <p>Tente ajustar a busca ou os filtros aplicados.</p>
-      </div>
+    Object.values(sections).forEach(sec => {
+      if (sec) sec.style.display = "none";
+    });
+
+    let noResultsDiv = document.getElementById("noResultsPlaceholder");
+    if (!noResultsDiv) {
+      noResultsDiv = document.createElement("div");
+      noResultsDiv.id = "noResultsPlaceholder";
+      noResultsDiv.className = "no-results";
+      if (matchesSections) matchesSections.appendChild(noResultsDiv);
+    }
+    noResultsDiv.style.display = "block";
+    noResultsDiv.innerHTML = `
+      <div class="no-results-icon">⚽</div>
+      <h3>Nenhuma partida encontrada</h3>
+      <p>Tente ajustar a busca ou os filtros aplicados.</p>
     `;
     return;
+  } else {
+    const noResultsDiv = document.getElementById("noResultsPlaceholder");
+    if (noResultsDiv) {
+      noResultsDiv.style.display = "none";
+    }
   }
 
+  // Preencher os cards nos grids apropriados
   filtered.forEach(match => {
     const times = calculateTimes(match);
     const matchTime = parseMatchDateTime(match.data, match.hora);
@@ -356,7 +629,6 @@ function renderMatches() {
     let statusClass = "future";
     
     if (currentTimeMs >= matchTimeMs && currentTimeMs < matchTimeMs + oneHundredThirtyMinutes) {
-      // A partida começou e faz menos de 130 minutos (está ocorrendo)
       statusClass = "live";
       if (match.tempo_jogo && match.tempo_atualizado) {
         if (match.tempo_jogo.includes("'")) {
@@ -372,12 +644,10 @@ function renderMatches() {
         statusText = `Em Andamento: ${elapsedMinutes}'`;
       }
     } else if (currentTimeMs >= matchTimeMs + oneHundredThirtyMinutes) {
-      // A partida já terminou
       statusText = "Encerrado";
       statusClass = "finished";
     }
 
-    // Identificar se o jogo é hoje (no dia simulado/atual)
     const day = String(currentDate.getDate()).padStart(2, '0');
     const month = String(currentDate.getMonth() + 1).padStart(2, '0');
     const year = currentDate.getFullYear();
@@ -427,8 +697,41 @@ function renderMatches() {
         </div>
       </div>
     `;
-    matchesGrid.appendChild(matchCard);
+
+    // Descobrir qual o grid de destino
+    let targetGrid = null;
+    if (!match.eliminatoria) {
+      targetGrid = matchesGridGroups;
+    } else if (match.fase === "16-avos") {
+      targetGrid = matchesGrid16avos;
+    } else if (match.fase === "Oitavas") {
+      targetGrid = matchesGridOitavas;
+    } else if (match.fase === "Quartas") {
+      targetGrid = matchesGridQuartas;
+    } else if (match.fase === "Semifinal") {
+      targetGrid = matchesGridSemifinais;
+    } else if (match.fase === "3º Lugar" || match.fase === "Final") {
+      targetGrid = matchesGridFinais;
+    }
+
+    if (targetGrid) {
+      targetGrid.appendChild(matchCard);
+    }
   });
+
+  // Se estivermos em modo de busca ou filtro ativo, ocultamos as seções que ficaram vazias
+  if (!isDefaultView) {
+    Object.entries(grids).forEach(([key, grid]) => {
+      const sec = sections[key];
+      if (sec) {
+        if (grid.children.length === 0) {
+          sec.style.display = "none";
+        } else {
+          sec.style.display = "block";
+        }
+      }
+    });
+  }
 }
 
 // Gera placares fictícios determinísticos com base no ID do jogo para manter a consistência nas renderizações

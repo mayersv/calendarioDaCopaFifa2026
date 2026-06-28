@@ -606,8 +606,14 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
   gap: 6px;
-  margin-bottom: 60px;
+  margin-bottom: 24px;
   min-height: 200px;
+}
+
+.matches-grid:empty {
+  display: none;
+  min-height: 0;
+  margin-bottom: 0;
 }
 
 /* Card de Partida */
@@ -1181,4 +1187,68 @@ footer a:hover {
 .match-card.pulse-highlight {
   animation: pulseGlow 1.5s ease-in-out;
   z-index: 10;
+}
+
+/* Container do Botão de Alternar Fase */
+.group-stage-toggle-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+  width: 100%;
+}
+
+.phase-section {
+  display: block;
+  width: 100%;
+}
+
+.phase-section:first-of-type .group-stage-toggle-container {
+  margin-top: 10px;
+}
+
+.toggle-group-stage-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--border-radius);
+  color: var(--text-main);
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  transition: var(--transition-smooth);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-sm);
+}
+
+.toggle-group-stage-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--primary);
+  box-shadow: 0 0 15px var(--primary-glow);
+  transform: translateY(-2px);
+}
+
+[data-theme="light"] .toggle-group-stage-btn {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(0, 0, 0, 0.08);
+  color: var(--text-main);
+}
+
+[data-theme="light"] .toggle-group-stage-btn:hover {
+  background: rgba(0, 0, 0, 0.02);
+  border-color: var(--accent);
+  box-shadow: 0 0 15px rgba(142, 36, 170, 0.1);
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-group-stage-btn.expanded .toggle-icon {
+  transform: rotate(180deg);
 }
