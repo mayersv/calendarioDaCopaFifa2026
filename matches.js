@@ -958,10 +958,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "Paraguai",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": true,
-    "gols_casa": 2,
+    "gols_casa": 1,
     "gols_fora": 1,
-    "tempo_jogo": "104'",
-    "tempo_atualizado": 1782773250462
+    "tempo_jogo": "107'",
+    "tempo_atualizado": 1782773875388
   },
   {
     "id": 75,
