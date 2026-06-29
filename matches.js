@@ -968,7 +968,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Brasil",
     "time_fora": "Japão",
     "local": "Houston (NRG Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "id": 76,
@@ -1129,9 +1131,9 @@ const COPA_2026_MATCHES = [
     "data": "04/07/2026",
     "hora": "A definir",
     "fase": "Oitavas",
-    "partida": "Canadá x Vencedor Jogo 75",
+    "partida": "Canadá x Brasil",
     "time_casa": "Canadá",
-    "time_fora": "Vencedor Jogo 75",
+    "time_fora": "Brasil",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": true
   },
