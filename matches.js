@@ -997,10 +997,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "Suécia",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true,
-    "gols_casa": 2,
+    "gols_casa": 3,
     "gols_fora": 0,
-    "tempo_jogo": "68'",
-    "tempo_atualizado": 1782858572599
+    "tempo_jogo": "75'",
+    "tempo_atualizado": 1782858884652
   },
   {
     "id": 78,
