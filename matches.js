@@ -1018,7 +1018,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Costa do Marfim",
     "time_fora": "Noruega",
     "local": "Dallas (AT&T Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 2
   },
   {
     "id": 80,
@@ -1146,9 +1148,9 @@ const COPA_2026_MATCHES = [
     "data": "05/07/2026",
     "hora": "17:00",
     "fase": "Oitavas",
-    "partida": "Brasil x Vencedor Jogo 79",
+    "partida": "Brasil x Noruega",
     "time_casa": "Brasil",
-    "time_fora": "Vencedor Jogo 79",
+    "time_fora": "Noruega",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true
   },
