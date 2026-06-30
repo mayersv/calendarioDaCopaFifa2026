@@ -8,8 +8,8 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-
-FIFA_URL = "https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=&wtw-filter=ALL"
+import argparse
+FIFA_URL = "https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none"
 MATCHES_FILE = "matches.js"
 LOG_FILE = "log.txt"
 
@@ -333,10 +333,14 @@ def main():
                         updated_matches_info.append(info)
                     break
 
-        # Propagar resultados eliminatórios para as chaves futuras
-        if propagate_knockout_results(matches):
+        # Propagar resultados eliminatórios para as chaves futuras (em cascata)
+        # Repete até não haver mais atualizações (garante propagação para quartas, semis, final)
+        cascade_rounds = 0
+        while propagate_knockout_results(matches):
+            cascade_rounds += 1
             updates_made += 1
-            log_action("Confrontos das chaves eliminatórias futuras atualizados com novos classificados.")
+        if cascade_rounds > 0:
+            log_action(f"Confrontos das chaves eliminatórias atualizados em {cascade_rounds} rodada(s) de propagação em cascata.")
 
         # 4. Salvar base de dados e registrar logs se houver atualizações
         if updates_made > 0:
