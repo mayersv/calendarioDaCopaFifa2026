@@ -998,9 +998,7 @@ const COPA_2026_MATCHES = [
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true,
     "gols_casa": 3,
-    "gols_fora": 0,
-    "tempo_jogo": "85'",
-    "tempo_atualizado": 1782859508803
+    "gols_fora": 0
   },
   {
     "id": 78,
@@ -1130,9 +1128,9 @@ const COPA_2026_MATCHES = [
     "data": "04/07/2026",
     "hora": "18:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 74 x Vencedor Jogo 77",
+    "partida": "Vencedor Jogo 74 x França",
     "time_casa": "Vencedor Jogo 74",
-    "time_fora": "Vencedor Jogo 77",
+    "time_fora": "França",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": true
   },
