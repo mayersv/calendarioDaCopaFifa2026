@@ -1059,9 +1059,7 @@ const COPA_2026_MATCHES = [
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true,
     "gols_casa": 2,
-    "gols_fora": 1,
-    "tempo_jogo": "86'",
-    "tempo_atualizado": 1782928215349
+    "gols_fora": 1
   },
   {
     "id": 83,
@@ -1167,9 +1165,9 @@ const COPA_2026_MATCHES = [
     "data": "05/07/2026",
     "hora": "21:00",
     "fase": "Oitavas",
-    "partida": "México x Vencedor Jogo 82",
+    "partida": "México x Inglaterra",
     "time_casa": "México",
-    "time_fora": "Vencedor Jogo 82",
+    "time_fora": "Inglaterra",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": true
   },
