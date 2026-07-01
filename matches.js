@@ -1047,10 +1047,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Senegal",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": true,
-    "gols_casa": 2,
-    "gols_fora": 2,
-    "tempo_jogo": "117'",
-    "tempo_atualizado": 1782945330322
+    "gols_casa": 3,
+    "gols_fora": 2
   },
   {
     "id": 82,
@@ -1191,9 +1189,9 @@ const COPA_2026_MATCHES = [
     "data": "06/07/2026",
     "hora": "21:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 80 x Vencedor Jogo 81",
+    "partida": "Vencedor Jogo 80 x Bélgica",
     "time_casa": "Vencedor Jogo 80",
-    "time_fora": "Vencedor Jogo 81",
+    "time_fora": "Bélgica",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": true
   },
