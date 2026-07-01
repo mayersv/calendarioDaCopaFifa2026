@@ -1058,10 +1058,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "RD Congo",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true,
-    "gols_casa": 0,
+    "gols_casa": 1,
     "gols_fora": 1,
-    "tempo_jogo": "71'",
-    "tempo_atualizado": 1782927278285
+    "tempo_jogo": "76'",
+    "tempo_atualizado": 1782927591007
   },
   {
     "id": 83,
