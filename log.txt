@@ -8117,3 +8117,12 @@
 [01/07/2026 17:45:03] Extraídos com sucesso 8 placares (ao vivo ou encerrados) da página da FIFA.
 [01/07/2026 17:45:03] Sucesso! 1 placares foram atualizados em matches.js.
 [01/07/2026 17:45:03] ATUALIZADO: Jogo 82 - Inglaterra 1 x 1 RD Congo (Status: Ao Vivo - 81')
+[01/07/2026 17:45:04] Commit e Push realizados com sucesso no GitHub.
+[01/07/2026 17:45:04] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[01/07/2026 17:50:04] Executando iteração 8 do ciclo de atualização...
+[01/07/2026 17:50:04] Encontradas 27 partidas para verificar (Jogos Ao Vivo ativos: True).
+[01/07/2026 17:50:04] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[01/07/2026 17:50:14] Encontrados 31 elementos de partidas na página da FIFA.
+[01/07/2026 17:50:15] Extraídos com sucesso 8 placares (ao vivo ou encerrados) da página da FIFA.
+[01/07/2026 17:50:15] Sucesso! 1 placares foram atualizados em matches.js.
+[01/07/2026 17:50:15] ATUALIZADO: Jogo 82 - Inglaterra 2 x 1 RD Congo (Status: Ao Vivo - 86')
