@@ -8286,3 +8286,12 @@
 [01/07/2026 21:22:42] Extraídos com sucesso 9 placares (ao vivo ou encerrados) da página da FIFA.
 [01/07/2026 21:22:42] Sucesso! 1 placares foram atualizados em matches.js.
 [01/07/2026 21:22:42] ATUALIZADO: Jogo 81 - Bélgica 0 x 2 Senegal (Status: Ao Vivo - 60')
+[01/07/2026 21:22:43] Commit e Push realizados com sucesso no GitHub.
+[01/07/2026 21:22:43] Existe jogo em andamento. Aguardando 5 minutos para a próxima verificação...
+[01/07/2026 21:27:43] Executando iteração 5 do ciclo de atualização...
+[01/07/2026 21:27:43] Encontradas 26 partidas para verificar (Jogos Ao Vivo ativos: True).
+[01/07/2026 21:27:44] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[01/07/2026 21:27:54] Encontrados 31 elementos de partidas na página da FIFA.
+[01/07/2026 21:27:54] Extraídos com sucesso 9 placares (ao vivo ou encerrados) da página da FIFA.
+[01/07/2026 21:27:54] Sucesso! 1 placares foram atualizados em matches.js.
+[01/07/2026 21:27:54] ATUALIZADO: Jogo 81 - Bélgica 0 x 2 Senegal (Status: Ao Vivo - 65')
