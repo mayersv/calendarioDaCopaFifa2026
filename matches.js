@@ -1048,9 +1048,9 @@ const COPA_2026_MATCHES = [
     "local": "Seattle (Lumen Field)",
     "eliminatoria": true,
     "gols_casa": 0,
-    "gols_fora": 1,
-    "tempo_jogo": "50'",
-    "tempo_atualizado": 1782940322621
+    "gols_fora": 2,
+    "tempo_jogo": "55'",
+    "tempo_atualizado": 1782940634582
   },
   {
     "id": 82,
