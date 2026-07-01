@@ -1047,10 +1047,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "Senegal",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": true,
-    "gols_casa": 0,
+    "gols_casa": 2,
     "gols_fora": 2,
-    "tempo_jogo": "86'",
-    "tempo_atualizado": 1782942523604
+    "tempo_jogo": "94'",
+    "tempo_atualizado": 1782943768964
   },
   {
     "id": 82,
