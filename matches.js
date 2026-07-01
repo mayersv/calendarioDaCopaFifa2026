@@ -1009,7 +1009,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "México",
     "time_fora": "Equador",
     "local": "Cidade do México (Estádio Azteca)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "id": 79,
@@ -1161,8 +1163,8 @@ const COPA_2026_MATCHES = [
     "data": "05/07/2026",
     "hora": "21:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 78 x Vencedor Jogo 82",
-    "time_casa": "Vencedor Jogo 78",
+    "partida": "México x Vencedor Jogo 82",
+    "time_casa": "México",
     "time_fora": "Vencedor Jogo 82",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": true
