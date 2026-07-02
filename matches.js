@@ -996,7 +996,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "França",
     "time_fora": "Suécia",
     "local": "Nova York / Nova Jersey (MetLife)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "id": 78,
@@ -1007,7 +1009,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "México",
     "time_fora": "Equador",
     "local": "Cidade do México (Estádio Azteca)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "id": 79,
@@ -1018,7 +1022,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Costa do Marfim",
     "time_fora": "Noruega",
     "local": "Dallas (AT&T Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 2
   },
   {
     "id": 80,
@@ -1029,7 +1035,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Estados Unidos",
     "time_fora": "Bósnia e Herzegovina",
     "local": "San Francisco (Levi's Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "id": 81,
@@ -1040,7 +1048,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Bélgica",
     "time_fora": "Senegal",
     "local": "Seattle (Lumen Field)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 3,
+    "gols_fora": 2
   },
   {
     "id": 82,
@@ -1051,7 +1061,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Inglaterra",
     "time_fora": "RD Congo",
     "local": "Atlanta (Mercedes-Benz Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "id": 83,
@@ -1062,7 +1074,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Espanha",
     "time_fora": "Áustria",
     "local": "Los Angeles (SoFi Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 3,
+    "gols_fora": 0
   },
   {
     "id": 84,
@@ -1124,9 +1138,9 @@ const COPA_2026_MATCHES = [
     "data": "04/07/2026",
     "hora": "18:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 74 x Vencedor Jogo 77",
+    "partida": "Vencedor Jogo 74 x França",
     "time_casa": "Vencedor Jogo 74",
-    "time_fora": "Vencedor Jogo 77",
+    "time_fora": "França",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": true
   },
@@ -1146,9 +1160,9 @@ const COPA_2026_MATCHES = [
     "data": "05/07/2026",
     "hora": "17:00",
     "fase": "Oitavas",
-    "partida": "Brasil x Vencedor Jogo 79",
+    "partida": "Brasil x Noruega",
     "time_casa": "Brasil",
-    "time_fora": "Vencedor Jogo 79",
+    "time_fora": "Noruega",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true
   },
@@ -1157,9 +1171,9 @@ const COPA_2026_MATCHES = [
     "data": "05/07/2026",
     "hora": "21:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 78 x Vencedor Jogo 82",
-    "time_casa": "Vencedor Jogo 78",
-    "time_fora": "Vencedor Jogo 82",
+    "partida": "México x Inglaterra",
+    "time_casa": "México",
+    "time_fora": "Inglaterra",
     "local": "Cidade do México (Estádio Azteca)",
     "eliminatoria": true
   },
@@ -1168,9 +1182,9 @@ const COPA_2026_MATCHES = [
     "data": "06/07/2026",
     "hora": "16:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 88 x Vencedor Jogo 83",
+    "partida": "Vencedor Jogo 88 x Espanha",
     "time_casa": "Vencedor Jogo 88",
-    "time_fora": "Vencedor Jogo 83",
+    "time_fora": "Espanha",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": true
   },
@@ -1179,9 +1193,9 @@ const COPA_2026_MATCHES = [
     "data": "06/07/2026",
     "hora": "21:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 80 x Vencedor Jogo 81",
-    "time_casa": "Vencedor Jogo 80",
-    "time_fora": "Vencedor Jogo 81",
+    "partida": "Estados Unidos x Bélgica",
+    "time_casa": "Estados Unidos",
+    "time_fora": "Bélgica",
     "local": "Seattle (Lumen Field)",
     "eliminatoria": true
   },
