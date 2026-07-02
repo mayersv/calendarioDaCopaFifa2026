@@ -1074,7 +1074,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Espanha",
     "time_fora": "Áustria",
     "local": "Los Angeles (SoFi Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "24'",
+    "tempo_atualizado": 1783020286120
   },
   {
     "id": 84,
