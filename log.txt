@@ -8624,3 +8624,11 @@
 [02/07/2026 22:11:29] Extraídos com sucesso 11 placares (ao vivo ou encerrados) da página da FIFA.
 [02/07/2026 22:11:30] Nenhuma alteração de placar foi realizada nesta rodada.
 [02/07/2026 22:11:30] Não há jogos em andamento no momento. Finalizando rotina.
+[02/07/2026 23:36:49] Iniciando rotina de atualização de placares...
+[02/07/2026 23:36:49] Executando iteração 1 do ciclo de atualização...
+[02/07/2026 23:36:49] Encontradas 23 partidas para verificar (Jogos Ao Vivo ativos: False).
+[02/07/2026 23:36:58] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[02/07/2026 23:37:09] Encontrados 31 elementos de partidas na página da FIFA.
+[02/07/2026 23:37:10] Extraídos com sucesso 12 placares (ao vivo ou encerrados) da página da FIFA.
+[02/07/2026 23:37:10] Sucesso! 1 placares foram atualizados em matches.js.
+[02/07/2026 23:37:10] ATUALIZADO: Jogo 88 - Portugal 0 x 0 Croácia (Status: Ao Vivo - 37')
