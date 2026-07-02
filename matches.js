@@ -1076,9 +1076,7 @@ const COPA_2026_MATCHES = [
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": true,
     "gols_casa": 3,
-    "gols_fora": 0,
-    "tempo_jogo": "89'",
-    "tempo_atualizado": 1783025532377
+    "gols_fora": 0
   },
   {
     "id": 84,
@@ -1184,9 +1182,9 @@ const COPA_2026_MATCHES = [
     "data": "06/07/2026",
     "hora": "16:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 88 x Vencedor Jogo 83",
+    "partida": "Vencedor Jogo 88 x Espanha",
     "time_casa": "Vencedor Jogo 88",
-    "time_fora": "Vencedor Jogo 83",
+    "time_fora": "Espanha",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": true
   },
