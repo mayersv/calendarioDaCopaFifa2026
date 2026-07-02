@@ -598,19 +598,30 @@ function renderMatches() {
 
   // Exibir placeholder de no-results se nenhum jogo for encontrado
   if (filtered.length === 0) {
+    const noResultsDiv = document.getElementById("noResultsPlaceholder");
+    if (noResultsDiv) {
+      noResultsDiv.style.display = "none";
+    }
+
+    if (isDefaultView) {
+      // Se for a visualização padrão e nenhum jogo for encontrado (porque o usuário colapsou todas as fases),
+      // nós mantemos as seções visíveis para que os botões de toggle permaneçam na tela.
+      return;
+    }
+
     Object.values(sections).forEach(sec => {
       if (sec) sec.style.display = "none";
     });
 
-    let noResultsDiv = document.getElementById("noResultsPlaceholder");
-    if (!noResultsDiv) {
-      noResultsDiv = document.createElement("div");
-      noResultsDiv.id = "noResultsPlaceholder";
-      noResultsDiv.className = "no-results";
-      if (matchesSections) matchesSections.appendChild(noResultsDiv);
+    let newNoResultsDiv = document.getElementById("noResultsPlaceholder");
+    if (!newNoResultsDiv) {
+      newNoResultsDiv = document.createElement("div");
+      newNoResultsDiv.id = "noResultsPlaceholder";
+      newNoResultsDiv.className = "no-results";
+      if (matchesSections) matchesSections.appendChild(newNoResultsDiv);
     }
-    noResultsDiv.style.display = "block";
-    noResultsDiv.innerHTML = `
+    newNoResultsDiv.style.display = "block";
+    newNoResultsDiv.innerHTML = `
       <div class="no-results-icon">⚽</div>
       <h3>Nenhuma partida encontrada</h3>
       <p>Tente ajustar a busca ou os filtros aplicados.</p>
