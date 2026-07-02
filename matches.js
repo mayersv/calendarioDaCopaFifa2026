@@ -1035,7 +1035,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Estados Unidos",
     "time_fora": "Bósnia e Herzegovina",
     "local": "San Francisco (Levi's Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "7'",
+    "tempo_atualizado": 1782950834815
   },
   {
     "id": 81,
