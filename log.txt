@@ -8632,3 +8632,5 @@
 [02/07/2026 23:37:10] Extraídos com sucesso 12 placares (ao vivo ou encerrados) da página da FIFA.
 [02/07/2026 23:37:10] Sucesso! 1 placares foram atualizados em matches.js.
 [02/07/2026 23:37:10] ATUALIZADO: Jogo 88 - Portugal 0 x 0 Croácia (Status: Ao Vivo - 37')
+[02/07/2026 23:37:11] Commit e Push realizados com sucesso no GitHub.
+[02/07/2026 23:37:11] Não há jogos em andamento no momento. Finalizando rotina.
