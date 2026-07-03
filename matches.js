@@ -1087,7 +1087,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Suíça",
     "time_fora": "Argélia",
     "local": "Vancouver (BC Place)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "id": 85,
@@ -1217,8 +1219,8 @@ const COPA_2026_MATCHES = [
     "data": "07/07/2026",
     "hora": "17:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 84 x Vencedor Jogo 86",
-    "time_casa": "Vencedor Jogo 84",
+    "partida": "Suíça x Vencedor Jogo 86",
+    "time_casa": "Suíça",
     "time_fora": "Vencedor Jogo 86",
     "local": "Vancouver (BC Place)",
     "eliminatoria": true
