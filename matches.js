@@ -1132,10 +1132,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Croácia",
     "local": "Toronto (BMO Field)",
     "eliminatoria": true,
-    "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "37'",
-    "tempo_atualizado": 1783035430551
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "id": 89,
@@ -1186,8 +1184,8 @@ const COPA_2026_MATCHES = [
     "data": "06/07/2026",
     "hora": "16:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 88 x Espanha",
-    "time_casa": "Vencedor Jogo 88",
+    "partida": "Portugal x Espanha",
+    "time_casa": "Portugal",
     "time_fora": "Espanha",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": true
