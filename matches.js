@@ -1122,7 +1122,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Austrália",
     "time_fora": "Egito",
     "local": "Dallas (AT&T Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "73'",
+    "tempo_atualizado": 1783107342518
   },
   {
     "id": 88,
