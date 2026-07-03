@@ -1125,8 +1125,8 @@ const COPA_2026_MATCHES = [
     "eliminatoria": true,
     "gols_casa": 1,
     "gols_fora": 1,
-    "tempo_jogo": "84'",
-    "tempo_atualizado": 1783107966687
+    "tempo_jogo": "89'",
+    "tempo_atualizado": 1783108278472
   },
   {
     "id": 88,
