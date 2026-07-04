@@ -75,30 +75,62 @@ def parse_match_lines(lines):
         clean_line = line.lower().strip()
         is_live_indicator = re.match(r"^\d+'$", clean_line) or clean_line in ["live", "ao vivo", "em andamento", "1º tempo", "2º tempo", "intervalo", "int"]
         if clean_line in status_indicators or is_live_indicator:
-            if i >= 2 and i + 2 < len(lines):
-                home_team = lines[i - 2]
-                home_score = lines[i - 1]
-                away_score = lines[i + 1]
-                away_team = lines[i + 2]
-                try:
-                    h_score, h_pen = extract_score_and_penalty(home_score)
-                    a_score, a_pen = extract_score_and_penalty(away_score)
-                    if h_score is not None and a_score is not None:
-                        result = {
-                            "home_team": home_team.strip(),
-                            "home_score": h_score,
-                            "away_score": a_score,
-                            "away_team": away_team.strip(),
-                            "finished": clean_line in status_indicators,
-                            "tempo_jogo": line.strip()
-                        }
-                        if h_pen is not None and a_pen is not None:
-                            result["penaltis_casa"] = h_pen
-                            result["penaltis_fora"] = a_pen
-                        return result
-                except Exception:
-                    pass
+            # Verifica se há pênaltis (indicados por parênteses nas linhas adjacentes)
+            has_penalties = False
+            if i >= 3 and i + 3 < len(lines):
+                if re.match(r"^\(\d+\)$", lines[i - 2].strip()) and re.match(r"^\(\d+\)$", lines[i + 2].strip()):
+                    has_penalties = True
+            
+            if has_penalties:
+                home_team = lines[i - 3]
+                home_score_str = lines[i - 1]
+                home_pen_str = lines[i - 2]
+                
+                away_score_str = lines[i + 1]
+                away_pen_str = lines[i + 2]
+                away_team = lines[i + 3]
+            else:
+                if i >= 2 and i + 2 < len(lines):
+                    home_team = lines[i - 2]
+                    home_score_str = lines[i - 1]
+                    away_score_str = lines[i + 1]
+                    away_team = lines[i + 2]
+                    home_pen_str = None
+                    away_pen_str = None
+                else:
+                    continue
+
+            try:
+                h_score, _ = extract_score_and_penalty(home_score_str)
+                a_score, _ = extract_score_and_penalty(away_score_str)
+                
+                if h_score is not None and a_score is not None:
+                    result = {
+                        "home_team": home_team.strip(),
+                        "home_score": h_score,
+                        "away_score": a_score,
+                        "away_team": away_team.strip(),
+                        "finished": clean_line in status_indicators,
+                        "tempo_jogo": line.strip()
+                    }
+                    
+                    if has_penalties:
+                        h_pen = int(re.search(r"\d+", home_pen_str).group())
+                        a_pen = int(re.search(r"\d+", away_pen_str).group())
+                        result["penaltis_casa"] = h_pen
+                        result["penaltis_fora"] = a_pen
+                    else:
+                        _, h_pen_fallback = extract_score_and_penalty(home_score_str)
+                        _, a_pen_fallback = extract_score_and_penalty(away_score_str)
+                        if h_pen_fallback is not None and a_pen_fallback is not None:
+                            result["penaltis_casa"] = h_pen_fallback
+                            result["penaltis_fora"] = a_pen_fallback
+                            
+                    return result
+            except Exception:
+                pass
     return None
+
 
 def propagate_knockout_results(matches):
     """
@@ -236,8 +268,11 @@ def main():
                     is_live = True
                     has_any_live_match = True
             
-            # Se não tem placar, se está rolando ao vivo ou se ainda possui chaves de tempo ativo a serem limpas
-            if not has_score or is_live or has_live_indicators:
+            # Se é eliminatória, terminou empatada no tempo normal/prorrogação, mas não tem definição de pênaltis, ainda é pendente
+            needs_penalties = m.get("eliminatoria") and has_score and m["gols_casa"] == m["gols_fora"] and ("penaltis_casa" not in m or "penaltis_fora" not in m)
+            
+            # Se não tem placar, se está rolando ao vivo, se ainda possui chaves de tempo ativo a serem limpas ou se precisa de definição de pênaltis
+            if not has_score or is_live or has_live_indicators or needs_penalties:
                 pending_or_live_matches.append(m)
 
         if not pending_or_live_matches:
@@ -300,9 +335,10 @@ def main():
                 if -15 <= diff_minutes < 130:
                     is_live = True
             
-            # Só atualizamos se não tinha score, se está ao vivo ou se possui chaves a limpar
+            # Só atualizamos se não tinha score, se está ao vivo, se possui chaves a limpar ou se precisa de pênaltis
             has_score = "gols_casa" in local_match and "gols_fora" in local_match
             has_live_indicators = "tempo_jogo" in local_match
+            needs_penalties = local_match.get("eliminatoria") and has_score and local_match["gols_casa"] == local_match["gols_fora"] and ("penaltis_casa" not in local_match or "penaltis_fora" not in local_match)
             
             for scraped in scraped_matches:
                 scraped_home_norm = normalize_team_name(scraped["home_team"])
@@ -314,10 +350,15 @@ def main():
                     old_away = local_match.get("gols_fora")
                     old_tempo = local_match.get("tempo_jogo")
                     
-                    if not has_score or is_live or has_live_indicators:
+                    if not has_score or is_live or has_live_indicators or needs_penalties:
                         if not has_score or (old_home != scraped["home_score"] or old_away != scraped["away_score"] or old_tempo != scraped["tempo_jogo"] or scraped["finished"]):
                             local_match["gols_casa"] = scraped["home_score"]
                             local_match["gols_fora"] = scraped["away_score"]
+                            if "penaltis_casa" in scraped:
+                                local_match["penaltis_casa"] = scraped["penaltis_casa"]
+                            if "penaltis_fora" in scraped:
+                                local_match["penaltis_fora"] = scraped["penaltis_fora"]
+
                         
                         if not scraped["finished"]:
                             local_match["tempo_jogo"] = scraped["tempo_jogo"]
