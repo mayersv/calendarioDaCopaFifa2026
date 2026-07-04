@@ -9112,3 +9112,11 @@
 [04/07/2026 04:11:11] ATUALIZADO: Jogo 86 - Colômbia 1 x 0 Gana (Status: Encerrado)
 [04/07/2026 04:11:13] Commit e Push realizados com sucesso no GitHub.
 [04/07/2026 04:11:13] Não há jogos em andamento no momento. Finalizando rotina.
+[04/07/2026 07:21:52] Iniciando rotina de atualização de placares...
+[04/07/2026 07:21:52] Executando iteração 1 do ciclo de atualização...
+[04/07/2026 07:21:52] Encontradas 19 partidas para verificar (Jogos Ao Vivo ativos: False).
+[04/07/2026 07:21:57] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[04/07/2026 07:22:08] Encontrados 31 elementos de partidas na página da FIFA.
+[04/07/2026 07:22:09] Extraídos com sucesso 16 placares (ao vivo ou encerrados) da página da FIFA.
+[04/07/2026 07:22:09] Nenhuma alteração de placar foi realizada nesta rodada.
+[04/07/2026 07:22:09] Não há jogos em andamento no momento. Finalizando rotina.
