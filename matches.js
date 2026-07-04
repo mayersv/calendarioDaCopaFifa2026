@@ -1101,10 +1101,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "Cabo Verde",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true,
-    "gols_casa": 1,
+    "gols_casa": 2,
     "gols_fora": 1,
-    "tempo_jogo": "92'",
-    "tempo_atualizado": 1783123636330
+    "tempo_jogo": "97'",
+    "tempo_atualizado": 1783123948294
   },
   {
     "id": 86,
