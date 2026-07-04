@@ -1102,9 +1102,7 @@ const COPA_2026_MATCHES = [
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true,
     "gols_casa": 3,
-    "gols_fora": 2,
-    "tempo_jogo": "116'",
-    "tempo_atualizado": 1783125507013
+    "gols_fora": 2
   },
   {
     "id": 86,
@@ -1115,7 +1113,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Colômbia",
     "time_fora": "Gana",
     "local": "Kansas City (Arrowhead Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 0
   },
   {
     "id": 87,
@@ -1216,8 +1216,8 @@ const COPA_2026_MATCHES = [
     "data": "07/07/2026",
     "hora": "13:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 85 x Vencedor Jogo 87",
-    "time_casa": "Vencedor Jogo 85",
+    "partida": "Argentina x Vencedor Jogo 87",
+    "time_casa": "Argentina",
     "time_fora": "Vencedor Jogo 87",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true
@@ -1227,9 +1227,9 @@ const COPA_2026_MATCHES = [
     "data": "07/07/2026",
     "hora": "17:00",
     "fase": "Oitavas",
-    "partida": "Suíça x Vencedor Jogo 86",
+    "partida": "Suíça x Colômbia",
     "time_casa": "Suíça",
-    "time_fora": "Vencedor Jogo 86",
+    "time_fora": "Colômbia",
     "local": "Vancouver (BC Place)",
     "eliminatoria": true
   },
