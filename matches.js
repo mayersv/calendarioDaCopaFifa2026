@@ -1158,7 +1158,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Paraguai",
     "time_fora": "França",
     "local": "Filadélfia (Lincoln Financial Field)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "27'",
+    "tempo_atualizado": 1783200645726
   },
   {
     "id": 90,
