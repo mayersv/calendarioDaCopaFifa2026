@@ -960,8 +960,8 @@ const COPA_2026_MATCHES = [
     "eliminatoria": true,
     "gols_casa": 1,
     "gols_fora": 1,
-    "tempo_jogo": "118'",
-    "tempo_atualizado": 1782774501869
+    "penaltis_casa": 3,
+    "penaltis_fora": 4
   },
   {
     "id": 75,
@@ -985,7 +985,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Holanda",
     "time_fora": "Marrocos",
     "local": "Monterrey (Estádio BBVA)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "penaltis_casa": 2,
+    "penaltis_fora": 3
   },
   {
     "id": 77,
@@ -1129,8 +1133,8 @@ const COPA_2026_MATCHES = [
     "eliminatoria": true,
     "gols_casa": 1,
     "gols_fora": 1,
-    "tempo_jogo": "117'",
-    "tempo_atualizado": 1783110771621
+    "penaltis_casa": 2,
+    "penaltis_fora": 4
   },
   {
     "id": 88,
@@ -1150,8 +1154,8 @@ const COPA_2026_MATCHES = [
     "data": "04/07/2026",
     "hora": "18:00",
     "fase": "Oitavas",
-    "partida": "Vencedor Jogo 74 x França",
-    "time_casa": "Vencedor Jogo 74",
+    "partida": "Paraguai x França",
+    "time_casa": "Paraguai",
     "time_fora": "França",
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": true
@@ -1161,9 +1165,9 @@ const COPA_2026_MATCHES = [
     "data": "04/07/2026",
     "hora": "14:00",
     "fase": "Oitavas",
-    "partida": "Canadá x Vencedor Jogo 76",
+    "partida": "Canadá x Marrocos",
     "time_casa": "Canadá",
-    "time_fora": "Vencedor Jogo 76",
+    "time_fora": "Marrocos",
     "local": "Houston (NRG Stadium)",
     "eliminatoria": true
   },
@@ -1216,9 +1220,9 @@ const COPA_2026_MATCHES = [
     "data": "07/07/2026",
     "hora": "13:00",
     "fase": "Oitavas",
-    "partida": "Argentina x Vencedor Jogo 87",
+    "partida": "Argentina x Egito",
     "time_casa": "Argentina",
-    "time_fora": "Vencedor Jogo 87",
+    "time_fora": "Egito",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true
   },
