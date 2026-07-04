@@ -1169,7 +1169,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "Canadá",
     "time_fora": "Marrocos",
     "local": "Houston (NRG Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 3
   },
   {
     "id": 91,
@@ -1242,9 +1244,9 @@ const COPA_2026_MATCHES = [
     "data": "09/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Vencedor Jogo 89 x Vencedor Jogo 90",
+    "partida": "Vencedor Jogo 89 x Marrocos",
     "time_casa": "Vencedor Jogo 89",
-    "time_fora": "Vencedor Jogo 90",
+    "time_fora": "Marrocos",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": true
   },
