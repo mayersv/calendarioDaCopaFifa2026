@@ -1185,10 +1185,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Noruega",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true,
-    "gols_casa": 0,
-    "gols_fora": 1,
-    "tempo_jogo": "89'",
-    "tempo_atualizado": 1783288324998
+    "gols_casa": 1,
+    "gols_fora": 2
   },
   {
     "id": 92,
@@ -1272,8 +1270,8 @@ const COPA_2026_MATCHES = [
     "data": "11/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Vencedor Jogo 91 x Vencedor Jogo 92",
-    "time_casa": "Vencedor Jogo 91",
+    "partida": "Noruega x Vencedor Jogo 92",
+    "time_casa": "Noruega",
     "time_fora": "Vencedor Jogo 92",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true
