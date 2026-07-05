@@ -9430,3 +9430,11 @@
 [05/07/2026 00:06:13] ATUALIZADO: Jogo 89 - Paraguai 0 x 1 França (Status: Encerrado)
 [05/07/2026 00:06:15] Commit e Push realizados com sucesso no GitHub.
 [05/07/2026 00:06:15] Não há jogos em andamento no momento. Finalizando rotina.
+[05/07/2026 04:39:43] Iniciando rotina de atualização de placares...
+[05/07/2026 04:39:43] Executando iteração 1 do ciclo de atualização...
+[05/07/2026 04:39:43] Encontradas 14 partidas para verificar (Jogos Ao Vivo ativos: False).
+[05/07/2026 04:39:53] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[05/07/2026 04:40:04] Encontrados 31 elementos de partidas na página da FIFA.
+[05/07/2026 04:40:04] Extraídos com sucesso 18 placares (ao vivo ou encerrados) da página da FIFA.
+[05/07/2026 04:40:05] Nenhuma alteração de placar foi realizada nesta rodada.
+[05/07/2026 04:40:05] Não há jogos em andamento no momento. Finalizando rotina.
