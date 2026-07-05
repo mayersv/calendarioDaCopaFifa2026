@@ -1160,9 +1160,7 @@ const COPA_2026_MATCHES = [
     "local": "Filadélfia (Lincoln Financial Field)",
     "eliminatoria": true,
     "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "27'",
-    "tempo_atualizado": 1783200645726
+    "gols_fora": 1
   },
   {
     "id": 90,
@@ -1248,8 +1246,8 @@ const COPA_2026_MATCHES = [
     "data": "09/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Vencedor Jogo 89 x Marrocos",
-    "time_casa": "Vencedor Jogo 89",
+    "partida": "França x Marrocos",
+    "time_casa": "França",
     "time_fora": "Marrocos",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": true
