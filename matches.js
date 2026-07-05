@@ -1184,7 +1184,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Brasil",
     "time_fora": "Noruega",
     "local": "Nova York / Nova Jersey (MetLife)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "INT",
+    "tempo_atualizado": 1783285204416
   },
   {
     "id": 92,
