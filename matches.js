@@ -1212,9 +1212,7 @@ const COPA_2026_MATCHES = [
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": true,
     "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "62'",
-    "tempo_atualizado": 1783369461274
+    "gols_fora": 1
   },
   {
     "id": 94,
@@ -1265,8 +1263,8 @@ const COPA_2026_MATCHES = [
     "data": "10/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Vencedor Jogo 93 x Vencedor Jogo 94",
-    "time_casa": "Vencedor Jogo 93",
+    "partida": "Espanha x Vencedor Jogo 94",
+    "time_casa": "Espanha",
     "time_fora": "Vencedor Jogo 94",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": true
