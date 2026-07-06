@@ -10048,3 +10048,5 @@
 [06/07/2026 20:24:21] Extraídos com sucesso 21 placares (ao vivo ou encerrados) da página da FIFA.
 [06/07/2026 20:24:21] Sucesso! 1 placares foram atualizados em matches.js.
 [06/07/2026 20:24:21] ATUALIZADO: Jogo 93 - Portugal 0 x 0 Espanha (Status: Ao Vivo - 62')
+[06/07/2026 20:24:22] Commit e Push realizados com sucesso no GitHub.
+[06/07/2026 20:24:22] Não há jogos em andamento no momento. Finalizando rotina.
