@@ -1197,7 +1197,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "México",
     "time_fora": "Inglaterra",
     "local": "Cidade do México (Estádio Azteca)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 2,
+    "gols_fora": 3
   },
   {
     "id": 93,
@@ -1270,9 +1272,9 @@ const COPA_2026_MATCHES = [
     "data": "11/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Noruega x Vencedor Jogo 92",
+    "partida": "Noruega x Inglaterra",
     "time_casa": "Noruega",
-    "time_fora": "Vencedor Jogo 92",
+    "time_fora": "Inglaterra",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true
   },
