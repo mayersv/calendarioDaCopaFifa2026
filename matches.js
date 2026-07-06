@@ -1210,7 +1210,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Portugal",
     "time_fora": "Espanha",
     "local": "Dallas (AT&T Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "62'",
+    "tempo_atualizado": 1783369461274
   },
   {
     "id": 94,
