@@ -10082,3 +10082,5 @@
 [07/07/2026 01:16:50] Extraídos com sucesso 22 placares (ao vivo ou encerrados) da página da FIFA.
 [07/07/2026 01:16:50] Sucesso! 1 placares foram atualizados em matches.js.
 [07/07/2026 01:16:50] ATUALIZADO: Jogo 94 - Estados Unidos 1 x 2 Bélgica (Status: Ao Vivo - 52')
+[07/07/2026 01:16:52] Commit e Push realizados com sucesso no GitHub.
+[07/07/2026 01:16:52] Não há jogos em andamento no momento. Finalizando rotina.
