@@ -1225,9 +1225,7 @@ const COPA_2026_MATCHES = [
     "local": "Seattle (Lumen Field)",
     "eliminatoria": true,
     "gols_casa": 1,
-    "gols_fora": 2,
-    "tempo_jogo": "52'",
-    "tempo_atualizado": 1783387010300
+    "gols_fora": 4
   },
   {
     "id": 95,
@@ -1267,9 +1265,9 @@ const COPA_2026_MATCHES = [
     "data": "10/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Espanha x Vencedor Jogo 94",
+    "partida": "Espanha x Bélgica",
     "time_casa": "Espanha",
-    "time_fora": "Vencedor Jogo 94",
+    "time_fora": "Bélgica",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": true
   },
