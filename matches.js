@@ -1237,10 +1237,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Egito",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true,
-    "gols_casa": 2,
-    "gols_fora": 2,
-    "tempo_jogo": "90'",
-    "tempo_atualizado": 1783446864393
+    "gols_casa": 3,
+    "gols_fora": 2
   },
   {
     "id": 96,
@@ -1291,8 +1289,8 @@ const COPA_2026_MATCHES = [
     "data": "11/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Vencedor Jogo 95 x Vencedor Jogo 96",
-    "time_casa": "Vencedor Jogo 95",
+    "partida": "Argentina x Vencedor Jogo 96",
+    "time_casa": "Argentina",
     "time_fora": "Vencedor Jogo 96",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": true
