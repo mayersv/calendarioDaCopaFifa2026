@@ -1237,10 +1237,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "Egito",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true,
-    "gols_casa": 0,
+    "gols_casa": 1,
     "gols_fora": 2,
-    "tempo_jogo": "75'",
-    "tempo_atualizado": 1783445924800
+    "tempo_jogo": "80'",
+    "tempo_atualizado": 1783446237046
   },
   {
     "id": 96,
