@@ -1223,7 +1223,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Estados Unidos",
     "time_fora": "Bélgica",
     "local": "Seattle (Lumen Field)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 2,
+    "tempo_jogo": "52'",
+    "tempo_atualizado": 1783387010300
   },
   {
     "id": 95,
