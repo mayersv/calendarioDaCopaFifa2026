@@ -1252,8 +1252,8 @@ const COPA_2026_MATCHES = [
     "eliminatoria": true,
     "gols_casa": 0,
     "gols_fora": 0,
-    "tempo_jogo": "64'",
-    "tempo_atualizado": 1783459453194
+    "penaltis_casa": 4,
+    "penaltis_fora": 3
   },
   {
     "id": 97,
@@ -1293,9 +1293,9 @@ const COPA_2026_MATCHES = [
     "data": "11/07/2026",
     "hora": "A definir",
     "fase": "Quartas",
-    "partida": "Argentina x Vencedor Jogo 96",
+    "partida": "Argentina x Suíça",
     "time_casa": "Argentina",
-    "time_fora": "Vencedor Jogo 96",
+    "time_fora": "Suíça",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": true
   },
