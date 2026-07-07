@@ -1249,7 +1249,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Suíça",
     "time_fora": "Colômbia",
     "local": "Vancouver (BC Place)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "64'",
+    "tempo_atualizado": 1783459453194
   },
   {
     "id": 97,
