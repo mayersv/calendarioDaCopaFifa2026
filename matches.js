@@ -1264,7 +1264,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "França",
     "time_fora": "Marrocos",
     "local": "Boston (Gillette Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 0,
+    "tempo_jogo": "18'",
+    "tempo_atualizado": 1783628345264
   },
   {
     "id": 98,
