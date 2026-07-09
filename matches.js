@@ -1265,10 +1265,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Marrocos",
     "local": "Boston (Gillette Stadium)",
     "eliminatoria": true,
-    "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "18'",
-    "tempo_atualizado": 1783628345264
+    "gols_casa": 2,
+    "gols_fora": 0
   },
   {
     "id": 98,
@@ -1308,8 +1306,8 @@ const COPA_2026_MATCHES = [
     "data": "14/07/2026",
     "hora": "A definir",
     "fase": "Semifinal",
-    "partida": "Vencedor Jogo 97 x Vencedor Jogo 98",
-    "time_casa": "Vencedor Jogo 97",
+    "partida": "França x Vencedor Jogo 98",
+    "time_casa": "França",
     "time_fora": "Vencedor Jogo 98",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": true
