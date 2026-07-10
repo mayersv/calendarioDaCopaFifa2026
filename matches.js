@@ -1277,7 +1277,11 @@ const COPA_2026_MATCHES = [
     "time_casa": "Espanha",
     "time_fora": "Bélgica",
     "local": "Los Angeles (SoFi Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "87'",
+    "tempo_atualizado": 1783716566343
   },
   {
     "id": 99,
