@@ -1278,10 +1278,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Bélgica",
     "local": "Los Angeles (SoFi Stadium)",
     "eliminatoria": true,
-    "gols_casa": 1,
-    "gols_fora": 1,
-    "tempo_jogo": "87'",
-    "tempo_atualizado": 1783716566343
+    "gols_casa": 2,
+    "gols_fora": 1
   },
   {
     "id": 99,
@@ -1310,9 +1308,9 @@ const COPA_2026_MATCHES = [
     "data": "14/07/2026",
     "hora": "A definir",
     "fase": "Semifinal",
-    "partida": "França x Vencedor Jogo 98",
+    "partida": "França x Espanha",
     "time_casa": "França",
-    "time_fora": "Vencedor Jogo 98",
+    "time_fora": "Espanha",
     "local": "Dallas (AT&T Stadium)",
     "eliminatoria": true
   },
