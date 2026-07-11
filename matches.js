@@ -1291,10 +1291,10 @@ const COPA_2026_MATCHES = [
     "time_fora": "Inglaterra",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true,
-    "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "21'",
-    "tempo_atualizado": 1783804958928
+    "gols_casa": 1,
+    "gols_fora": 1,
+    "tempo_jogo": "60'",
+    "tempo_atualizado": 1783808563752
   },
   {
     "id": 100,
