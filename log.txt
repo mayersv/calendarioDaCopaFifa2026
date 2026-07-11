@@ -10692,3 +10692,5 @@
 [11/07/2026 23:27:21] Extraídos com sucesso 27 placares (ao vivo ou encerrados) da página da FIFA.
 [11/07/2026 23:27:22] Sucesso! 1 placares foram atualizados em matches.js.
 [11/07/2026 23:27:22] ATUALIZADO: Jogo 99 - Noruega 1 x 2 Inglaterra (Status: Ao Vivo - INT)
+[11/07/2026 23:27:23] Commit e Push realizados com sucesso no GitHub.
+[11/07/2026 23:27:23] Não há jogos em andamento no momento. Finalizando rotina.
