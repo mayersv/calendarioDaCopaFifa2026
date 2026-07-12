@@ -1304,10 +1304,8 @@ const COPA_2026_MATCHES = [
     "time_fora": "Suíça",
     "local": "Kansas City (Arrowhead Stadium)",
     "eliminatoria": true,
-    "gols_casa": 0,
-    "gols_fora": 0,
-    "tempo_jogo": "6'",
-    "tempo_atualizado": 1783818382825
+    "gols_casa": 3,
+    "gols_fora": 1
   },
   {
     "id": 101,
@@ -1325,9 +1323,9 @@ const COPA_2026_MATCHES = [
     "data": "15/07/2026",
     "hora": "A definir",
     "fase": "Semifinal",
-    "partida": "Inglaterra x Vencedor Jogo 100",
+    "partida": "Inglaterra x Argentina",
     "time_casa": "Inglaterra",
-    "time_fora": "Vencedor Jogo 100",
+    "time_fora": "Argentina",
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true
   },
