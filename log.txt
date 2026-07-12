@@ -10694,3 +10694,13 @@
 [11/07/2026 23:27:22] ATUALIZADO: Jogo 99 - Noruega 1 x 2 Inglaterra (Status: Ao Vivo - INT)
 [11/07/2026 23:27:23] Commit e Push realizados com sucesso no GitHub.
 [11/07/2026 23:27:23] Não há jogos em andamento no momento. Finalizando rotina.
+[12/07/2026 01:06:02] Iniciando rotina de atualização de placares...
+[12/07/2026 01:06:02] Executando iteração 1 do ciclo de atualização...
+[12/07/2026 01:06:02] Encontradas 6 partidas para verificar (Jogos Ao Vivo ativos: False).
+[12/07/2026 01:06:11] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[12/07/2026 01:06:22] Encontrados 31 elementos de partidas na página da FIFA.
+[12/07/2026 01:06:22] Extraídos com sucesso 28 placares (ao vivo ou encerrados) da página da FIFA.
+[12/07/2026 01:06:22] Confrontos das chaves eliminatórias atualizados em 1 rodada(s) de propagação em cascata.
+[12/07/2026 01:06:22] Sucesso! 3 placares foram atualizados em matches.js.
+[12/07/2026 01:06:22] ATUALIZADO: Jogo 99 - Noruega 1 x 2 Inglaterra (Status: Encerrado)
+[12/07/2026 01:06:22] ATUALIZADO: Jogo 100 - Argentina 0 x 0 Suíça (Status: Ao Vivo - 6')
