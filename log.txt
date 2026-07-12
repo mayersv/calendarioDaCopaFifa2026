@@ -10717,3 +10717,11 @@
 [12/07/2026 04:52:56] ATUALIZADO: Jogo 100 - Argentina 3 x 1 Suíça (Status: Encerrado)
 [12/07/2026 04:52:58] Commit e Push realizados com sucesso no GitHub.
 [12/07/2026 04:52:58] Não há jogos em andamento no momento. Finalizando rotina.
+[12/07/2026 07:28:16] Iniciando rotina de atualização de placares...
+[12/07/2026 07:28:16] Executando iteração 1 do ciclo de atualização...
+[12/07/2026 07:28:16] Encontradas 4 partidas para verificar (Jogos Ao Vivo ativos: False).
+[12/07/2026 07:28:27] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[12/07/2026 07:28:38] Encontrados 31 elementos de partidas na página da FIFA.
+[12/07/2026 07:28:39] Extraídos com sucesso 28 placares (ao vivo ou encerrados) da página da FIFA.
+[12/07/2026 07:28:39] Nenhuma alteração de placar foi realizada nesta rodada.
+[12/07/2026 07:28:39] Não há jogos em andamento no momento. Finalizando rotina.
