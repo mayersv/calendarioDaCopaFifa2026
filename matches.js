@@ -1316,7 +1316,9 @@ const COPA_2026_MATCHES = [
     "time_casa": "França",
     "time_fora": "Espanha",
     "local": "Dallas (AT&T Stadium)",
-    "eliminatoria": true
+    "eliminatoria": true,
+    "gols_casa": 0,
+    "gols_fora": 2
   },
   {
     "id": 102,
@@ -1334,8 +1336,8 @@ const COPA_2026_MATCHES = [
     "data": "18/07/2026",
     "hora": "A definir",
     "fase": "3º Lugar",
-    "partida": "Perdedor Jogo 101 x Perdedor Jogo 102",
-    "time_casa": "Perdedor Jogo 101",
+    "partida": "França x Perdedor Jogo 102",
+    "time_casa": "França",
     "time_fora": "Perdedor Jogo 102",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true
@@ -1345,8 +1347,8 @@ const COPA_2026_MATCHES = [
     "data": "19/07/2026",
     "hora": "A definir",
     "fase": "Final",
-    "partida": "Vencedor Jogo 101 x Vencedor Jogo 102",
-    "time_casa": "Vencedor Jogo 101",
+    "partida": "Espanha x Vencedor Jogo 102",
+    "time_casa": "Espanha",
     "time_fora": "Vencedor Jogo 102",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true
