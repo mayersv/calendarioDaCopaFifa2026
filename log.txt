@@ -11088,3 +11088,11 @@
 [15/07/2026 17:47:02] Extraídos com sucesso 29 placares (ao vivo ou encerrados) da página da FIFA.
 [15/07/2026 17:47:02] Nenhuma alteração de placar foi realizada nesta rodada.
 [15/07/2026 17:47:02] Não há jogos em andamento no momento. Finalizando rotina.
+[15/07/2026 19:10:15] Iniciando rotina de atualização de placares...
+[15/07/2026 19:10:15] Executando iteração 1 do ciclo de atualização...
+[15/07/2026 19:10:15] Encontradas 3 partidas para verificar (Jogos Ao Vivo ativos: False).
+[15/07/2026 19:10:22] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[15/07/2026 19:10:33] Encontrados 31 elementos de partidas na página da FIFA.
+[15/07/2026 19:10:34] Extraídos com sucesso 30 placares (ao vivo ou encerrados) da página da FIFA.
+[15/07/2026 19:10:34] Sucesso! 1 placares foram atualizados em matches.js.
+[15/07/2026 19:10:34] ATUALIZADO: Jogo 102 - Inglaterra 0 x 0 Argentina (Status: Ao Vivo - 10')
