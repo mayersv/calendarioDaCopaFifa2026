@@ -1331,18 +1331,16 @@ const COPA_2026_MATCHES = [
     "local": "Atlanta (Mercedes-Benz Stadium)",
     "eliminatoria": true,
     "gols_casa": 1,
-    "gols_fora": 0,
-    "tempo_jogo": "72'",
-    "tempo_atualizado": 1784147600890
+    "gols_fora": 2
   },
   {
     "id": 103,
     "data": "18/07/2026",
     "hora": "A definir",
     "fase": "3º Lugar",
-    "partida": "França x Perdedor Jogo 102",
+    "partida": "França x Inglaterra",
     "time_casa": "França",
-    "time_fora": "Perdedor Jogo 102",
+    "time_fora": "Inglaterra",
     "local": "Miami (Hard Rock Stadium)",
     "eliminatoria": true
   },
@@ -1351,9 +1349,9 @@ const COPA_2026_MATCHES = [
     "data": "19/07/2026",
     "hora": "A definir",
     "fase": "Final",
-    "partida": "Espanha x Vencedor Jogo 102",
+    "partida": "Espanha x Argentina",
     "time_casa": "Espanha",
-    "time_fora": "Vencedor Jogo 102",
+    "time_fora": "Argentina",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true
   }
