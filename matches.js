@@ -1354,9 +1354,9 @@ const COPA_2026_MATCHES = [
     "time_fora": "Argentina",
     "local": "Nova York / Nova Jersey (MetLife)",
     "eliminatoria": true,
-    "gols_casa": 0,
+    "gols_casa": 1,
     "gols_fora": 0,
-    "tempo_jogo": "71'",
-    "tempo_atualizado": 1784494116130
+    "tempo_jogo": "115'",
+    "tempo_atualizado": 1784497969580
   }
 ];
