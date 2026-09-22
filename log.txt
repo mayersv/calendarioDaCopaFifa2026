@@ -18887,3 +18887,11 @@
 [22/09/2026 01:27:23] Extraídos com sucesso 31 placares (ao vivo ou encerrados) da página da FIFA.
 [22/09/2026 01:27:23] Nenhuma alteração de placar foi realizada nesta rodada.
 [22/09/2026 01:27:23] Não há jogos em andamento no momento. Finalizando rotina.
+[22/09/2026 06:40:13] Iniciando rotina de atualização de placares...
+[22/09/2026 06:40:13] Executando iteração 1 do ciclo de atualização...
+[22/09/2026 06:40:13] Encontradas 1 partidas para verificar (Jogos Ao Vivo ativos: False).
+[22/09/2026 06:40:22] Navegando para https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures?country=BR&wtw-filter=ALL&stage=Segundas+de+final%2COitavas+de+final%2CQuartas+de+final%2CSemifinal%2CDecisão+do+3.º+lugar%2CFinal&team=none...
+[22/09/2026 06:40:32] Encontrados 31 elementos de partidas na página da FIFA.
+[22/09/2026 06:40:33] Extraídos com sucesso 31 placares (ao vivo ou encerrados) da página da FIFA.
+[22/09/2026 06:40:33] Nenhuma alteração de placar foi realizada nesta rodada.
+[22/09/2026 06:40:33] Não há jogos em andamento no momento. Finalizando rotina.
